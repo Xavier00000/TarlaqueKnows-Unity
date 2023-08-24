@@ -15,35 +15,34 @@ EditorBuildSettings:
     path: Assets/Scenes/Learn.unity
     guid: b51d91d0e40a67a4faebb1bb20e3e053
   - enabled: 1
-    path: Assets/Scenes/Municipality 1.unity
+    path: Assets/Scenes/Municipality/Municipality 1.unity
     guid: 08bfde1f9a5c9a141a5e0bfa5dc8a02e
   - enabled: 1
-    path: Assets/Scenes/Municipality 2.unity
+    path: Assets/Scenes/Municipality/Municipality 2.unity
     guid: 27f3156296ac19c438333af8bd4a5509
   - enabled: 1
-    path: Assets/Scenes/Municipality 3.unity
+    path: Assets/Scenes/Municipality/Municipality 3.unity
     guid: 97538a463cc73f54495da044910a3462
   - enabled: 1
-    path: Assets/Scenes/Municipality 4.unity
+    path: Assets/Scenes/Municipality/Municipality 4.unity
     guid: 226948719b2876b4298b4b340160a5b9
   - enabled: 1
-    path: Assets/Scenes/Municipality 5.unity
+    path: Assets/Scenes/Municipality/Municipality 5.unity
     guid: 9a9b07b559cf52a458cbfe4458bc66e0
   - enabled: 1
-    path: Assets/Scenes/Municipality 6.unity
+    path: Assets/Scenes/Municipality/Municipality 6.unity
     guid: 29b14f172436c78408237400510c0950
   - enabled: 1
-    path: Assets/Scenes/Municipality 7.unity
+    path: Assets/Scenes/Municipality/Municipality 7.unity
     guid: 01f18592a7268c846a681d368079c07f
   - enabled: 1
-    path: Assets/Scenes/Municipality 8.unity
+    path: Assets/Scenes/Municipality/Municipality 8.unity
     guid: 812dde1e4c44860408674282761ed56f
   - enabled: 1
-    path: Assets/Scenes/Municipality 9.unity
+    path: Assets/Scenes/Municipality/Municipality 9.unity
     guid: 7eb978075d5375f46979d9d959df2ee7
   - enabled: 1
-    path: Assets/Scenes/Learn - Anao.unity
-    guid: 79dc1669689ef3c40af951d0eda4a7fc
+
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5dd79a5ce9302be4e809c0839ff17e85, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 4f6993dbb970c9b448df5ceb7de8034a, type: 2}
