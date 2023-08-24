@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelMenu : MonoBehaviour
 {
- public void OpenLevel(int levelId)
+ public void OpenLevel(int MunicipalityId)
     {
-        string OpenGame = "Level " + levelId;
+        string OpenGame = "Municipality " + MunicipalityId;
         SceneManager.LoadScene(OpenGame);
     }
 }
