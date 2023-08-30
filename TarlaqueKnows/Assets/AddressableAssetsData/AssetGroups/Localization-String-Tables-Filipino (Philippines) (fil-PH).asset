@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Filipino (Philippines) (fil-PH)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Filipino (Philippines) (fil-PH)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d3997ca3138f65d4b95fc2d40d809970
+  m_SerializeEntries:
+  - m_GUID: 13eae1a43cef3cd41af112f0eda12c4f
+    m_Address: StringLanguageTable_fil-PH
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fil-PH
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b619d9c9fe9eb2345a199b5c197fc291
+    m_Address: StringExampleTable_fil-PH
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fil-PH
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 52a3e72400c641141b3b97c087020d7c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c4d72e989b30ffb4e99dedfce85d88f3, type: 2}
+    - {fileID: 11400000, guid: a18db806ca512b541a3ec961b0565aa1, type: 2}
