@@ -107,4 +107,33 @@ public class ContainerClicked01 : MonoBehaviour
         }
         
     }
+
+    public void btnClicked08()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[7].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[7].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked09()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[8].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[8].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
 }

@@ -15,29 +15,50 @@ EditorBuildSettings:
     path: Assets/Scenes/Municipality/Municipality 1.unity
     guid: 08bfde1f9a5c9a141a5e0bfa5dc8a02e
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 2.unity
-    guid: 27f3156296ac19c438333af8bd4a5509
+    path: Assets/Scenes/Sample/Level/EasyLevel01.unity
+    guid: c6bcfba0b6eb3874aa9db8ed40b818ae
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 3.unity
-    guid: 97538a463cc73f54495da044910a3462
+    path: Assets/Scenes/Sample/Level/EasyLevel02.unity
+    guid: 1eae85f5acce87744892bcf3262303af
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 4.unity
-    guid: 226948719b2876b4298b4b340160a5b9
+    path: Assets/Scenes/Sample/Level/EasyLevel03.unity
+    guid: 68fa63549438ee5449953ffe5b37c330
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 5.unity
-    guid: 9a9b07b559cf52a458cbfe4458bc66e0
+    path: Assets/Scenes/Sample/Level/EasyLevel04.unity
+    guid: a7a37e07e9329514195c43c8ab06692d
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 6.unity
-    guid: 29b14f172436c78408237400510c0950
+    path: Assets/Scenes/Sample/Level/EasyLevel05.unity
+    guid: b7b9e16e1de6d984aab3fd47f5b599b8
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 7.unity
-    guid: 01f18592a7268c846a681d368079c07f
+    path: Assets/Scenes/Sample/Level/EasyLevel06.unity
+    guid: 6c47e7ba52b02f748b3efc7843e4aacb
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 8.unity
-    guid: 812dde1e4c44860408674282761ed56f
+    path: Assets/Scenes/Sample/Level/EasyLevel07.unity
+    guid: eaf28a931a902414896747b87190ea44
   - enabled: 1
-    path: Assets/Scenes/Municipality/Municipality 9.unity
-    guid: 7eb978075d5375f46979d9d959df2ee7
+    path: Assets/Scenes/Sample/Level/EasyLevel08.unity
+    guid: e78d32fa491990f49b9b1107ab752c24
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel09.unity
+    guid: af2cbddde0138e541888fb4c715441f9
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel10.unity
+    guid: bb2e71ad1da8e1a4fa139077719d0c2e
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel11.unity
+    guid: 4635d58d676b9bf4bb678183d60d020e
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel12.unity
+    guid: dd7b0383d03051448b328959d8a6bf58
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel13.unity
+    guid: 8cba4af2fcee3bc4498863be07e646fb
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel14.unity
+    guid: 14bee23575b164b4c8117c40b7cd8d03
+  - enabled: 1
+    path: Assets/Scenes/Sample/Level/EasyLevel15.unity
+    guid: 8294bca8c74289047b2dac9bd568f12e
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5dd79a5ce9302be4e809c0839ff17e85, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 7c42a60d9c490c1408318fa19545d728, type: 2}

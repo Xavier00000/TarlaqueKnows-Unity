@@ -182,5 +182,33 @@ public class ChoicesClicked01 : MonoBehaviour
             }
         }        
     }
-    
+    public void btnClicked13()
+    {
+        for (int ctr=0; ctr<btnConScript.btnConText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[ctr].text == "")
+            {
+                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[12].text;
+                btnChoiScript.btnChoices[12].SetActive(false);
+                btnConScript.IsCorrect();
+               
+                break;
+            }
+        }
+    }
+    public void btnClicked14()
+    {
+        for (int ctr=0; ctr<btnConScript.btnConText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[ctr].text == "")
+            {
+                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[13].text;
+                btnChoiScript.btnChoices[13].SetActive(false);
+                btnConScript.IsCorrect();
+                
+                break;
+            }
+        }
+    }
+
 }

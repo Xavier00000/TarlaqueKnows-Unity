@@ -27,12 +27,13 @@ public class ButtonContainer02 : MonoBehaviour
                     btnConText[5].color = Color.white;
                     btnConText[6].color = Color.white;
                     btnConText[7].color = Color.white;
-                    break;
+                    btnConText[8].color = Color.white;
+                break;
                 }
                 else if(btnConText[0].text=="N" && btnConText[1].text=="O" &&
                     btnConText[2].text=="T" && btnConText[3].text=="E" &&
                     btnConText[4].text=="Q" && btnConText[5].text=="U" &&
-                    btnConText[6].text=="A" && btnConText[7].text=="L")
+                    btnConText[6].text=="A" && btnConText[7].text=="L" && btnConText[8].text == "L")
                 {
                     GameObjectScript.Animation.Play("Show_Info");
                     FinishedLevel.isLevelFinished[1]=true;
@@ -42,7 +43,7 @@ public class ButtonContainer02 : MonoBehaviour
                 }
                 else if(btnConText[0].text == "" || btnConText[1].text == "" || btnConText[2].text == "" ||
                     btnConText[3].text == "" || btnConText[4].text == "" || btnConText[5].text == ""
-                     || btnConText[6].text == "" || btnConText[7].text == "")
+                     || btnConText[6].text == "" || btnConText[7].text == "" || btnConText[8].text == "")
                 {
                     btnConText[0].color = Color.white;
                     btnConText[1].color = Color.white;
@@ -52,7 +53,8 @@ public class ButtonContainer02 : MonoBehaviour
                     btnConText[5].color = Color.white;
                     btnConText[6].color = Color.white;
                     btnConText[7].color = Color.white;
-                    break;
+                    btnConText[8].color = Color.white;
+                break;
                 }
                 else
                 {
@@ -65,7 +67,8 @@ public class ButtonContainer02 : MonoBehaviour
                     btnConText[5].color = Color.red;
                     btnConText[6].color = Color.red;
                     btnConText[7].color = Color.red;
-                    break;
+                    btnConText[8].color = Color.red;
+                break;
                 }                
             }    
     }
