@@ -31,6 +31,24 @@ MonoBehaviour:
     - Locale-fil-PH
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53dab77fbc5003948a205f56bebb8976
+    m_Address: StringLanguagesTable_fil-PH
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fil-PH
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 604b190ec83bdff4cb5aafa64d5a0d77
+    m_Address: StringLanguageTable_fil-PH
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fil-PH
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39c2514d17f9c974ebb4cb055eefa1ae
+    m_Address: LanguagesTable_fil-PH
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fil-PH
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 52a3e72400c641141b3b97c087020d7c, type: 2}
   m_SchemaSet:
