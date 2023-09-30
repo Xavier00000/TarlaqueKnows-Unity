@@ -5,21 +5,26 @@ public class SceneChangeEL03 : MonoBehaviour
 {
     public Animator Animation;
     public GameObject BackWarnBox;
+    void Start()
+    {
+        FinishedLevel.onLevel01 = true;
+    }
     public void FadeOut()
     {
         Animation.Play("Fade_Out");
     }
-    public void EasyRoom03()
+    public void EasyRoom01()
     {
-        SceneManager.LoadScene("EasyRoom03");
+        SceneManager.LoadScene("EasyRoom01");
     }
     public void ContinueAnim()
     {
         Animation.Play("Continue");
+        Animation.Play("Fade_Out_Back");
     }
     public void AddPoints()
     {
-        HintPoints.HintsPoints+=50;
+        HintPoints.HintsPoints += 50;
     }
     public void ShowBackWarnBox()
     {
@@ -28,6 +33,7 @@ public class SceneChangeEL03 : MonoBehaviour
     public void GoBack()
     {
         Animation.Play("Fade_Out_Back");
+        SceneManager.LoadScene("Municipality 1");
     }
     public void CancelBack()
     {
@@ -35,6 +41,7 @@ public class SceneChangeEL03 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("Municipality 1");
+        
     }
 }

@@ -1632,7 +1632,6 @@ GameObject:
   - component: {fileID: 1319604122}
   - component: {fileID: 1319604123}
   - component: {fileID: 1319604124}
-  - component: {fileID: 1319604125}
   m_Layer: 5
   m_Name: Level Panel
   m_TagString: Untagged
@@ -1716,37 +1715,6 @@ MonoBehaviour:
   - {fileID: 883370499}
   - {fileID: 1927222246}
   - {fileID: 1433632585}
---- !u!114 &1319604125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319604121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b6fe212bb40e7d45a6e8d2ae5c2dc83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levels:
-  - levelName: Level 1
-    levelNumber: 1
-    isUnlocked: 0
-  - levelName: Level 2
-    levelNumber: 2
-    isUnlocked: 0
-  - levelName: Level 3
-    levelNumber: 3
-    isUnlocked: 0
-  - levelName: Level 4
-    levelNumber: 4
-    isUnlocked: 0
-  - levelName: Level 5
-    levelNumber: 5
-    isUnlocked: 0
-  - levelName: Level 6
-    levelNumber: 6
-    isUnlocked: 0
 --- !u!1 &1337577820
 GameObject:
   m_ObjectHideFlags: 0
