@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 
-public class ChoicesClicked01 : MonoBehaviour
+public class ChoicesClicked02 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices01 btnChoiScript;
+    ButtonChoices02 btnChoiScript;
     public GameObject btnConParent;
-    ButtonContainer01 btnConScript;
+    ButtonContainer02 btnConScript;
     public GameObject hintsObj;
-    Hints01 hintScript;
+    Hints02 hintScript;
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices01>();
-        btnConScript = btnConParent.GetComponent<ButtonContainer01>();
-        hintScript = hintsObj.GetComponent<Hints01>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices02>();
+        btnConScript = btnConParent.GetComponent<ButtonContainer02>();
+        hintScript = hintsObj.GetComponent<Hints02>();
     }
     public void btnClicked01()
     {
@@ -182,88 +182,5 @@ public class ChoicesClicked01 : MonoBehaviour
             }
         }        
     }
-    public void btnClicked13()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[12].text;
-                btnChoiScript.btnChoices[12].SetActive(false);
-                btnConScript.IsCorrect();
-                
-                break;
-            }
-        }
-    }
-    public void btnClicked14()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[13].text;
-                btnChoiScript.btnChoices[13].SetActive(false);
-                btnConScript.IsCorrect();
-            
-                break;
-            }
-        }
-    }
-    public void btnClicked15()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[14].text;
-                btnChoiScript.btnChoices[14].SetActive(false);
-                btnConScript.IsCorrect();
-        
-                break;
-            }
-        }
-    }
-    public void btnClicked16()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[15].text;
-                btnChoiScript.btnChoices[15].SetActive(false);
-                btnConScript.IsCorrect();
-       
-                break;
-            }
-        }
-    }
-    public void btnClicked17()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[16].text;
-                btnChoiScript.btnChoices[16].SetActive(false);
-                btnConScript.IsCorrect();
-       
-                break;
-            }
-        }
-    }
-    public void btnClicked18()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[17].text;
-                btnChoiScript.btnChoices[17].SetActive(false);
-                btnConScript.IsCorrect();
-          
-                break;
-            }
-        }
-    }
+    
 }

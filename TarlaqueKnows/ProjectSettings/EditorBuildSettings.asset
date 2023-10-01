@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Tarlac/Level/EasyLevel01.unity
     guid: c6bcfba0b6eb3874aa9db8ed40b818ae
   - enabled: 1
-    path: Assets/Scenes/Tarlac/Level/EasyLevel03.unity
+    path: Assets/Scenes/Tarlac/Level/EasyLevel02.unity
     guid: 1eae85f5acce87744892bcf3262303af
   - enabled: 1
-    path: Assets/Scenes/Tarlac/Level/EasyLevel02.unity
+    path: Assets/Scenes/Tarlac/Level/EasyLevel03.unity
     guid: 68fa63549438ee5449953ffe5b37c330
   - enabled: 1
     path: Assets/Scenes/Tarlac/Level/EasyLevel04.unity
