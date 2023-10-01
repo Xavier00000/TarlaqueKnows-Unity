@@ -1,14 +1,13 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-public class Hints01 : MonoBehaviour
+public class Hints03 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices01 btnChoiScript;
+    ButtonChoices03 btnChoiScript;
     public GameObject btnConParent;
-    ButtonContainer01 btnConScript;
+    ButtonContainer03 btnConScript;
     int hint1 = 0;
-    string[] answer = {"T","A","R","L","A","C","C","A","P","I","T","O","L"};
-    bool[] isAlreadyAnswer = new bool[12];
+    string[] answer = {"R","A","Y"};
+    bool[] isAlreadyAnswer = new bool[3];
     public bool[] isAlreadyFalse = new bool[12];
     public GameObject[] HintConfirmBox;
     public GameObject NoEnHiPoBox,ReMaHiPoBox;
@@ -16,8 +15,8 @@ public class Hints01 : MonoBehaviour
 
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices01>();
-        btnConScript = btnConParent.GetComponent<ButtonContainer01>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices03>();
+        btnConScript = btnConParent.GetComponent<ButtonContainer03>();
         for(int ctr=0; ctr>isAlreadyAnswer.Length; ctr++)
         {
             isAlreadyAnswer[ctr] = false;
@@ -56,7 +55,11 @@ public class Hints01 : MonoBehaviour
             {
                 for(int ctr2=0; ctr2<btnChoiScript.btnChoices.Length; ctr2++)
                 {
-                    if(btnConScript.btnConText[ctr].text=="H")
+                    if(btnConScript.btnConText[ctr].text=="G")
+                    {
+                        btnConScript.btnConText[ctr].text="";
+                    }
+                    if(btnConScript.btnConText[ctr].text=="E")
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
@@ -64,29 +67,38 @@ public class Hints01 : MonoBehaviour
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
-                    if(btnConScript.btnConText[ctr].text=="X")
+                    if(btnConScript.btnConText[ctr].text=="C")
                     {
                         btnConScript.btnConText[ctr].text="";
-                    } 
-                    
-                    
+                    }
+                    if(btnConScript.btnConText[ctr].text=="L")
+                    {
+                        btnConScript.btnConText[ctr].text="";
+                    }
                 }                           
             }
             for(int ctr=0; ctr<btnChoiScript.btnChoices.Length; ctr++)
             {
-                if(btnChoiScript.btnChoiText[ctr].text=="H")
+                if(btnChoiScript.btnChoiText[ctr].text=="G")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if (btnChoiScript.btnChoiText[ctr].text == "D")
+                if(btnChoiScript.btnChoiText[ctr].text=="E")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if (btnChoiScript.btnChoiText[ctr].text == "X")
+                if(btnChoiScript.btnChoiText[ctr].text=="D")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-
+                if(btnChoiScript.btnChoiText[ctr].text=="C")
+                {
+                    btnChoiScript.btnChoices[ctr].SetActive(false);
+                }
+                if(btnChoiScript.btnChoiText[ctr].text=="L")
+                {
+                    btnChoiScript.btnChoices[ctr].SetActive(false);
+                }
             }
             hint1++;
         }
@@ -94,27 +106,41 @@ public class Hints01 : MonoBehaviour
         {
             for(int ctr=0; ctr<btnConScript.btnContainer.Length; ctr++)
             {
+                if(btnConScript.btnConText[ctr].text=="T")
+                {
+                    btnConScript.btnConText[ctr].text="";
+                }
+                if(btnConScript.btnConText[ctr].text=="I")
+                {
+                    btnConScript.btnConText[ctr].text="";
+                }  
                 if(btnConScript.btnConText[ctr].text=="M")
                 {
                     btnConScript.btnConText[ctr].text="";
                 }
-                if (btnConScript.btnConText[ctr].text == "N")
+                if(btnConScript.btnConText[ctr].text=="N")
                 {
-                    btnConScript.btnConText[ctr].text = "";
-                }
-
+                    btnConScript.btnConText[ctr].text="";
+                }       
             }
             for(int ctr=0; ctr<btnChoiScript.btnChoices.Length; ctr++)
             {
+                if(btnChoiScript.btnChoiText[ctr].text=="T")
+                {
+                    btnChoiScript.btnChoices[ctr].SetActive(false);
+                }
+                if(btnChoiScript.btnChoiText[ctr].text=="I")
+                {
+                    btnChoiScript.btnChoices[ctr].SetActive(false);
+                }
                 if(btnChoiScript.btnChoiText[ctr].text=="M")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if (btnChoiScript.btnChoiText[ctr].text == "N")
+                if(btnChoiScript.btnChoiText[ctr].text=="N")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-
             }
         }
         btnConScript.IsCorrect();
@@ -173,9 +199,9 @@ public class Hints01 : MonoBehaviour
                         }
                         else if(NumOfWords>=2)
                         {
-                            bool[] activeState = new bool[4];
+                            bool[] activeState = new bool[2];
                             int activeStateIndex=0;
-                            int[] BtnLocationIndex = new int[4];
+                            int[] BtnLocationIndex = new int[2];
                             int BtnLocationCurrentIndex=0;
                             for(int ctr3=0; ctr3<btnChoiScript.btnChoiText.Length; ctr3++)
                             {

@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 
-public class ChoicesClicked02 : MonoBehaviour
+public class ChoicesClicked03 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices02 btnChoiScript;
+    ButtonChoices03 btnChoiScript;
     public GameObject btnConParent;
-    ButtonContainer02 btnConScript;
+    ButtonContainer03 btnConScript;
     public GameObject hintsObj;
-    Hints02 hintScript;
+    Hints03 hintScript;
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices02>();
-        btnConScript = btnConParent.GetComponent<ButtonContainer02>();
-        hintScript = hintsObj.GetComponent<Hints02>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices03>();
+        btnConScript = btnConParent.GetComponent<ButtonContainer03>();
+        hintScript = hintsObj.GetComponent<Hints03>();
     }
     public void btnClicked01()
     {
@@ -182,19 +182,5 @@ public class ChoicesClicked02 : MonoBehaviour
             }
         }        
     }
-    public void btnClicked13()
-    {
-        for (int ctr = 0; ctr < btnConScript.btnConText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[ctr].text == "")
-            {
-                btnConScript.btnConText[ctr].text = btnChoiScript.btnChoiText[12].text;
-                btnChoiScript.btnChoices[12].SetActive(false);
-                btnConScript.IsCorrect();
-                hintScript.isAlreadyFalse[12] = true;
-                break;
-            }
-        }
-    }
-
+    
 }
