@@ -6,8 +6,8 @@ public class Hints02 : MonoBehaviour
     public GameObject btnConParent;
     ButtonContainer02 btnConScript;
     int hint1 = 0;
-    string[] answer = {"N","O","T","E","Q","U","A","L","L"};
-    bool[] isAlreadyAnswer = new bool[9];
+    string[] answer = {"N","O","T","E","Q","U","A","L"};
+    bool[] isAlreadyAnswer = new bool[8];
     public bool[] isAlreadyFalse = new bool[12];
     public GameObject[] HintConfirmBox;
     public GameObject NoEnHiPoBox,ReMaHiPoBox;

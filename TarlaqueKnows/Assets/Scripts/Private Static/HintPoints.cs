@@ -16,14 +16,14 @@ public class HintPoints : MonoBehaviour
             hintPnts.text = "Hint Points : 0";
         }
         hintPnts.text = "Hint Points : " + HintsPoints;
-        if(trials==3)
+        if(trials==2)
         {
             HintsPoints-=25;
             hintPnts.color = Color.red;
             time++;
             trials=0;            
         }
-        if(puzzleTrials==3)
+        if(puzzleTrials==2)
         {
             HintsPoints-=25;
             hintPnts.color = Color.red;

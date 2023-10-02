@@ -107,7 +107,6 @@ public class ContainerClicked01 : MonoBehaviour
         }
         
     }
-
     public void btnClicked08()
     {
         for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
@@ -130,6 +129,118 @@ public class ContainerClicked01 : MonoBehaviour
             {
                 btnChoiScript.btnChoices[ctr].SetActive(true);
                 btnConScript.btnConText[8].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked10()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[9].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[9].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked11()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[10].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[10].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked12()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[11].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[11].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked13()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[12].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[12].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked14()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[13].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[13].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked15()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[14].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[14].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked16()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[15].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[15].text = "";
+                btnConScript.IsCorrect();
+                break;
+            }
+        }
+
+    }
+    public void btnClicked17()
+    {
+        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
+        {
+            if (btnConScript.btnConText[16].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
+            {
+                btnChoiScript.btnChoices[ctr].SetActive(true);
+                btnConScript.btnConText[16].text = "";
                 btnConScript.IsCorrect();
                 break;
             }
