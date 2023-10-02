@@ -19,8 +19,8 @@ MonoBehaviour:
     m_Items:
     - rid: 8487019896905662467
   m_TableData:
-  - m_Id: 8900866048
-    m_Localized: "Hello\t"
+  - m_Id: 11657502999998464
+    m_Localized: Language
     m_Metadata:
       m_Items:
       - rid: 8487019896905662467
@@ -30,4 +30,4 @@ MonoBehaviour:
     - rid: 8487019896905662467
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0070881202000000
+        m_Entries: 007088120200000000700809121f2900007048ed6f6a2900007088af25702900

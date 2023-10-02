@@ -15,8 +15,12 @@ MonoBehaviour:
   m_TableCollectionName: StringExampleTable
   m_TableCollectionNameGuidString: e2cedd8cf877aec4f951b6399793eb26
   m_Entries:
-  - m_Id: 8900866048
-    m_Key: exampleKey
+  - m_Id: 11657502999998464
+    m_Key: Settings/Canvas/Settings Menu/LanguageLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11965230347743232
+    m_Key: New Entry
     m_Metadata:
       m_Items: []
   m_Metadata:

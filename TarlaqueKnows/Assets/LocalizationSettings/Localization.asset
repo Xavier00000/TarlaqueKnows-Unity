@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Localization
   m_EditorClassIdentifier: 
   m_StartupSelectors:
-  - rid: 7178220608361070592
   - rid: 8487019817502507008
+  - rid: 7178220608361070592
   - rid: 7178220608361070593
   - rid: 7178220608361070594
   m_AvailableLocales:
@@ -116,7 +116,9 @@ MonoBehaviour:
     - rid: 7178220608361070602
       type: {class: PersistentVariablesSource, ns: UnityEngine.Localization.SmartFormat.Extensions, asm: Unity.Localization}
       data:
-        m_Groups: []
+        m_Groups:
+        - name: global
+          group: {fileID: 11400000, guid: 4b28614053a998540ad0c50aed8db4e1, type: 2}
     - rid: 7178220608361070603
       type: {class: DictionarySource, ns: UnityEngine.Localization.SmartFormat.Extensions, asm: Unity.Localization}
     - rid: 7178220608361070604
