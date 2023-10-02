@@ -15,16 +15,16 @@ MonoBehaviour:
   m_GroupName: Localization-Locales
   m_Data:
     m_SerializedData: []
-  m_GUID: bcaa81291fc08dd408aa45e3f73d0251
+  m_GUID: fbae87dd4452e76468fec29ac8e34b89
   m_SerializeEntries:
-  - m_GUID: 592d155fdf4fc564fb06c31f9bb12965
-    m_Address: Filipino (Philippines) (fil-PH)
+  - m_GUID: 98b892668a0bf6e4c979eb52724a3d78
+    m_Address: English (United States) (en-US) 1
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 08becf0225147f643bf0223f2eeb9bd7
-    m_Address: English (United States) (en-US)
+  - m_GUID: 29344df67e63664489a93af211eb26fb
+    m_Address: Filipino (Philippines) (fil-PH) 1
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
