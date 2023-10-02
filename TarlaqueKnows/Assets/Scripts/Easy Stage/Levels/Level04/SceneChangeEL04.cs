@@ -9,9 +9,9 @@ public class SceneChangeEL04 : MonoBehaviour
     {
         Animation.Play("Fade_Out");
     }
-    public void EasyRoom04()
+    public void EasyRoom02()
     {
-        SceneManager.LoadScene("EasyRoom04");
+        SceneManager.LoadScene("Tarlac City");
     }
     public void ContinueAnim()
     {

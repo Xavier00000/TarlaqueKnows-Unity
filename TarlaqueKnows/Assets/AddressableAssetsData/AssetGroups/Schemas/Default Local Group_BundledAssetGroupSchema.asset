@@ -34,9 +34,9 @@ MonoBehaviour:
   m_RedirectLimit: -1
   m_RetryCount: 0
   m_BuildPath:
-    m_Id: ec4db601f96115d498f9c5cf3029604c
+    m_Id: 8b80f9ab0b82a9f45964dd2829628de3
   m_LoadPath:
-    m_Id: 28953a78c49f4f748a966ffee403f443
+    m_Id: b2edd9b86247c8a4b910d900927b54ed
   m_BundleMode: 0
   m_AssetBundleProviderType:
     m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 public class Hints03 : MonoBehaviour
 {
     public GameObject btnChoiParent;
@@ -6,8 +7,8 @@ public class Hints03 : MonoBehaviour
     public GameObject btnConParent;
     ButtonContainer03 btnConScript;
     int hint1 = 0;
-    string[] answer = {"R","A","Y"};
-    bool[] isAlreadyAnswer = new bool[3];
+    string[] answer = {"B","A","G","I","S"};
+    bool[] isAlreadyAnswer = new bool[5];
     public bool[] isAlreadyFalse = new bool[12];
     public GameObject[] HintConfirmBox;
     public GameObject NoEnHiPoBox,ReMaHiPoBox;
@@ -55,11 +56,7 @@ public class Hints03 : MonoBehaviour
             {
                 for(int ctr2=0; ctr2<btnChoiScript.btnChoices.Length; ctr2++)
                 {
-                    if(btnConScript.btnConText[ctr].text=="G")
-                    {
-                        btnConScript.btnConText[ctr].text="";
-                    }
-                    if(btnConScript.btnConText[ctr].text=="E")
+                    if(btnConScript.btnConText[ctr].text=="O")
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
@@ -67,38 +64,37 @@ public class Hints03 : MonoBehaviour
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
-                    if(btnConScript.btnConText[ctr].text=="C")
+                    if(btnConScript.btnConText[ctr].text=="X")
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
-                    if(btnConScript.btnConText[ctr].text=="L")
+                    if (btnConScript.btnConText[ctr].text == "C")
                     {
-                        btnConScript.btnConText[ctr].text="";
+                        btnConScript.btnConText[ctr].text = "";
                     }
+
+
                 }                           
             }
             for(int ctr=0; ctr<btnChoiScript.btnChoices.Length; ctr++)
             {
-                if(btnChoiScript.btnChoiText[ctr].text=="G")
+                if(btnChoiScript.btnChoiText[ctr].text=="O")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="E")
+                if (btnChoiScript.btnChoiText[ctr].text == "D")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="D")
+                if (btnChoiScript.btnChoiText[ctr].text == "X")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="C")
+                if (btnChoiScript.btnChoiText[ctr].text == "C")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="L")
-                {
-                    btnChoiScript.btnChoices[ctr].SetActive(false);
-                }
+
             }
             hint1++;
         }
@@ -106,41 +102,43 @@ public class Hints03 : MonoBehaviour
         {
             for(int ctr=0; ctr<btnConScript.btnContainer.Length; ctr++)
             {
-                if(btnConScript.btnConText[ctr].text=="T")
+                if(btnConScript.btnConText[ctr].text=="L")
                 {
                     btnConScript.btnConText[ctr].text="";
                 }
-                if(btnConScript.btnConText[ctr].text=="I")
+                if (btnConScript.btnConText[ctr].text == "C")
                 {
-                    btnConScript.btnConText[ctr].text="";
-                }  
-                if(btnConScript.btnConText[ctr].text=="M")
-                {
-                    btnConScript.btnConText[ctr].text="";
+                    btnConScript.btnConText[ctr].text = "";
                 }
-                if(btnConScript.btnConText[ctr].text=="N")
+                if (btnConScript.btnConText[ctr].text == "T")
                 {
-                    btnConScript.btnConText[ctr].text="";
-                }       
+                    btnConScript.btnConText[ctr].text = "";
+                }
+                if (btnConScript.btnConText[ctr].text == "L")
+                {
+                    btnConScript.btnConText[ctr].text = "";
+                }
+
             }
             for(int ctr=0; ctr<btnChoiScript.btnChoices.Length; ctr++)
             {
-                if(btnChoiScript.btnChoiText[ctr].text=="T")
+                if(btnChoiScript.btnChoiText[ctr].text=="L")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="I")
+                if (btnChoiScript.btnChoiText[ctr].text == "C")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="M")
+                if (btnChoiScript.btnChoiText[ctr].text == "T")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if(btnChoiScript.btnChoiText[ctr].text=="N")
+                if (btnChoiScript.btnChoiText[ctr].text == "L")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
+
             }
         }
         btnConScript.IsCorrect();
@@ -199,9 +197,9 @@ public class Hints03 : MonoBehaviour
                         }
                         else if(NumOfWords>=2)
                         {
-                            bool[] activeState = new bool[2];
+                            bool[] activeState = new bool[4];
                             int activeStateIndex=0;
-                            int[] BtnLocationIndex = new int[2];
+                            int[] BtnLocationIndex = new int[4];
                             int BtnLocationCurrentIndex=0;
                             for(int ctr3=0; ctr3<btnChoiScript.btnChoiText.Length; ctr3++)
                             {
