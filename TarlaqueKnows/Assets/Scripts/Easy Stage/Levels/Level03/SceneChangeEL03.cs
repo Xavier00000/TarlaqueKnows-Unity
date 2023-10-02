@@ -5,13 +5,14 @@ public class SceneChangeEL03 : MonoBehaviour
 {
     public Animator Animation;
     public GameObject BackWarnBox;
+   
     public void FadeOut()
     {
         Animation.Play("Fade_Out");
     }
-    public void EasyRoom03()
+    public void EasyRoom01()
     {
-        SceneManager.LoadScene("EasyRoom03");
+        SceneManager.LoadScene("Tarlac City");
     }
     public void ContinueAnim()
     {
@@ -35,6 +36,6 @@ public class SceneChangeEL03 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("Main Menu");
     }
 }

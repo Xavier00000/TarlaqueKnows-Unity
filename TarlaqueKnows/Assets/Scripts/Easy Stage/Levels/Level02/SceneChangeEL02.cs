@@ -11,7 +11,7 @@ public class SceneChangeEL02 : MonoBehaviour
     }
     public void EasyRoom02()
     {
-        SceneManager.LoadScene("EasyRoom02");
+        SceneManager.LoadScene("Tarlac City");
     }
     public void ContinueAnim()
     {

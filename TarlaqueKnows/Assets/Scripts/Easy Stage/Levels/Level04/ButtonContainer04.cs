@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonContainer04 : MonoBehaviour
 {
@@ -19,10 +20,10 @@ public class ButtonContainer04 : MonoBehaviour
                 if(btnConText[ctr].text!=null && btnConText[ctr].text=="")
                 {
                     btnConText[0].color = Color.white;
-                    btnConText[1].color = Color.white;
+                    
                     break;
                 }
-                else if(btnConText[0].text=="P" && btnConText[1].text=="I")
+                else if(btnConText[0].text=="AWIT NG TARLAC")
                 {
                     GameObjectScript.Animation.Play("Show_Info");
                     FinishedLevel.isLevelFinished[3]=true;
@@ -30,17 +31,17 @@ public class ButtonContainer04 : MonoBehaviour
                     HintPoints.trials=0;
                     break;
                 }
-                else if(btnConText[0].text == "" || btnConText[1].text == "")
+                else if(btnConText[0].text == "")
                 {
                     btnConText[0].color = Color.white;
-                    btnConText[1].color = Color.white;
+                  
                     break;
                 }
                 else
-                {                    
+                {
                     HintPoints.trials++;
                     btnConText[0].color = Color.red;
-                    btnConText[1].color = Color.red;
+                   
                     break;
                 }                
             }    
