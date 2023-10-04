@@ -1213,7 +1213,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -83.1848, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224521024
 MonoBehaviour:
@@ -1237,7 +1237,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
-    m_FontSize: 56
+    m_FontSize: 47
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1248,7 +1248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SAN MANUEL
+  m_Text: PILIPINAS KONG MAHAL
 --- !u!222 &224521025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1544,8 +1544,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
+      - m_Target: {fileID: 455762828}
+        m_TargetAssemblyTypeName: SceneChangeEL04, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -2424,7 +2424,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
-    m_FontSize: 56
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -2435,7 +2435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TARLAC CITY
+  m_Text: AWIT NG RELIHIYON III
 --- !u!222 &505128716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2884,8 +2884,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 223.2, y: -70.3}
-  m_SizeDelta: {x: 118.3, y: 101.93}
+  m_AnchoredPosition: {x: 196, y: -70.3}
+  m_SizeDelta: {x: 84.2, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &604697816
 MonoBehaviour:
@@ -2963,7 +2963,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e82aa5577dd90674982147b0bf84032b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d98e05fb749dc848b724c255d3fe508, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3039,7 +3039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 452b1e505807fd94fa60a8687b104c8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d10ac3b2642033c4db8cdc0ee2da2b3f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3268,8 +3268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 84.9, y: -70.3}
-  m_SizeDelta: {x: 160.4, y: 140.5}
+  m_AnchoredPosition: {x: 84.8999, y: -70.3}
+  m_SizeDelta: {x: 115.3, y: 90.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &731759835
 MonoBehaviour:
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5584e2e200b03e942acc095664d5186c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 025030cbe8efe1f47b234ef04c4aabd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3678,8 +3678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000061035, y: -340.56}
-  m_SizeDelta: {x: 993.0894, y: 224.8307}
+  m_AnchoredPosition: {x: 2.3, y: -340.56}
+  m_SizeDelta: {x: 1023.0364, y: 224.8307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811303123
 MonoBehaviour:
@@ -3714,10 +3714,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '____________ is a component city in the landlocked province of Tarlac.
-
-    It
-    serves as the provincial capital'
+  m_Text: "There is a song widely sung in all the municipality of tarlac namely \u201C      
+    \u201D?"
 --- !u!222 &811303124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3877,13 +3875,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tarlac City, officially the City of Tarlac,is a 1st class component city
-    and capital of the province of Tarlac, Philippines. Located in the Central Luzon
-    region. Its capital is the city of Tarlac. \n\nIt is bounded on the north by
-    the province of Pangasinan, Nueva Ecija on the east, Zambales on the west and
-    Pampanga in the south. \n\nThe province comprises three congressional districts
-    and is subdivided into 17 municipalities and one city, Tarlac City, which is
-    the provincial capital."
+  m_Text: "The Official anthem of Tarlac Province in the Filipino language, it is
+    composed by Lucio San Pedro. The song \u201DAwit ng Tarlac \u201D expresses the
+    pride and honor felt by the Tarlaque\xF1os. It embodies the deep sense of connection
+    and affection the people have for their city.\n\n It aims to celebrate the unique
+    identity and rich heritage of Tarlac City, as well as to promote a sense of unity
+    among its residents. Its acts as a unifying force, reminding the Tarlaque\xF1os
+    of their shared values, aspirations, and the collective strength that comes from
+    being part of a vibrant community."
 --- !u!222 &856602716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4386,7 +4385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GERONA
+  m_Text: JOPAY
 --- !u!222 &972319326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5227,7 +5226,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TARLAC CITY
+  m_Text: AWIT NG TARLAC
 --- !u!222 &1309932914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5902,7 +5901,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 02
+  m_Text: Level 04
 --- !u!222 &1413563949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8047,8 +8046,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
+      - m_Target: {fileID: 455762828}
+        m_TargetAssemblyTypeName: SceneChangeEL04, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:

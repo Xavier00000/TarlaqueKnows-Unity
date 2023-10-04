@@ -29,24 +29,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0dcd68ebfe3d2264a95dd1850df32c4f
-    m_Address: English (United States) (en-US)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2106f494ca5f9db4f8ddf69ec114b949
-    m_Address: Filipino (Philippines) (fil-PH)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4996e6e6c0833e0429b051c16a368a4d
-    m_Address: English (United States) (en-US)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 52a3e72400c641141b3b97c087020d7c, type: 2}
   m_SchemaSet:
