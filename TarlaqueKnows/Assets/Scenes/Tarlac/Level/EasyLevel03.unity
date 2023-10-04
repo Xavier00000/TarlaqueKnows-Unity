@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d35c0d2e53a1024391ddc65d63449eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76466acc4182f19448d901203b0140b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8160,7 +8160,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TARLAC CAPITOL
+  m_Text: BAGIS
 --- !u!222 &1038229211
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10562,7 +10562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 01
+  m_Text: Level 03
 --- !u!222 &1413563949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11577,7 +11577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 89}
+  m_AnchoredPosition: {x: 0, y: 488}
   m_SizeDelta: {x: 723.5, y: 311.8033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592524210
@@ -11600,7 +11600,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 34aa1b45012fff548801837d28bee292, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6ffe330844310240a048603971e0103, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12025,8 +12025,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -358, y: 224.74841}
-  m_SizeDelta: {x: 723.5, y: 1080.0674}
+  m_AnchoredPosition: {x: -358, y: 0.00003528595}
+  m_SizeDelta: {x: 723.5, y: 897.0607}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1675764512
 MonoBehaviour:
@@ -12061,14 +12061,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The highest seat of political power of the province is located at a hill
-    in Brgy. San Vicente, Tarlac City. \nThe present structure was finished in 1909.
-    \nDuring the Japanese occupation, the provincial capitol was vacated and used
-    as the provincial headquarters of the Imperial Army. \n\nThe capitol suffered
-    great damages during the Second World War, but afterwards, in 1946, the United
-    States of America helped rebuild and improve its structure. \nBecause of its
-    historical background, the picture of the capitol fa\xE7ade appears in the current
-    500 peso bill."
+  m_Text: "BAGIS, a dish popular among Tarlaque\xF1os was launched as the official
+    dish of Tarlac province on May 28 during the celebration of the 149th founding
+    anniversary of Tarlac.\r\n\n\n\n\n\n\n\n\nBagis, a dish that is considered an
+    original Kapampangan recipe is made of ground meat [carabao, beef, pork or goat
+    meat], calamansi juice, garlic, onion and is cooked in many different ways is
+    tasty, easy to cook and budget friendly.\r\n"
 --- !u!222 &1675764513
 CanvasRenderer:
   m_ObjectHideFlags: 0
