@@ -1,5 +1,0 @@
-MainMenu/Start,Magsimula
-MainMenu/Learn,Pag-aralan
-MainMenu/Option,Opsyon
-Setting/Language,Lengwahe
-Setting/MusicSfx,Tugtog at SFX
