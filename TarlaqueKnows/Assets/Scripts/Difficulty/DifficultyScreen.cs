@@ -3,26 +3,29 @@ using UnityEngine.SceneManagement;
 
 public class DifficultyScreen : MonoBehaviour
 {
-    public GameObject EasyPanel,NormalPanel,HardPanel;
+    public GameObject TarlacCity,Bamban,SanManuel,Conception;
     void Start()
     {
-        if(FinishedLevel.isLevelFinished[14]==false)
+        if(FinishedLevel.isLevelFinished[5]==false)
         {
-            EasyPanel.SetActive(false);
-            NormalPanel.SetActive(true);
-            HardPanel.SetActive(true);
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(true);
+            SanManuel.SetActive(true);
+            Conception.SetActive(true);
         }
-        else if(FinishedLevel.isLevelFinished[29]==false)
+        else if(FinishedLevel.isLevelFinished[12]==false)
         {
-            EasyPanel.SetActive(true);
-            NormalPanel.SetActive(false);
-            HardPanel.SetActive(true);
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(true);
+            Conception.SetActive(true);
         }
         else if(FinishedLevel.isLevelFinished[39]==false)
         {
-            EasyPanel.SetActive(true);
-            NormalPanel.SetActive(true);
-            HardPanel.SetActive(false);            
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(true);
         }
     }
     
@@ -36,13 +39,13 @@ public class DifficultyScreen : MonoBehaviour
         {            
             SceneManager.LoadScene("Room");    
         }
-        else if(FinishedLevel.isLevelFinished[0]==true || FinishedLevel.currentRoom<FinishedLevel.nextRoomIndex)
+        else if(FinishedLevel.isLevelFinished[6]==true || FinishedLevel.currentRoom<FinishedLevel.nextRoomIndex)
         {
             SceneManager.LoadScene(FinishedLevel.currentRoom);
         }
         else if(FinishedLevel.onLevel01==true)
         {
-            SceneManager.LoadScene("EasyRoom01");
+            SceneManager.LoadScene("EasyLevel01");
         }
     }
 }

@@ -60,7 +60,7 @@ public class Hints05 : MonoBehaviour
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
-                    if(btnConScript.btnConText[ctr].text=="D")
+                    if(btnConScript.btnConText[ctr].text=="T")
                     {
                         btnConScript.btnConText[ctr].text="";
                     }
@@ -82,7 +82,7 @@ public class Hints05 : MonoBehaviour
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
-                if (btnChoiScript.btnChoiText[ctr].text == "D")
+                if (btnChoiScript.btnChoiText[ctr].text == "T")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }
@@ -102,7 +102,7 @@ public class Hints05 : MonoBehaviour
         {
             for(int ctr=0; ctr<btnConScript.btnContainer.Length; ctr++)
             {
-                if(btnConScript.btnConText[ctr].text=="B")
+                if(btnConScript.btnConText[ctr].text=="G")
                 {
                     btnConScript.btnConText[ctr].text="";
                 }
@@ -115,7 +115,7 @@ public class Hints05 : MonoBehaviour
             }
             for(int ctr=0; ctr<btnChoiScript.btnChoices.Length; ctr++)
             {
-                if(btnChoiScript.btnChoiText[ctr].text=="B")
+                if(btnChoiScript.btnChoiText[ctr].text=="G")
                 {
                     btnChoiScript.btnChoices[ctr].SetActive(false);
                 }

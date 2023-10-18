@@ -153,7 +153,7 @@ public class Hints02 : MonoBehaviour
         {
             HintConfirmBox[0].SetActive(true);
             HintConfirmBox[1].SetActive(false);
-            HintConfirmBox[2].SetActive(false);
+        
             NoEnHiPoBox.SetActive(false);
             ReMaHiPoBox.SetActive(false);
         }
@@ -162,7 +162,7 @@ public class Hints02 : MonoBehaviour
             ReMaHiPoBox.SetActive(true);
             HintConfirmBox[0].SetActive(false);
             HintConfirmBox[1].SetActive(false);
-            HintConfirmBox[2].SetActive(false);
+        
             NoEnHiPoBox.SetActive(false);
         }
         else
@@ -170,7 +170,7 @@ public class Hints02 : MonoBehaviour
             NoEnHiPoBox.SetActive(true);
             HintConfirmBox[1].SetActive(false);
             HintConfirmBox[0].SetActive(false);
-            HintConfirmBox[2].SetActive(false);
+      
             ReMaHiPoBox.SetActive(false);
         }
     }
@@ -188,7 +188,7 @@ public class Hints02 : MonoBehaviour
         else
         {
             NoEnHiPoBox.SetActive(true);
-            HintConfirmBox[2].SetActive(false);
+       
             HintConfirmBox[0].SetActive(false);
             HintConfirmBox[1].SetActive(false);
             ReMaHiPoBox.SetActive(false);

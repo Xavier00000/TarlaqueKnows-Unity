@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lock : MonoBehaviour
 {
-    public GameObject Level;
+   
     public GameObject[] LockedPanel;
     public GameObject[] InfoPanels;
     void Start()
@@ -17,6 +17,9 @@ public class Lock : MonoBehaviour
             }
         }
     }
+ 
+   
+
 
     public void ShowInfoLvl01()
     {
@@ -42,4 +45,29 @@ public class Lock : MonoBehaviour
     {
         InfoPanels[5].SetActive(true);
     }
+    public void ShowInfoLvl07()
+    {
+        InfoPanels[6].SetActive(true);
+    }
+    public void ShowInfoLvl08()
+    {
+        InfoPanels[7].SetActive(true);
+    }
+    public void ShowInfoLvl09()
+    {
+        InfoPanels[8].SetActive(true);
+    }
+    public void ShowInfoLvl010()
+    {
+        InfoPanels[9].SetActive(true);
+    }
+    public void ShowInfoLvl011()
+    {
+        InfoPanels[10].SetActive(true);
+    }
+    public void ShowInfoLvl12()
+    {
+        InfoPanels[11].SetActive(true);
+    }
+
 }

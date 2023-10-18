@@ -23,6 +23,6 @@ public class SceneChangerER06 : MonoBehaviour
     }
     public void NormalRoom16()
     {
-        SceneManager.LoadScene("EasyLevel07");
+        SceneManager.LoadScene("Start Scene");
     }
 }
