@@ -17,6 +17,7 @@ public class SceneChangeEL06 : MonoBehaviour
     {
         Animation.Play("Continue");
     }
+    
     public void AddPoints()
     {
         HintPoints.HintsPoints+=50;
