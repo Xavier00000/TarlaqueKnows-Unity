@@ -300,7 +300,7 @@ namespace Lean.Localization
 					}
 				}
 			}
-		}
+        }
 
 		private static int QuoteCount(string s)
 		{
