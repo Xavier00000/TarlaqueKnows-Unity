@@ -298,8 +298,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -512,8 +512,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked18
         m_Mode: 1
         m_Arguments:
@@ -646,7 +646,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
@@ -978,8 +978,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked12
         m_Mode: 1
         m_Arguments:
@@ -1143,10 +1143,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 211.40001, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143835873
 MonoBehaviour:
@@ -1192,8 +1192,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d35c0d2e53a1024391ddc65d63449eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0226c126fd728345bb0f9bba6ae18b7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1353,10 +1353,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 474.8, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162234028
 MonoBehaviour:
@@ -1402,8 +1402,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -1617,7 +1617,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -1831,7 +1831,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1965,7 +1965,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -2426,10 +2426,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 971.9, y: -6.9}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269581174
 MonoBehaviour:
@@ -2553,9 +2553,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
-        m_MethodName: GoBack
+      - m_Target: {fileID: 455762829}
+        m_TargetAssemblyTypeName: SceneChangeEL05, Assembly-CSharp
+        m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2847,7 +2847,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: ShowHint02Box
         m_Mode: 1
         m_Arguments:
@@ -2931,10 +2931,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 343.10004, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364853893
 MonoBehaviour:
@@ -2980,8 +2980,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -3114,8 +3114,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked16
         m_Mode: 1
         m_Arguments:
@@ -4035,7 +4035,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -4327,7 +4327,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: Z
 --- !u!222 &520024259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4420,8 +4420,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked08
         m_Mode: 1
         m_Arguments:
@@ -4503,10 +4503,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -54, y: -6.9}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554149644
 MonoBehaviour:
@@ -4630,8 +4630,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked13
         m_Mode: 1
         m_Arguments:
@@ -5076,8 +5076,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked10
         m_Mode: 1
         m_Arguments:
@@ -5410,7 +5410,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: P
 --- !u!222 &618978977
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5454,10 +5454,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1103.6, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &623974616
 MonoBehaviour:
@@ -5503,9 +5503,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
-        m_MethodName: btnClicked05
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
+        m_MethodName: btnClicked09
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5891,7 +5891,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: HintClicked02
         m_Mode: 1
         m_Arguments:
@@ -6872,8 +6872,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked11
         m_Mode: 1
         m_Arguments:
@@ -7086,7 +7086,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -7168,10 +7168,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 77.69998, y: -6.9000015}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801479287
 MonoBehaviour:
@@ -7578,12 +7578,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cc502cc4b645f43ba741a632c4f8e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 7106049a0bdc0494c894f501d313fc37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
   btnConParent: {fileID: 1799257642}
-  isAlreadyFalse: 000000000000000000000000
+  isAlreadyFalse: 000000000000000000000000000000000000
   HintConfirmBox:
   - {fileID: 238538566}
   - {fileID: 2053248697}
@@ -8051,7 +8051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: S
+  m_Text: A
 --- !u!222 &965009542
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8253,10 +8253,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 604.5, y: -6.9000015}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984331466
 MonoBehaviour:
@@ -8329,10 +8329,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.8, y: -6.9000015}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1017418190
 MonoBehaviour:
@@ -8606,7 +8606,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TARLAC CAPITOL
+  m_Text: TARLAC PLAZA
 --- !u!222 &1038229211
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8650,10 +8650,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 606.5, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1042110818
 MonoBehaviour:
@@ -8699,9 +8699,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
-        m_MethodName: btnClicked05
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
+        m_MethodName: btnClicked06
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8782,10 +8782,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 209.39998, y: -6.9000015}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063287884
 MonoBehaviour:
@@ -8858,10 +8858,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1235.3, y: -6.9}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099330452
 MonoBehaviour:
@@ -8910,7 +8910,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1099431548}
-  - component: {fileID: 1099431549}
   m_Layer: 5
   m_Name: ButtonCointainerImage
   m_TagString: Untagged
@@ -8946,33 +8945,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -584, y: -477}
+  m_AnchoredPosition: {x: -627, y: -477}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1099431549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099431547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 100, y: 13.8}
-  m_Spacing: {x: 20.8, y: 0}
-  m_Constraint: 1
-  m_ConstraintCount: 11
 --- !u!1 &1100529098
 GameObject:
   m_ObjectHideFlags: 0
@@ -9057,8 +9032,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked14
         m_Mode: 1
         m_Arguments:
@@ -9376,10 +9351,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1103.6, y: -6.9}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150545121
 MonoBehaviour:
@@ -9532,10 +9507,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 341.09998, y: -6.9000015}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174106612
 MonoBehaviour:
@@ -9659,8 +9634,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -9873,8 +9848,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked17
         m_Mode: 1
         m_Arguments:
@@ -9932,7 +9907,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202247508}
-  - component: {fileID: 1202247510}
   - component: {fileID: 1202247512}
   - component: {fileID: 1202247511}
   m_Layer: 5
@@ -9980,7 +9954,7 @@ RectTransform:
   m_AnchoredPosition: {x: 29.000021, y: 250}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1202247510
+--- !u!114 &1202247511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9989,7 +9963,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d9f290c4528f434fa897d4b6657a7b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ea1384a59a98014984bc30bdb09043e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnChoiParent: {fileID: 1202247507}
+  btnConParent: {fileID: 1799257642}
+  hintsObj: {fileID: 905907879}
+--- !u!114 &1202247512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202247507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65093b43d61d8544d8737e9dcfa444f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -10030,71 +10019,6 @@ MonoBehaviour:
   - {fileID: 1487809249}
   - {fileID: 765771956}
   - {fileID: 965009541}
---- !u!114 &1202247511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202247507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ea1384a59a98014984bc30bdb09043e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btnChoiParent: {fileID: 1202247507}
-  btnConParent: {fileID: 1799257642}
-  hintsObj: {fileID: 905907879}
---- !u!114 &1202247512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202247507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65093b43d61d8544d8737e9dcfa444f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btnChoices:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  btnChoiText:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1220756641
 GameObject:
   m_ObjectHideFlags: 0
@@ -10128,10 +10052,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 840.2, y: -6.9}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220756643
 MonoBehaviour:
@@ -10255,8 +10179,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked09
         m_Mode: 1
         m_Arguments:
@@ -10498,7 +10422,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -10631,8 +10555,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -10765,8 +10689,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked07
         m_Mode: 1
         m_Arguments:
@@ -10980,7 +10904,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -11576,10 +11500,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 971.9, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1428557499
 MonoBehaviour:
@@ -11625,9 +11549,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
-        m_MethodName: btnClicked05
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
+        m_MethodName: btnClicked08
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12059,8 +11983,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked15
         m_Mode: 1
         m_Arguments:
@@ -12460,10 +12384,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 79.70001, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539911520
 MonoBehaviour:
@@ -12509,8 +12433,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -12784,7 +12708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 34aa1b45012fff548801837d28bee292, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dee99aea3b3f5b14d8ad83ae4dd31a56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13074,10 +12998,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1367, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637334782
 MonoBehaviour:
@@ -13123,9 +13047,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
-        m_MethodName: btnClicked05
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
+        m_MethodName: btnClicked11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13258,7 +13182,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints03, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints05, Assembly-CSharp
         m_MethodName: CloseHint02Box
         m_Mode: 1
         m_Arguments:
@@ -13794,8 +13718,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -13879,10 +13803,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -52, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732328378
 MonoBehaviour:
@@ -13928,8 +13852,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -14072,8 +13996,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
+        - m_Target: {fileID: 455762829}
+          m_TargetAssemblyTypeName: SceneChangeEL05, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -14119,10 +14043,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 840.2, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1747686811
 MonoBehaviour:
@@ -14168,9 +14092,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
-        m_MethodName: btnClicked05
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
+        m_MethodName: btnClicked07
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14379,9 +14303,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1799257643}
-  - component: {fileID: 1799257645}
-  - component: {fileID: 1799257644}
-  - component: {fileID: 1799257646}
+  - component: {fileID: 1799257648}
+  - component: {fileID: 1799257647}
   m_Layer: 5
   m_Name: ButtonContainer
   m_TagString: Untagged
@@ -14417,10 +14340,10 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -583, y: 86}
+  m_AnchoredPosition: {x: -626, y: 86}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1799257644
+--- !u!114 &1799257647
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14429,12 +14352,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dfd39e6507e6e34b830845bc6bafd48, type: 3}
+  m_Script: {fileID: 11500000, guid: 6de8d307203e2044d91dd71cb50b6caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
   btnConParent: {fileID: 1799257642}
---- !u!114 &1799257645
+--- !u!114 &1799257648
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14443,7 +14366,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 091934b0155d4544987392ebd126f695, type: 3}
+  m_Script: {fileID: 11500000, guid: ea59e5baf8bed9141b7275fe539ae15b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -14452,37 +14375,25 @@ MonoBehaviour:
   - {fileID: 143835871}
   - {fileID: 364853891}
   - {fileID: 162234026}
+  - {fileID: 1042110816}
+  - {fileID: 1747686809}
+  - {fileID: 1428557497}
+  - {fileID: 623974614}
+  - {fileID: 2145389908}
+  - {fileID: 1637334780}
   btnConText:
   - {fileID: 748865043}
   - {fileID: 229754174}
   - {fileID: 971800188}
   - {fileID: 1623959592}
   - {fileID: 1175294715}
+  - {fileID: 1529599868}
+  - {fileID: 1173471835}
+  - {fileID: 718482460}
+  - {fileID: 2039294279}
+  - {fileID: 751072553}
+  - {fileID: 1999513775}
   AllParent: {fileID: 455762824}
---- !u!114 &1799257646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799257642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 100, y: 97.97}
-  m_Spacing: {x: 31.7, y: 0}
-  m_Constraint: 2
-  m_ConstraintCount: 1
 --- !u!1 &1822075093
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,8 +14478,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -15193,8 +15104,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
+      - m_Target: {fileID: 455762829}
+        m_TargetAssemblyTypeName: SceneChangeEL05, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -15356,7 +15267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.6, y: 101.5}
+  m_AnchoredPosition: {x: 12, y: -1}
   m_SizeDelta: {x: 676.9, y: 654.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918616344
@@ -15372,15 +15283,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.497, g: 0.497, b: 0.497, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 28af1982631415e48b0c5d4d921813af, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15510,10 +15421,10 @@ RectTransform:
   m_Father: {fileID: 1099431548}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1367, y: -6.9}
+  m_SizeDelta: {x: 100, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966450674
 MonoBehaviour:
@@ -15957,8 +15868,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChoicesClicked03, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked05, Assembly-CSharp
         m_MethodName: btnClicked06
         m_Mode: 1
         m_Arguments:
@@ -16283,7 +16194,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0000095367, y: -230}
-  m_SizeDelta: {x: 161.9, y: 122.9}
+  m_SizeDelta: {x: 332.61, y: 122.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111542500
 MonoBehaviour:
@@ -16304,7 +16215,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -16315,7 +16226,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: d3f9b82b63cce394b8409a69defc32e1, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -16361,8 +16272,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3a8abbe318acc7e4199a413e0dbd5f25, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -16436,8 +16347,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
+        - m_Target: {fileID: 455762829}
+          m_TargetAssemblyTypeName: SceneChangeEL05, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -16521,10 +16432,10 @@ RectTransform:
   m_Father: {fileID: 1799257643}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1235.3, y: -48.985}
+  m_SizeDelta: {x: 100, y: 97.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145389910
 MonoBehaviour:
@@ -16570,9 +16481,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked03, Assembly-CSharp
-        m_MethodName: btnClicked05
+      - m_Target: {fileID: 1799257647}
+        m_TargetAssemblyTypeName: ContainerClicked05, Assembly-CSharp
+        m_MethodName: btnClicked10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

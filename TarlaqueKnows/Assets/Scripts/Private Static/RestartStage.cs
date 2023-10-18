@@ -7,10 +7,7 @@ using UnityEngine.SceneManagement;
 public class RestartStage : MonoBehaviour
 {
     public GameObject Panel,LockedPanel;
-    void Awake()
-    {   
-        DontDestroyOnLoad(this.gameObject);
-    }
+   
     void Update()
     {
         if(HintPoints.HintsPoints<0)
@@ -21,9 +18,9 @@ public class RestartStage : MonoBehaviour
     }
     public void RestartCurrentStage()
     {
-        if(FinishedLevel.isLevelFinished[14]==false)
+        if(FinishedLevel.isLevelFinished[6]==false)
         {
-            SceneManager.LoadScene("EasyRoom01");
+            SceneManager.LoadScene("EasyLevel01");
             HintPoints.HintsPoints=200;
             for(int ctr=0; ctr<15; ctr++)
             {
