@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DifficultyScreen : MonoBehaviour
 {
-    public GameObject TarlacCity,Bamban,SanManuel,Conception;
+    public GameObject TarlacCity,Bamban,SanManuel, Conception, Ramos, Anao, SanJose, Victoria;
     void Start()
     {
         if(FinishedLevel.isLevelFinished[5]==false)
@@ -12,20 +12,32 @@ public class DifficultyScreen : MonoBehaviour
             Bamban.SetActive(true);
             SanManuel.SetActive(true);
             Conception.SetActive(true);
+            Ramos.SetActive(true);
+            Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
         }
-        else if(FinishedLevel.isLevelFinished[12]==false)
+        else if(FinishedLevel.isLevelFinished[9]==false)
         {
             TarlacCity.SetActive(false);
             Bamban.SetActive(false);
             SanManuel.SetActive(true);
             Conception.SetActive(true);
+            Ramos.SetActive(true);
+            Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
         }
-        else if(FinishedLevel.isLevelFinished[39]==false)
+        else if(FinishedLevel.isLevelFinished[13]==false)
         {
             TarlacCity.SetActive(false);
             Bamban.SetActive(false);
             SanManuel.SetActive(false);
             Conception.SetActive(true);
+            Ramos.SetActive(true);
+            Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
         }
     }
     

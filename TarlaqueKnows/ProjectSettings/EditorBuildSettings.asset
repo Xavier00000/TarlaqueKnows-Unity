@@ -21,6 +21,42 @@ EditorBuildSettings:
     path: Assets/Scenes/Learn/TARLAC/Tarlac Topic Selection.unity
     guid: b02f4b5ffd0b3de478d8eb5695aad0e2
   - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/Tarlac History.unity
+    path: Assets/Scenes/Learn/TARLAC/TARLAC HISTORY.unity
     guid: 893ccd850e1a3fd4fafacc16275bf975
+  - enabled: 1
+    path: Assets/Scenes/Start Scene.unity
+    guid: 497238822417c4642a830b3e9c401568
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Level/EasyLevel01.unity
+    guid: c6bcfba0b6eb3874aa9db8ed40b818ae
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Level/EasyLevel02.unity
+    guid: 1eae85f5acce87744892bcf3262303af
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Level/EasyLevel03.unity
+    guid: 59a2937229121dc45951c6d5d6db2094
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Level/EasyLevel04.unity
+    guid: 2ebc621019c095b45afe83754d125154
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Level/EasyLevel05.unity
+    guid: 12ac8e429aea3644ab63010e8094127e
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Level/EasyLevel06.unity
+    guid: 8441c190d770a7643aa79cb8c365eefa
+  - enabled: 1
+    path: Assets/Scenes/Tarlac/Room/EasyRoom06.unity
+    guid: 0b5bb3fa1947db5488218b77f098e189
+  - enabled: 1
+    path: Assets/Scenes/Bamban/Level/EasyLevel07.unity
+    guid: eaf28a931a902414896747b87190ea44
+  - enabled: 1
+    path: Assets/Scenes/Bamban/Level/EasyLevel08.unity
+    guid: eb5cc3e21659bfa438f059834b998010
+  - enabled: 1
+    path: Assets/Scenes/Bamban/Level/EasyLevel09.unity
+    guid: fd99a2ad6e71db642a447208fbaeb97b
+  - enabled: 1
+    path: Assets/Scenes/Bamban/Level/EasyLevel10.unity
+    guid: a16d945b266b78d40ac6f6866557bbbd
   m_configObjects: {}
