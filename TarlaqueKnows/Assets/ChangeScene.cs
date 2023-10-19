@@ -97,6 +97,15 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("EasyLevel08");
     }
+    public void MoveToScene9()
+    {
+        SceneManager.LoadScene("EasyLevel09");
+    }
+    public void MoveToScene10()
+    {
+        SceneManager.LoadScene("EasyLevel10");
+    }
+  
 
 }
 

@@ -12,7 +12,7 @@ public class SceneChangeEL07 : MonoBehaviour
     }
     public void EasyRoom01()
     {
-        SceneManager.LoadScene("Start Scene");
+        SceneManager.LoadScene("EasyLevel08");
     }
     public void ContinueAnim()
     {
