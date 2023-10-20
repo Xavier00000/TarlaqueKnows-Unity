@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -341,7 +341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked08, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked12, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -646,7 +646,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL08, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL12, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -947,7 +947,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -1081,7 +1081,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -1324,10 +1324,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
-    m_FontSize: 49
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 64
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1335,7 +1335,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: "CRY OF \nPUGAD LAWIN"
+  m_Text: MONCADA
 --- !u!222 &224521025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1535,7 +1535,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LEVEL 08 UNLOCKED!
+  m_Text: 'LEVEL 12 UNLOCKED!
 
 
     HINT POINTS +50'
@@ -1632,7 +1632,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL08, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL12, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -1901,7 +1901,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
-    m_FontSize: 49
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -1912,8 +1912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: BATAAN                                                                             
-    DEATH MARCH
+  m_Text: ANAO
 --- !u!222 &377441527
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2235,7 +2234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 455762824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be461fe4d8d413f45a954498959d6835, type: 3}
+  m_Script: {fileID: 11500000, guid: 77fa94918b64ec34aa4f0033662878e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 455762825}
@@ -2483,7 +2482,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -2603,7 +2602,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: BATTLE OF TIRAD PASS
+  m_Text: PURA
 --- !u!222 &505128716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3565,8 +3564,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 455762828}
+        m_TargetAssemblyTypeName: SceneChangeEL12, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -3928,8 +3927,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000061035, y: -340.56}
-  m_SizeDelta: {x: 993.0894, y: 224.8307}
+  m_AnchoredPosition: {x: -2.0916, y: -340.56}
+  m_SizeDelta: {x: 1224.1833, y: 224.8307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811303123
 MonoBehaviour:
@@ -3964,7 +3963,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Which historical event is associated with Bamban, Tarlac?
+  m_Text: "San Manuel traces its early political roots as \u201Ca Sister Municipality
+    of _______\u201D during the governorship of Don Manuel De Leon."
 --- !u!222 &811303124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4044,14 +4044,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The occasion, also known as Bataan Day or Bataan and Corregidor Day commemorates
-    April 9, 1942, when General Edward King of the US Army was forced to surrender
-    his more than 70,000 American and Filipino soldiers to the Japanese.  The Japanese
-    forced the captive prisoners to march from Mariveles, Bataan, to Camp O\u2019Donnel
-    in Capas, Tarlac.  Over 20,000 prisoners died of exhaustion, starvation, and
-    brutality from the Japanese soldiers, thus known as the Bataan Death March. The
-    Bataan Death Marcher resembles a soldier in a death skull made of metal with
-    a military helmet, supported on a wooden base."
+  m_Text: "San Manuel traces its early political roots as \u201Ca Sister Municipality
+    of Moncada\u201D during the governorship of Don Manuel De Leon who sponsored
+    its official creation and in whose honor the new town was named after. In another
+    account, Ilocano migrant, Victoriano Castro, led to petition the Tarlac government
+    to declare their settlement a town of its own in 1909."
 --- !u!222 &856602716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4314,7 +4311,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a82fbe11194ad4c4a9908d044308782a, type: 3}
+  m_Script: {fileID: 11500000, guid: b403a6f943418644faf2cee12136ae08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -4707,7 +4704,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: BATTLE OF MACTAN
+  m_Text: GERONA
 --- !u!222 &972319326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5094,7 +5091,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c66a2713625af784f8e1056f15284b86, type: 3}
+  m_Script: {fileID: 11500000, guid: 28ba9eac73fd7ff46afc233d99d53d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -5109,7 +5106,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53acdfc71795aa74590e54136ec645f6, type: 3}
+  m_Script: {fileID: 11500000, guid: f1f61076ba9d42a4cbe9a2aedd832327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -5207,7 +5204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -5341,7 +5338,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked08, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked12, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -5461,7 +5458,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BATAAN DEATH MARCH
+  m_Text: SAN MANUEL
 --- !u!222 &1309932914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5635,7 +5632,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -6059,7 +6056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 08
+  m_Text: Level 12
 --- !u!222 &1413563949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6862,7 +6859,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -3.3, y: 27.527}
-  m_SizeDelta: {x: 1108.8838, y: 55.0531}
+  m_SizeDelta: {x: 1153.17, y: 55.0531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704692158
 MonoBehaviour:
@@ -6897,7 +6894,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THIS WILL REMOVE RANDOM UNNECESSARY WORD
+  m_Text: THIS WILL REMOVE RANDOM UNNECESSARY ANSWER
 --- !u!222 &1704692159
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7148,7 +7145,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked08, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked12, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -7282,7 +7279,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked08, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked12, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -7426,7 +7423,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL08, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL12, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -7566,7 +7563,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dbddc53b4a598a45a756ea5294a02d1, type: 3}
+  m_Script: {fileID: 11500000, guid: c672227dbf0a38c4b96d25a6249ca5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -7580,7 +7577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6944967352fb3458aa4c31dbca6034, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e0654bbd93718a4a9a068fc95c0a489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -7673,7 +7670,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked08, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked12, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -8052,7 +8049,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL08, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL12, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -8341,7 +8338,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints08, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints12, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
