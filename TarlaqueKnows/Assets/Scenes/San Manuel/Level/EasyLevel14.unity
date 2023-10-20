@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -341,7 +341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked10, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked14, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -646,7 +646,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL10, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL14, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -860,7 +860,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -994,7 +994,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -1248,7 +1248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: 17
+  m_Text: EDUARDINO
 --- !u!222 &224521025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1448,7 +1448,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LEVEL 10 UNLOCKED!
+  m_Text: 'LEVEL 14 UNLOCKED!
 
 
     HINT POINTS +50'
@@ -1545,7 +1545,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL10, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL14, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -1825,7 +1825,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: 20
+  m_Text: DON MANUEL SEQUIG
 --- !u!222 &377441527
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 455762824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13e58cc6f3d2e434dbcc2adc6b7c6b73, type: 3}
+  m_Script: {fileID: 11500000, guid: 639200bd390024a4694f1be123b3d24f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 455762825}
@@ -2315,7 +2315,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -2435,7 +2435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: 22
+  m_Text: MANUEL QUEZON
 --- !u!222 &505128716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3017,7 +3017,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 418, y: -417}
-  m_SizeDelta: {x: 928.1, y: 645.9}
+  m_SizeDelta: {x: 656.5, y: 645.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662256256
 MonoBehaviour:
@@ -3039,7 +3039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f3f388de695b184e8021551c72517e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6f9c7359309ad149a64165bed287f3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3316,7 +3316,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL10, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL14, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -3678,8 +3678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000061035, y: -340.56}
-  m_SizeDelta: {x: 993.0894, y: 224.8307}
+  m_AnchoredPosition: {x: -0.00014496, y: -327}
+  m_SizeDelta: {x: 1174.4, y: 222.9193}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811303123
 MonoBehaviour:
@@ -3714,7 +3714,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How many barangays are there in Bamban, Tarlac?
+  m_Text: The town was named after _______________, the founder and leader of the
+    settlers who explored the virgin forest.
 --- !u!222 &811303124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3874,20 +3875,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Bamban has 15 barangays , The municipality has a land area of 251.98 square
-    kilometers or 97.29 square miles which constitutes 8.27% of Tarlac's total area.
-    Its population as determined by the 2020 Census was 78,260. This represented
-    5.21% of the total population of Tarlac province, or 0.63% of the overall population
-    of the Central Luzon region. Based on these figures, the population density is
-    computed at 311 inhabitants per square kilometer or 804 inhabitants per square
-    mile. \n\nHistorical records states that the early inhabitants of the settlement,
-    which was to becomePueblo de Bamban, were the Aetas or Negritos and Zambales.Later,
-    other settlers came from Pampanga and other neighboring provinces. Those settlersfound
-    the place with plants of mabamboa or bambania growing abundantly along theriverbanks.
-    The place was called cabambanan or mabamban but later on it was simply called
-    bamban.\n\nAnupul\r\nBanaba\r\nBangcu\r\nCulubasa\r\nDela Cruz\r\nLa Paz\r\nLourdes\r\nMalonzo\r\nSan
-    Nicolas\r\nSan Pedro\r\nSan Rafael\r\nSan Roque\r\nSan Vicente\r\nSanto Ni\xF1o\r\nVirgen
-    de los Remedios\r (Pacalcal)\n\n\n"
+  m_Text: 'When San Manuel became a town in 1614, the site of the Poblacion was in
+    Pau (now known as Curibetbet).  The inhabitants thought of erecting the first
+    church and convent in 1688.  It was also the same year that Asingan was laying
+    out its town site in a place called Sinapog.  In 1720, the church and convent
+    built in Pau were burned down and the people believed it to be a bad omen so
+    they abandoned the site and went to Sinapog to live.  Thus, San Manuel was
+
+    absorbed
+    by Asingan for the first time.  However, some of the inhabitants moved westward
+    to the place called Guiset, a name given to San Manuel which was derived from
+    the great bamboo thickets that were plentiful in the area during the time.  In
+    1860, San Manuel separated from Asingan and became a town for the second time.'
 --- !u!222 &856602716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4150,7 +4149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167224c92fec59141884de8bc69bfbec, type: 3}
+  m_Script: {fileID: 11500000, guid: 21547f51351662e469625076f825c686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -4390,7 +4389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: 15
+  m_Text: MANNY
 --- !u!222 &972319326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4864,7 +4863,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f475dc4929eb72040922b97a77c5ebf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3facd03f9ddee3241953173147ac7c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -4879,7 +4878,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca157b7a1bb63c4987a93c5de04c506, type: 3}
+  m_Script: {fileID: 11500000, guid: f4c30b34d61c8a84fbad98fdd33bf42a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -4977,7 +4976,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -5111,7 +5110,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked10, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked14, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -5405,7 +5404,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -5906,7 +5905,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 10
+  m_Text: Level 14
 --- !u!222 &1413563949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6816,7 +6815,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -3.3, y: 27.527}
-  m_SizeDelta: {x: 1108.8838, y: 55.0531}
+  m_SizeDelta: {x: 1153.17, y: 55.0531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704692158
 MonoBehaviour:
@@ -6851,7 +6850,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THIS WILL REMOVE RANDOM UNNECESSARY WORD
+  m_Text: THIS WILL REMOVE RANDOM UNNECESSARY ANSWER
 --- !u!222 &1704692159
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7025,7 +7024,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked10, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked14, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -7159,7 +7158,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked10, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked14, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -7303,7 +7302,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL10, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL14, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -7519,7 +7518,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45284bfbaae94e94bab1865bacb4affc, type: 3}
+  m_Script: {fileID: 11500000, guid: e2a93eea26effab42bd6d91775f489bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -7533,7 +7532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74fbdbebc30aa5443906ea2c7acd3efc, type: 3}
+  m_Script: {fileID: 11500000, guid: e43d194f0dbe9d248b88a1a7003c50e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -7626,7 +7625,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked10, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked14, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -8051,7 +8050,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL10, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL14, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -8264,7 +8263,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints10, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints14, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:

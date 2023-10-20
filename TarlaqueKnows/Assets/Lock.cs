@@ -61,13 +61,6 @@ public class Lock : MonoBehaviour
     {
         InfoPanels[9].SetActive(true);
     }
-    public void ShowInfoLvl011()
-    {
-        InfoPanels[10].SetActive(true);
-    }
-    public void ShowInfoLvl12()
-    {
-        InfoPanels[11].SetActive(true);
-    }
+    
 
 }
