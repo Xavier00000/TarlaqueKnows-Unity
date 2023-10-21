@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -341,7 +341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked16, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked20, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -646,7 +646,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL16, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL20, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -947,7 +947,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -1081,7 +1081,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -1535,7 +1535,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LEVEL 16 UNLOCKED!
+  m_Text: 'LEVEL 20 UNLOCKED!
 
 
     HINT POINTS +50'
@@ -1632,7 +1632,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL16, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL20, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -2234,7 +2234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 455762824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16c83f1d9ffefbb44abe6315bcd799c0, type: 3}
+  m_Script: {fileID: 11500000, guid: fb07d06ab2970dd41837119da02e8322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 455762825}
@@ -2482,7 +2482,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -3359,7 +3359,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 418, y: -417}
-  m_SizeDelta: {x: 928.1, y: 645.9}
+  m_SizeDelta: {x: 691.1, y: 645.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662256256
 MonoBehaviour:
@@ -3381,7 +3381,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a14a57df6bcee7241a5f16bd5d4af3a8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64c0065e490a908479cff8b9ac730d68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3565,7 +3565,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL16, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL20, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -4008,7 +4008,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -358, y: 0.0000048465336}
-  m_SizeDelta: {x: 723.5, y: 2242.9}
+  m_SizeDelta: {x: 723.5, y: 1232.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &856602715
 MonoBehaviour:
@@ -4043,17 +4043,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Concepcion is politically subdivided into 45 barangays. Each barangay
-    consists of puroks and some have sitios.\r\n\r\nAlfonso\r\nBalutu\r\nCafe\r\nCalius
-    Gueco\r\nCaluluan\r\nCastillo\r\nCorazon de Jesus (Darabulbul)\r\nCulatingan\r\nDungan\r\nDutung-A-Matas
-    (Jefmin)\r\nGreen Village\r\nLilibangan\r\nMabilog\r\nMagao\r\nMalupa\r\nMinane\r\nPanalicsian
-    (Panalicsican)\r\nPando\r\nParang\r\nParulung\r\nPitabunan\r\nSan Agustin (Murcia)\r\nSan
-    Antonio\r\nSan Bartolome\r\nSan Francisco\r\nSan Isidro (Almendras)\r\nSan Jose
-    (Poblacion)\r\nSan Juan (Castro)\r\nSan Martin\r\nSan Nicolas (Poblacion)\r\nSan
-    Nicolas Balas\r\nSan Vicente (Calius/Corba)\r\nSanta Cruz\r\nSanta Maria\r\nSanta
-    Monica\r\nSanta Rita\r\nSanta Rosa (Bucsit)\r\nSantiago\r\nSanto Cristo\r\nSanto
-    Ni\xF1o\r\nSanto Rosario (Magunting)\r\nTalimunduc Marimla\r\nTalimunduc San
-    Miguel\r\nTelabanca\r\nTinang"
+  m_Text: "It was not until the year 1844 when Gerona finally became an independent
+    town but without a Gobernadorcillo. The Don Anacleyo Melegrito, the town\u2019s
+    first Gobernadorcillo, was only appointed in 1845. When Tarlac Province was founded
+    in 1873 by the Spanish Central Government, Gerona was one of the towns which
+    were included in the new Province of Tarlac.\n\nThe history of the Municipality
+    of Gerona can be traced back to the reign of the Spaniards when the Dominican
+    Missionaries in the Philippines started to propagate the Catholic faith in the
+    whole archipelago in 1704. The Dominicans placed the Vicar of Malanguey (now
+    Bayambang, Pangasinan) is charged with the mission of converting the local inhabitants
+    of \u201CPaontalon\u201D (original name of Gerona) to become Catholics. In 1722,
+    Paontalon was recognized as a small village and became part of the Municipality
+    of Paniqui then under the Province of Pangasinan."
 --- !u!222 &856602716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4316,7 +4317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d411caeb086447b4a62234f12c286, type: 3}
+  m_Script: {fileID: 11500000, guid: 25c8d66b82ac753469d7cb22deb7f6c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -5096,7 +5097,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad341baf18c61a4993945ab0ac62dfd, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d4fcab16f98fa4bab88956c0c781df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -5111,7 +5112,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0606f224e69286947bb64aa86f6a6a71, type: 3}
+  m_Script: {fileID: 11500000, guid: f540208d9e5b63f44a225bcf37584a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -5209,7 +5210,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -5343,7 +5344,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked16, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked20, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -5463,7 +5464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 45 BARANGAYS
+  m_Text: 1844
 --- !u!222 &1309932914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5637,7 +5638,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -6061,7 +6062,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 16
+  m_Text: Level 20
 --- !u!222 &1413563949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7150,7 +7151,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked16, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked20, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -7284,7 +7285,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked16, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked20, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -7428,8 +7429,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL16, Assembly-CSharp
-          m_MethodName: FadeOut
+          m_TargetAssemblyTypeName: SceneChangeEL20, Assembly-CSharp
+          m_MethodName: GoBack
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -7568,7 +7569,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca9de0d63bae3344fa3b600049848774, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d871a4c17a391646be103a36215a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -7582,7 +7583,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df8b07649361e8843a9098c3c5426653, type: 3}
+  m_Script: {fileID: 11500000, guid: 9822c268a42808947a7ca899dc642d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -7675,7 +7676,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked16, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked20, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -8054,7 +8055,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL16, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL20, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -8343,7 +8344,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints16, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints20, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:

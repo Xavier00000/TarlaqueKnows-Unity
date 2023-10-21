@@ -26,7 +26,7 @@ public class ButtonContainer16 : MonoBehaviour
                 else if(btnConText[0].text== "45")
                 {
                     GameObjectScript.Animation.Play("Show_Info");
-                    FinishedLevel.isLevelFinished[7]=true;
+                    FinishedLevel.isLevelFinished[15]=true;
                     FinishedLevel.nextRoomIndex=FinishedLevel.currentRoom+1;
                     HintPoints.trials=0;
                     break;

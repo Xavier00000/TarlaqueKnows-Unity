@@ -31,7 +31,7 @@ public class ButtonContainer13 : MonoBehaviour
                 else if(btnConText[0].text=="J" && btnConText[1].text=="E" && btnConText[2].text=="W" && btnConText[3].text=="E" && btnConText[4].text=="L" )
                 {
                     GameObjectScript.Animation.Play("Show_Info");
-                    FinishedLevel.isLevelFinished[8]=true;
+                    FinishedLevel.isLevelFinished[12]=true;
                 FinishedLevel.nextRoomIndex = FinishedLevel.currentRoom + 1;
                 HintPoints.trials=0;
                     break;

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DifficultyScreen : MonoBehaviour
 {
-    public GameObject TarlacCity,Bamban,SanManuel, Conception, Ramos, Anao, SanJose, Victoria;
+    public GameObject TarlacCity,Bamban,SanManuel, Conception, Gerona, Anao, SanJose, Victoria;
     void Start()
     {
         if(FinishedLevel.isLevelFinished[5]==false)
@@ -12,7 +12,7 @@ public class DifficultyScreen : MonoBehaviour
             Bamban.SetActive(true);
             SanManuel.SetActive(true);
             Conception.SetActive(true);
-            Ramos.SetActive(true);
+            Gerona.SetActive(true);
             Anao.SetActive(true);
             SanJose.SetActive(true);
             Victoria.SetActive(true);
@@ -23,7 +23,7 @@ public class DifficultyScreen : MonoBehaviour
             Bamban.SetActive(false);
             SanManuel.SetActive(true);
             Conception.SetActive(true);
-            Ramos.SetActive(true);
+            Gerona.SetActive(true);
             Anao.SetActive(true);
             SanJose.SetActive(true);
             Victoria.SetActive(true);
@@ -34,8 +34,41 @@ public class DifficultyScreen : MonoBehaviour
             Bamban.SetActive(false);
             SanManuel.SetActive(false);
             Conception.SetActive(true);
-            Ramos.SetActive(true);
+            Gerona.SetActive(true);
             Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
+        }
+        else if (FinishedLevel.isLevelFinished[17] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(false);
+            Gerona.SetActive(true);
+            Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
+        }
+        else if (FinishedLevel.isLevelFinished[21] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(false);
+            Gerona.SetActive(false);
+            Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
+        }
+        else if (FinishedLevel.isLevelFinished[25] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(false);
+            Gerona.SetActive(false);
+            Anao.SetActive(false) ;
             SanJose.SetActive(true);
             Victoria.SetActive(true);
         }

@@ -520,7 +520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked13
         m_Mode: 1
         m_Arguments:
@@ -654,7 +654,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked19, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -1612,7 +1612,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked07
         m_Mode: 1
         m_Arguments:
@@ -1746,7 +1746,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -2120,7 +2120,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -2254,7 +2254,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked19, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -2388,7 +2388,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: CloseHint02Box
         m_Mode: 1
         m_Arguments:
@@ -2599,7 +2599,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL15, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL19, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -2684,7 +2684,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -487, y: -380}
-  m_SizeDelta: {x: 650.5, y: 589.2}
+  m_SizeDelta: {x: 750.2, y: 589.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &263850161
 MonoBehaviour:
@@ -2706,7 +2706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b426917cdbccce34b8772a36f3e7c8a5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c9d631913f1b8f54db7d4c033e9c1dd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3179,7 +3179,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LOURDES GROTTO
+  m_Text: PAROL MAKING
 --- !u!222 &350242936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3273,7 +3273,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -3483,7 +3483,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked08
         m_Mode: 1
         m_Arguments:
@@ -3617,7 +3617,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -3731,7 +3731,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 495570297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78785a63e1e78f44dacac9eb867d5251, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b99b36bf968a0649a369d5a99979e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -3781,7 +3781,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 495570297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb94ac25308bef4794624775049ffd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f19c4a072aa6a241827c7fed6bf3b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
@@ -3872,7 +3872,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL15, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL19, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -4082,7 +4082,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -4292,7 +4292,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked19, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -4469,7 +4469,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 600248154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9361484c88489488ae9b54fe8d4dd0, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b20bcc516f80fc488e98dff7bd36d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -4478,24 +4478,12 @@ MonoBehaviour:
   - {fileID: 1146212964}
   - {fileID: 34766251}
   - {fileID: 544564134}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   btnConText:
   - {fileID: 1114547644}
   - {fileID: 1653903912}
   - {fileID: 2041773973}
   - {fileID: 813944383}
   - {fileID: 1461724821}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   AllParent: {fileID: 1820972333}
 --- !u!114 &600248160
 MonoBehaviour:
@@ -4506,7 +4494,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 600248154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71db707f117459f45a73ba85cd49936c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3986ab9ce0b818b4098f160b969b3477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
@@ -4596,7 +4584,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked17
         m_Mode: 1
         m_Arguments:
@@ -4729,7 +4717,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
@@ -5208,7 +5196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LEVEL 11 UNLOCKED!
+  m_Text: 'LEVEL 19 UNLOCKED!
 
 
     HINT POINTS +50
@@ -5829,7 +5817,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 813268896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0289cd3caf6887041b11f74e322ceba3, type: 3}
+  m_Script: {fileID: 11500000, guid: 825c096a53a757549957561576b15d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
@@ -6329,7 +6317,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked15
         m_Mode: 1
         m_Arguments:
@@ -6701,7 +6689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -7125,7 +7113,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -8313,7 +8301,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -8447,7 +8435,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked19, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -8889,7 +8877,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -9009,14 +8997,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " Ninoy Aquino (from Barangay San Jose Pob.) \u2013 the youngest municipal
-    mayor of Concepcion (1955\u20131959); subsequently the youngest governor of the
-    Tarlac province, a Philippine senator and a leader of the opposition to the autocratic
-    rule of Ferdinand Marcos. He was assassinated at Manila International Airport
-    (now named Ninoy Aquino International Airport in his honor) upon returning home
-    from exile in the United States. His death catapulted his widow, Corazon Aquino,
-    to the limelight and the presidency, subsequently replacing the 20-year-old Marcos
-    regime.\r\n"
+  m_Text: "The Town of Gerona is well known as the \u201CHome of Aesthetic Craft\u201D
+    because of its \u201Cparol making\u201D. It started in the year 1970s in Barangay
+    Caturay Gerona, Tarlac. One day they wanted to have a more meaningful and joyful
+    celebration of Christmas and having a creative mind they started making Christmas
+    lanterns \u201CPailaw\u201D which are made of bamboo and mold like a star. At
+    the very start, only a few people are making these lanterns but because of their
+    unique designs, the locals passing by find them amusing and they also started
+    to build their own lanterns. As time goes by all of the households in this Barangay
+    Caturay, Gerona, and Tarlac started making Parols for the celebration of Christmas.
+    These unique and artistic lanterns made this barangay a \u201Csymbol of happiness
+    and unity\u201D"
 --- !u!222 &1269523271
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9430,7 +9421,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: HintClicked02
         m_Mode: 1
         m_Arguments:
@@ -9537,7 +9528,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1820972338}
-          m_TargetAssemblyTypeName: SceneChangeEL15, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL19, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -9751,7 +9742,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked11
         m_Mode: 1
         m_Arguments:
@@ -10405,7 +10396,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -10786,7 +10777,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked10
         m_Mode: 1
         m_Arguments:
@@ -10920,7 +10911,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked09
         m_Mode: 1
         m_Arguments:
@@ -11173,7 +11164,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked06
         m_Mode: 1
         m_Arguments:
@@ -11307,7 +11298,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked12
         m_Mode: 1
         m_Arguments:
@@ -12184,7 +12175,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -12400,7 +12391,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL15, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL19, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -12607,7 +12598,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1820972333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7a0f52ed44e0ed4d95f5ccc852fbbb7, type: 3}
+  m_Script: {fileID: 11500000, guid: 37d5d56d5858d6c44b31c9a0ad7d6a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 1820972336}
@@ -13009,7 +13000,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked16
         m_Mode: 1
         m_Arguments:
@@ -13143,7 +13134,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked18
         m_Mode: 1
         m_Arguments:
@@ -13357,7 +13348,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked14
         m_Mode: 1
         m_Arguments:
@@ -13491,7 +13482,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked19, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -13625,7 +13616,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked15, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked19, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -13838,7 +13829,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints15, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints19, Assembly-CSharp
         m_MethodName: ShowHint02Box
         m_Mode: 1
         m_Arguments:
@@ -13944,7 +13935,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1820972338}
-          m_TargetAssemblyTypeName: SceneChangeEL15, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL19, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
