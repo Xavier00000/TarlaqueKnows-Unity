@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Tagalog
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: English
   saveLoad: 1
@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -991.9999}
+  m_AnchoredPosition: {x: 0, y: -790}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &37609569
@@ -461,8 +461,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kahit na ito ang pinakamaliit sa bilang ng populasyon at lawak ng lupa,
-    itinuturing ang Anao na isa sa mga bayan ng ikalimang klase sa Lalawigan ng Tarlac.
+  m_text: Despite being the smallest in population and land area, Anao is classified
+    as one of the fifth class municipalities in the Province of Tarlac.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4553,6 +4553,82 @@ MonoBehaviour:
       pa ring masilayan sa maayos na kinatitirikan ng munisipyo, maraming lumang
       bahay na may disenyo ng Espanyol, at iba't-ibang istrakturang itinayo higit
       sa isang siglo na ang nakalilipas.
+--- !u!1 &529989958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529989959}
+  - component: {fileID: 529989961}
+  - component: {fileID: 529989960}
+  m_Layer: 0
+  m_Name: Image_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &529989959
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529989958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 869, y: -453.65}
+  m_SizeDelta: {x: 670.76, y: 377.3027}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &529989960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529989958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2316f5f75bd220e4680938e93baa6088, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &529989961
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529989958}
+  m_CullTransparentMesh: 1
 --- !u!1 &544912529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5061,7 +5137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -407}
+  m_AnchoredPosition: {x: 0, y: -162.99998}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &596120162
@@ -5103,13 +5179,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sa paglipas ng mga taon, lumaki ang populasyon at sakop ng Anao. Noong
-    1870, isinumite ng mga residente ang isang petisyon para gawin silang munisipalidad,
-    at ito'y naaprubahan. Subalit noong panahon ng rebolusyon, napagkasunduan ng
-    munisipyo na mahirap panatilihin ang kanilang kalagayan, na humantong sa isa
-    pang petisyon para bumalik sila bilang isang barangay ng Paniqui, na muli ring
-    naaprubahan. Noong 1899, muling naging munisipyo ang Anao at ito'y naging isang
-    7th class municipality.
+  m_text: As Anao's population and physical area grew over the years, the residents
+    submitted a petition in 1870 for their barangay to be converted into a municipality,
+    which was approved. However, during the revolution, the municipality faced challenges
+    in maintaining its status, leading to another petition for reversion to a barangay
+    of Paniqui, which was also approved. In 1899, Anao regained its municipal status
+    for the second time and became a 7th class municipality.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5144,7 +5219,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6141,7 +6216,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
   m_Value: 1.0000001
-  m_Size: 0.36514583
+  m_Size: 0.33519098
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9314,7 +9389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TARLAC PLAZUELA
+  m_text: ANAO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -9347,7 +9422,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -12165,7 +12240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -737}
+  m_AnchoredPosition: {x: 0, y: -493}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1553546361
@@ -12207,12 +12282,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: May iba't ibang kuwento ukol sa pinagmulan ng pangalang Anao. Isa sa mga
-    paliwanag ay nagmula sa salitang Pangasinan na danao, na nangangahulugang palaisdaan,
-    lawa, o malalim na tubig. May mga naninirahan na naniniwala na ito ay nagmula
-    sa anaoang, isang katutubong kalan na ginagamit sa pagluluto ng katas ng tubo
-    sa asukal. Marahil ang pinakakilalang bersyon ng pangalang bayan ay mula sa salitang
-    anahaw, isang uri ng puno na matagpuan nang sagana sa lugar noong mga unang panahon.
+  m_text: There are various accounts regarding the origin of Anao's name. One explanation
+    suggests it comes from the Pangasinan word danao, meaning pond, lagoon, or shallow
+    water. Some residents believe it is derived from anaoang, a native boiler used
+    for cooking sugarcane juice into sugar. Perhaps the most popular version of the
+    town's name is that it comes from anahaw, a type of palm tree that was abundant
+    in the area during its early history.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12247,7 +12322,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -12568,8 +12643,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -424}
-  m_SizeDelta: {x: 608.89, y: 367.5161}
+  m_AnchoredPosition: {x: 290, y: -453.65}
+  m_SizeDelta: {x: 371.4501, y: 371.4501}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683233070
 MonoBehaviour:
@@ -12591,7 +12666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2308aadcb1bb4a248808c22d6eed6690, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12914,13 +12989,14 @@ RectTransform:
   - {fileID: 596120161}
   - {fileID: 1553546360}
   - {fileID: 37609568}
+  - {fileID: 529989959}
   m_Father: {fileID: 1244833204}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00010177816}
-  m_SizeDelta: {x: 0, y: 1917.0696}
+  m_SizeDelta: {x: 0, y: 2088.3916}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1811345442
 MonoBehaviour:
@@ -16545,7 +16621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 45}
+  m_AnchoredPosition: {x: 0, y: 289}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &2144484519
@@ -16568,18 +16644,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Anao ay ang pinakamaliit na bayan sa aspeto ng lawak ng lupa at may mahabang
-    kasaysayan, matagumpay na naging munisipalidad noong Marso 16, 1870. Gayunpaman,
-    mas luma pa ang kasaysayan nito bago pa man ito maging munisipyo. Ang lugar na
-    kinakabitan ng Anao ngayon ay dating bahagi ng Pangasinan ngunit naging bahagi
-    ito ng Lalawigan ng Tarlac noong panahon ng pamumuno ng mga Kastila noong maagang
-    1800s. Sa panahong iyon, ang lupaing ito ay kalunos-lunos na walang tao, may
-    mga ilog at makulay na mga halaman, kasama na ang mga puno ng balete na naglalakip
-    sa mga ilog. Ang unang mga nanirahan, na nagmula sa Hilagang Luzon, ay sinasabing
-    galing sa Paoay, isang munisipalidad sa Ilocos Norte. Nagtayo sila ng kanilang
-    pamayanan sa tabi ng mga ilog at nagsimulang linisin ang lugar para sa pagsasaka,
-    na nagbukas ng pinto para sa mas marami pang tao mula sa hilaga na mamuhay sa
-    nasabing lugar.
+  m_text: Anao is the smallest town in terms of land area and has a long history,
+    being organized as a municipality on March 16, 1870. However, its history predates
+    this municipal status. The area that now comprises Anao was originally part of
+    Pangasinan but was later incorporated into the Province of Tarlac during the
+    Spanish rule in the early 1800s. At that time, the land was mostly uninhabited,
+    with creeks and lush vegetation, including balete trees, lining the creek banks.
+    The first settlers, migrating southward from the Ilocos Region, are believed
+    to have come from Paoay, a municipality in Ilocos Norte. They settled along the
+    creek banks and began clearing the land for agriculture, attracting more people
+    from the north to settle in the area.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16614,7 +16688,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
