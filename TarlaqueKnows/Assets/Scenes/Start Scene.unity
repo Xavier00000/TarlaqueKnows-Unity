@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 260}
+  m_AnchoredPosition: {x: 112, y: 260}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3606802
@@ -769,7 +769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 12
 --- !u!222 &66644231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -892,7 +892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99382633
@@ -1354,7 +1354,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 16
 --- !u!222 &110209361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1725,7 +1725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.65771, y: -95.98685}
+  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &171782879
@@ -2442,7 +2442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &192199243
@@ -2503,7 +2503,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 192199243}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene3
+        m_MethodName: MoveToScene17
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2983,7 +2983,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &214794151
@@ -3044,7 +3044,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 214794151}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene8
+        m_MethodName: MoveToScene12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3630,10 +3630,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246184577}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+      - m_Target: {fileID: 1952305059}
+        m_TargetAssemblyTypeName: open, Assembly-CSharp
+        m_MethodName: ShowConception
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4066,10 +4066,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 271455221}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+      - m_Target: {fileID: 421717352}
+        m_TargetAssemblyTypeName: open, Assembly-CSharp
+        m_MethodName: ShowSanManuel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4164,7 +4164,7 @@ MonoBehaviour:
   Bamban: {fileID: 934853914}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -4293,7 +4293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.65771, y: -95.98685}
+  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318865880
@@ -4485,7 +4485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 17
 --- !u!222 &330286409
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4531,7 +4531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 260}
+  m_AnchoredPosition: {x: 114, y: 260}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &342862347
@@ -4685,7 +4685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 11
 --- !u!222 &353646859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5421,7 +5421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421668710
@@ -5482,7 +5482,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 421668710}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene8
+        m_MethodName: MoveToScene16
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5602,7 +5602,7 @@ MonoBehaviour:
   Bamban: {fileID: 934853914}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -5783,7 +5783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 1028.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430075162
@@ -6326,7 +6326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GERONA
+  m_text: RAMOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -6750,7 +6750,7 @@ MonoBehaviour:
   Bamban: {fileID: 934853914}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -7816,7 +7816,7 @@ MonoBehaviour:
   Bamban: {fileID: 934853914}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -7921,7 +7921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578224035
@@ -8233,7 +8233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 1028.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600943886
@@ -8390,7 +8390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -90}
+  m_AnchoredPosition: {x: -171, y: -90}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &602097664
@@ -9145,7 +9145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 260}
+  m_AnchoredPosition: {x: 112, y: 260}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &657283844
@@ -9185,7 +9185,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 260}
+  m_AnchoredPosition: {x: 112, y: 260}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &659505415
@@ -9462,7 +9462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 32
 --- !u!222 &674667797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9855,10 +9855,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721449269}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+      - m_Target: {fileID: 294482112}
+        m_TargetAssemblyTypeName: open, Assembly-CSharp
+        m_MethodName: ShowAnao
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10297,7 +10297,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.65771, y: -95.98685}
+  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789140573
@@ -11389,7 +11389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 14
 --- !u!222 &853166139
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12143,7 +12143,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 25
 --- !u!222 &894789068
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12190,7 +12190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 1028.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &904587866
@@ -12648,7 +12648,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 260}
+  m_AnchoredPosition: {x: 112, y: 260}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &921435389
@@ -12985,7 +12985,7 @@ MonoBehaviour:
   Bamban: {fileID: 934853914}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -13047,7 +13047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RAMOS
+  m_text: GERONA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -13406,7 +13406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 30
 --- !u!222 &960128972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14253,7 +14253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012304369
@@ -14486,7 +14486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 22
 --- !u!222 &1017887399
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14762,7 +14762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058272130
@@ -15128,7 +15128,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100298015
@@ -16406,7 +16406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 27
 --- !u!222 &1235765063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16869,10 +16869,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1270719153}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+      - m_Target: {fileID: 575568557}
+        m_TargetAssemblyTypeName: open, Assembly-CSharp
+        m_MethodName: ShowVictoria
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17307,7 +17307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 18
 --- !u!222 &1324904966
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17387,7 +17387,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 21
 --- !u!222 &1330850181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17467,7 +17467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 29
 --- !u!222 &1331232169
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17490,7 +17490,7 @@ GameObject:
   - component: {fileID: 1339625999}
   - component: {fileID: 1339625998}
   m_Layer: 5
-  m_Name: Ramos
+  m_Name: Gerona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17512,7 +17512,7 @@ MonoBehaviour:
   Bamban: {fileID: 1339625997}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -17792,7 +17792,7 @@ MonoBehaviour:
   Bamban: {fileID: 1367924336}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -18131,7 +18131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1393861950
@@ -18337,10 +18337,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1395005257}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+      - m_Target: {fileID: 1367924337}
+        m_TargetAssemblyTypeName: open, Assembly-CSharp
+        m_MethodName: ShowSanJose
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18589,7 +18589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 1028.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1425692401
@@ -19029,7 +19029,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 13
 --- !u!222 &1438228278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20159,7 +20159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500873410
@@ -20503,7 +20503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 26
 --- !u!222 &1513918041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20979,7 +20979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.65771, y: -95.98685}
+  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522671299
@@ -21040,7 +21040,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1522671299}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene7
+        m_MethodName: MoveToScene15
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21185,10 +21185,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1537848841}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+      - m_Target: {fileID: 1339625998}
+        m_TargetAssemblyTypeName: open, Assembly-CSharp
+        m_MethodName: ShowGerona
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21395,7 +21395,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 20
 --- !u!222 &1565092446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22097,7 +22097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.65771, y: -95.98685}
+  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640708078
@@ -22256,7 +22256,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640924857
@@ -22859,7 +22859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669592774
@@ -22920,7 +22920,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1669592774}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene3
+        m_MethodName: MoveToScene13
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23207,7 +23207,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 31
 --- !u!222 &1707799833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23330,7 +23330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 1028.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725770980
@@ -23391,7 +23391,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1725770980}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene4
+        m_MethodName: MoveToScene14
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23598,7 +23598,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 24
 --- !u!222 &1736833417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24059,7 +24059,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 19
 --- !u!222 &1767555804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24106,7 +24106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 148.65771, y: -95.98685}
+  m_AnchoredPosition: {x: 368.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767753914
@@ -24167,7 +24167,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1767753914}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene7
+        m_MethodName: MoveToScene11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24769,7 +24769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 808.6577, y: -95.98685}
+  m_AnchoredPosition: {x: 1028.6577, y: -95.98685}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824420444
@@ -24830,7 +24830,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1824420444}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene4
+        m_MethodName: MoveToScene18
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25114,7 +25114,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 28
 --- !u!222 &1862422079
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25428,7 +25428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 15
 --- !u!222 &1951024374
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25497,7 +25497,7 @@ MonoBehaviour:
   Bamban: {fileID: 1952305057}
   SanManuel: {fileID: 421717350}
   Conception: {fileID: 1952305057}
-  Ramos: {fileID: 1339625997}
+  Gerona: {fileID: 1339625997}
   Anao: {fileID: 294482111}
   SanJose: {fileID: 1367924336}
   Victoria: {fileID: 575568555}
@@ -26464,7 +26464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 34
 --- !u!222 &2042647338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26755,7 +26755,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 33
 --- !u!222 &2069333407
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27717,7 +27717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7
+  m_Text: 23
 --- !u!222 &2141965421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27763,6 +27763,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: 260}
+  m_AnchoredPosition: {x: 111, y: 260}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

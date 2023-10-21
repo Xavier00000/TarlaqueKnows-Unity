@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class open : MonoBehaviour
 {
-    public GameObject TarlacCity, Bamban, SanManuel, Conception, Ramos, Anao, SanJose,Victoria ;
+    public GameObject TarlacCity, Bamban, SanManuel, Conception, Gerona, Anao, SanJose,Victoria ;
     public void ShowTarlac()
     {
         TarlacCity.SetActive(true);
@@ -26,10 +26,10 @@ public class open : MonoBehaviour
         Conception.SetActive(true);
 
     }
-    public void ShowRamos()
+    public void ShowGerona()
     {
 
-        Ramos.SetActive(true);
+        Gerona.SetActive(true);
     }
     public void ShowAnao()
     {

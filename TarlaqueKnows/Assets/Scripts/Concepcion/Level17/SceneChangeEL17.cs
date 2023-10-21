@@ -1,17 +1,18 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChangeEL16 : MonoBehaviour
+public class SceneChangeEL17 : MonoBehaviour
 {
     public Animator Animation;
     public GameObject BackWarnBox;
+   
     public void FadeOut()
     {
         Animation.Play("Fade_Out");
     }
-    public void EasyRoom02()
+    public void EasyRoom01()
     {
-        SceneManager.LoadScene("EasyLevel17");
+        SceneManager.LoadScene("EasyLevel18");
     }
     public void ContinueAnim()
     {
@@ -36,6 +37,6 @@ public class SceneChangeEL16 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("Main Menu");
     }
 }
