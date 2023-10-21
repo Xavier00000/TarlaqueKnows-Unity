@@ -293,9 +293,14 @@ public class Hints01 : MonoBehaviour
         }        
     }
     public void ShowHint01Box()
-    {        
-        if(HintPoints.HintsPoints>=80 && numTap<2)
+        
+    {
+        
+        if (HintPoints.HintsPoints>=80 && numTap<2)
+
         {
+
+
             HintConfirmBox[0].SetActive(true);
             HintConfirmBox[1].SetActive(false);
             HintConfirmBox[2].SetActive(false);
@@ -319,6 +324,7 @@ public class Hints01 : MonoBehaviour
             ReMaHiPoBox.SetActive(false);
         }
     }
+  
     public void ShowHint02Box()
     {
         if(HintPoints.HintsPoints>=50)
@@ -342,6 +348,7 @@ public class Hints01 : MonoBehaviour
     {
         if(HintPoints.HintsPoints>=150)
         {
+
             HintConfirmBox[2].SetActive(true);
             HintConfirmBox[0].SetActive(false);
             HintConfirmBox[1].SetActive(false);
@@ -377,5 +384,6 @@ public class Hints01 : MonoBehaviour
     {
         ReMaHiPoBox.SetActive(false);
     }
+    
 
 }

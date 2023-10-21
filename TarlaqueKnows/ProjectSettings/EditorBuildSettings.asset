@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: 82c238f0c871918408cca70bdc6e24b3
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 0c8d4b4c21d582d449c00624a6329d03
+  - enabled: 1
     path: Assets/Scenes/Learn/Municipality Selector.unity
     guid: fb40fb8aa1fb6934383741d553599b45
   - enabled: 1

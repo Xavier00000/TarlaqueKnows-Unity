@@ -38,7 +38,7 @@ public class ButtonContainer15 : MonoBehaviour
                 && btnConText[5].text == "A" && btnConText[6].text == "Q" && btnConText[7].text == "U" && btnConText[8].text == "I" && btnConText[9].text == "N" && btnConText[10].text == "O")
                 {
                     GameObjectScript.Animation.Play("Show_Info");
-                FinishedLevel.isLevelFinished[10] = true;
+                FinishedLevel.isLevelFinished[14] = true;
                 FinishedLevel.nextRoomIndex = FinishedLevel.currentRoom + 1;
 
                 HintPoints.trials=0;

@@ -8739,7 +8739,7 @@ MonoBehaviour:
   Bamban: {fileID: 1489395460}
   SanManuel: {fileID: 1750207731}
   Conception: {fileID: 1434137239}
-  Ramos: {fileID: 1132554364}
+  Gerona: {fileID: 1132554364}
   Anao: {fileID: 1142827387}
   SanJose: {fileID: 466045608}
   Victoria: {fileID: 174750023}
@@ -15730,7 +15730,7 @@ GameObject:
   - component: {fileID: 1132554367}
   - component: {fileID: 1132554366}
   m_Layer: 5
-  m_Name: Ramos
+  m_Name: Gerona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

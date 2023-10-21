@@ -6717,8 +6717,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChangeEL03, Assembly-CSharp
+      - m_Target: {fileID: 455762829}
+        m_TargetAssemblyTypeName: SceneChangeEL05, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -12949,7 +12949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 89}
+  m_AnchoredPosition: {x: 0, y: 343}
   m_SizeDelta: {x: 723.5, y: 311.8033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592524210
@@ -13454,8 +13454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -358, y: 224.74841}
-  m_SizeDelta: {x: 723.5, y: 1080.0674}
+  m_AnchoredPosition: {x: -358, y: 0}
+  m_SizeDelta: {x: 723.5, y: 1775.9048}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1675764512
 MonoBehaviour:
@@ -13490,14 +13490,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The highest seat of political power of the province is located at a hill
-    in Brgy. San Vicente, Tarlac City. \nThe present structure was finished in 1909.
-    \nDuring the Japanese occupation, the provincial capitol was vacated and used
-    as the provincial headquarters of the Imperial Army. \n\nThe capitol suffered
-    great damages during the Second World War, but afterwards, in 1946, the United
-    States of America helped rebuild and improve its structure. \nBecause of its
-    historical background, the picture of the capitol fa\xE7ade appears in the current
-    500 peso bill."
+  m_Text: "Tarlac Plazuela, the silent witness to culture and history\r\nPlazuelas
+    are typically at the heart of Philippine towns and located near or between the
+    town/city hall and the Roman Catholic Church. This strategic positioning of the
+    two institutions rooted from the Spanish regime, signifying the union of the
+    government and the Church.\r\nOur town square was visited by the most prominent
+    heroes of our nation, such as our National Hero, Jose Rizal and the President
+    of the Revolutionary Republic, Gen. Emilio Aguinaldo. Antonio Luna, Commander
+    of the Philippine Revolutionary Army, Apolinario Mabini, the Brains of the Katipunan,
+    Carlos P. Romulo, Philippine Diplomat and President of the UN General Assembly
+    and Benigno Aquino, Jr., Filipino Martyr and patriot had set foot at the plazuela\u2014the
+    silent witness to history. [1]\r\nYears ago, the aroma of native food like \u2018bibingka\u2019,
+    \u2018panara\u2019 and \u2018maruya\u2019 around the plaza filled the air as
+    Christmas approached. \r\n\n\n\n\n\n\n\n\nThe town fiesta was celebrated with
+    traditional Filipino games, \u2018parada\u2019 and \u2018zarzuela\u2019, played
+    by Kapampangan actors such as Diosdado Macapagal, Rogelio and Jaime Dela Rosa.
+    [2]\r\nThe plaza changed with time. We all hope the memories will be passed on
+    to the next generations.\r\nPhoto credit: Alexis Gonzales Gotidoc"
 --- !u!222 &1675764513
 CanvasRenderer:
   m_ObjectHideFlags: 0
