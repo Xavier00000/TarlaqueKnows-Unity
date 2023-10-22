@@ -13,15 +13,36 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }*/
+    
+    
     public void Setting()
     {
         SceneManager.LoadScene("Settings");
     }
 
-    public void MuniSelector()
+    //district
+    public void DistrictSelector()
     {
-        SceneManager.LoadScene("Municipality Selector");
+        SceneManager.LoadScene("District Selector");
     }
+    public void Overview()
+    {
+        SceneManager.LoadScene("Tarlac Overview");
+    }
+  
+    public void first()
+    {
+        SceneManager.LoadScene("1st District");
+    }
+    public void second()
+    {
+        SceneManager.LoadScene("2nd District");
+    }
+    public void third()
+    {
+        SceneManager.LoadScene("3rd District");
+    }
+
 
     //Municipality
 
@@ -50,6 +71,34 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Tarlac Recommendation");
     }
+    public void TCVRDiwa()
+    {
+        SceneManager.LoadScene("VR Diwa");
+    }
+    public void TCVRCathedral()
+    {
+        SceneManager.LoadScene("VR Cathedral");
+    }
+    public void TCVRKct()
+    {
+        SceneManager.LoadScene("VR KCT");
+    }
+    public void TCVRMc()
+    {
+        SceneManager.LoadScene("VR MCPARK");
+    }
+    public void TCVRNinoyCenter()
+    {
+        SceneManager.LoadScene("VR Ninoy Center");
+    }
+    public void TCVRPlaza()
+    {
+        SceneManager.LoadScene("VR Plaza");
+    }
+    public void TCOverview()
+    {
+        SceneManager.LoadScene("Tarlac Overview");
+    }
 
     //ANAO
     public void AnaoTopic()
@@ -72,9 +121,17 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Anao Delicacies");
     }
-    public void AnaoReco()
+    public void AnaoVRAgape()
     {
-        SceneManager.LoadScene("Anao Recommendation");
+        SceneManager.LoadScene("VR Agape");
+    }
+    public void AnaoVRNepo()
+    {
+        SceneManager.LoadScene("VR Nepo");
+    }
+    public void AnaoVRYlang()
+    {
+        SceneManager.LoadScene("VR Ylang");
     }
 
     //BAMBAN

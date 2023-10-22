@@ -1495,7 +1495,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 916511324}
         m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
-        m_MethodName: MuniSelector
+        m_MethodName: DistrictSelector
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2066,9 +2066,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1498639479}
-        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: AnaoTourist
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2124,7 +2124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1498639474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1537848836
