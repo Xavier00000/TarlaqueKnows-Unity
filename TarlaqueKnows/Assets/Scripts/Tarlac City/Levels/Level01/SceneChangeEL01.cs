@@ -15,6 +15,7 @@ public class SceneChangeEL01 : MonoBehaviour
     }
     public void EasyRoom01()
     {
+      
         SceneManager.LoadScene("EasyLevel02");
     }
     public void ContinueAnim()
@@ -32,7 +33,7 @@ public class SceneChangeEL01 : MonoBehaviour
     public void GoBack()
     {
         Animation.Play("Fade_Out_Back");
-        SceneManager.LoadScene("Start Scene");
+        
     }
     public void CancelBack()
     {
@@ -40,6 +41,6 @@ public class SceneChangeEL01 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Start Scene");
     }
 }

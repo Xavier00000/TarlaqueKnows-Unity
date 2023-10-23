@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 0c8d4b4c21d582d449c00624a6329d03
   - enabled: 1
-    path: Assets/Scenes/Learn/Municipality Selector.unity
+    path: Assets/Scenes/Learn/District Selector.unity
     guid: fb40fb8aa1fb6934383741d553599b45
   - enabled: 1
     path: Assets/Scenes/Learn/TARLAC/Tarlac Tourist Attraction.unity
@@ -86,4 +86,52 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Conception/Level/EasyLevel18.unity
     guid: 6e62e6e0dae5ff64cbd54fdb467422ae
+  - enabled: 1
+    path: Assets/Scenes/Learn/1st District.unity
+    guid: 5e184ff66d252f149b7b333386c1fd57
+  - enabled: 1
+    path: Assets/Scenes/Learn/2nd District.unity
+    guid: cccebab40ca8d454ebbb7681f3cac214
+  - enabled: 1
+    path: Assets/Scenes/Learn/3rd District.unity
+    guid: 5ef7067806a3a49408c3dff9273a8528
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC OVERVIEW.unity
+    guid: 6a8521069d1f11d4cbf6d504df002ff0
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC/VR Cathedral.unity
+    guid: eb06a4c67ea262841a4173e7ced1fc8f
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC/VR Diwa.unity
+    guid: 6e1bab9a72f1198479496e0224b9efb7
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC/VR KCT.unity
+    guid: a9da990bb58159144b03b4f8fdb9563b
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC/VR MCPARK.unity
+    guid: d0a049ad955dd7e42a22ce772e9d831c
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC/VR Ninoy Center.unity
+    guid: 722fa2b5dad301043b62491d52b6e00c
+  - enabled: 1
+    path: Assets/Scenes/Learn/TARLAC/VR Plaza.unity
+    guid: 023d39185284b724189ac1a31e14713c
+  - enabled: 1
+    path: Assets/Scenes/Learn/ANAO/Anao History.unity
+    guid: 7aa0c7dcd95e5e74a8323287b1f69732
+  - enabled: 1
+    path: Assets/Scenes/Learn/ANAO/Anao Topic Selection.unity
+    guid: 837602e27f489b648928b126ba6cfebd
+  - enabled: 1
+    path: Assets/Scenes/Learn/ANAO/Anao Tourist Attraction.unity
+    guid: 4a8fce1e2090bcd40bf8df80955acd8b
+  - enabled: 1
+    path: Assets/Scenes/Learn/ANAO/VR Agape.unity
+    guid: 99eb2f5f15d2def49bbe8b0332998c69
+  - enabled: 1
+    path: Assets/Scenes/Learn/ANAO/VR Nepo.unity
+    guid: 58af1622c847a1446a4c3b6ea7f178b6
+  - enabled: 1
+    path: Assets/Scenes/Learn/ANAO/VR Ylang.unity
+    guid: a2616ba05f1bc0944bbb79febb1522ab
   m_configObjects: {}

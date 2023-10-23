@@ -8,8 +8,8 @@ public class Hints01 : MonoBehaviour
     ButtonContainer01 btnConScript;
     int hint1 = 0;
     string[] answer = {"T","A","R","L","A","C","C","A","P","I","T","O","L"};
-    bool[] isAlreadyAnswer = new bool[12];
-    public bool[] isAlreadyFalse = new bool[12];
+    bool[] isAlreadyAnswer = new bool[18];
+    public bool[] isAlreadyFalse = new bool[18];
     public GameObject[] HintConfirmBox;
     public GameObject NoEnHiPoBox,ReMaHiPoBox;
     int numTap=0;

@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 56729822}
   - component: {fileID: 56729821}
   - component: {fileID: 56729820}
-  - component: {fileID: 56729819}
+  - component: {fileID: 56729823}
   m_Layer: 5
   m_Name: VR BTN
   m_TagString: Untagged
@@ -669,18 +669,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1068, y: -154}
   m_SizeDelta: {x: 153.6178, y: 63.5958}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &56729819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56729817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &56729820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,7 +712,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 56729821}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 56729823}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TCVRKct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &56729821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +763,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56729817}
   m_CullTransparentMesh: 1
+--- !u!114 &56729823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56729817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &74205944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,7 +1208,7 @@ GameObject:
   - component: {fileID: 131478184}
   - component: {fileID: 131478183}
   - component: {fileID: 131478182}
-  - component: {fileID: 131478181}
+  - component: {fileID: 131478185}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -1225,18 +1237,6 @@ RectTransform:
   m_AnchoredPosition: {x: 199, y: -225}
   m_SizeDelta: {x: 131.367, y: 110.9431}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &131478181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131478179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73a6a31d6ae449449d13129aa3482b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &131478182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,17 +1281,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 131478181}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 131478185}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TarlacTopic
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &131478183
 MonoBehaviour:
@@ -1331,6 +1331,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131478179}
   m_CullTransparentMesh: 1
+--- !u!114 &131478185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131478179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &134361279
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,7 +4856,7 @@ GameObject:
   - component: {fileID: 738546177}
   - component: {fileID: 738546176}
   - component: {fileID: 738546175}
-  - component: {fileID: 738546174}
+  - component: {fileID: 738546178}
   m_Layer: 5
   m_Name: VR BTN
   m_TagString: Untagged
@@ -4873,18 +4885,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1068, y: -154}
   m_SizeDelta: {x: 153.6178, y: 63.5958}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &738546174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738546172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &738546175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4928,7 +4928,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 738546176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 738546178}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TCVRCathedral
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &738546176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4967,6 +4979,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738546172}
   m_CullTransparentMesh: 1
+--- !u!114 &738546178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738546172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &759081691
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,7 +5206,7 @@ GameObject:
   - component: {fileID: 791089210}
   - component: {fileID: 791089209}
   - component: {fileID: 791089208}
-  - component: {fileID: 791089207}
+  - component: {fileID: 791089211}
   m_Layer: 5
   m_Name: VR BTN
   m_TagString: Untagged
@@ -5211,18 +5235,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1068, y: -154}
   m_SizeDelta: {x: 153.6178, y: 63.5958}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &791089207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791089205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &791089208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5266,7 +5278,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 791089209}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 791089211}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TCVRMc
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &791089209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5305,6 +5329,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791089205}
   m_CullTransparentMesh: 1
+--- !u!114 &791089211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791089205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &813566182
 GameObject:
   m_ObjectHideFlags: 0
@@ -6809,10 +6845,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 839515094}
-  - {fileID: 236257680}
   - {fileID: 1092883575}
-  - {fileID: 395037901}
   - {fileID: 1119683667}
+  - {fileID: 395037901}
+  - {fileID: 236257680}
   - {fileID: 1515189739}
   m_Father: {fileID: 103466373}
   m_RootOrder: -1
@@ -11189,7 +11225,7 @@ GameObject:
   - component: {fileID: 1828862369}
   - component: {fileID: 1828862368}
   - component: {fileID: 1828862367}
-  - component: {fileID: 1828862366}
+  - component: {fileID: 1828862370}
   m_Layer: 5
   m_Name: VR BTN
   m_TagString: Untagged
@@ -11218,18 +11254,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1068, y: -154}
   m_SizeDelta: {x: 153.6178, y: 63.5958}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1828862366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828862364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1828862367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11273,7 +11297,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1828862368}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1828862370}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TCVRPlaza
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1828862368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11312,6 +11348,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828862364}
   m_CullTransparentMesh: 1
+--- !u!114 &1828862370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828862364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1831414600
 GameObject:
   m_ObjectHideFlags: 0
@@ -11918,7 +11966,7 @@ GameObject:
   - component: {fileID: 2014661367}
   - component: {fileID: 2014661366}
   - component: {fileID: 2014661365}
-  - component: {fileID: 2014661364}
+  - component: {fileID: 2014661368}
   m_Layer: 5
   m_Name: VR BTN
   m_TagString: Untagged
@@ -11947,18 +11995,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1068, y: -154}
   m_SizeDelta: {x: 153.6178, y: 63.5958}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2014661364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014661362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2014661365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12002,7 +12038,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2014661366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2014661368}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TCVRDiwa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2014661366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12041,6 +12089,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014661362}
   m_CullTransparentMesh: 1
+--- !u!114 &2014661368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014661362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2039106613
 GameObject:
   m_ObjectHideFlags: 0
@@ -12053,7 +12113,7 @@ GameObject:
   - component: {fileID: 2039106618}
   - component: {fileID: 2039106617}
   - component: {fileID: 2039106616}
-  - component: {fileID: 2039106615}
+  - component: {fileID: 2039106619}
   m_Layer: 5
   m_Name: VR BTN
   m_TagString: Untagged
@@ -12082,18 +12142,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1068, y: -154}
   m_SizeDelta: {x: 153.6178, y: 63.5958}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2039106615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2039106613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0bde189eb191594d804d29318439595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2039106616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12137,7 +12185,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2039106617}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2039106619}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: TCVRNinoyCenter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2039106617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12176,6 +12236,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039106613}
   m_CullTransparentMesh: 1
+--- !u!114 &2039106619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039106613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2071807769
 GameObject:
   m_ObjectHideFlags: 0
