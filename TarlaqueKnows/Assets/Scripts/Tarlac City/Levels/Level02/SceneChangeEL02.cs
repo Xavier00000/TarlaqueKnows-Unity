@@ -28,7 +28,7 @@ public class SceneChangeEL02 : MonoBehaviour
     public void GoBack()
     {
         Animation.Play("Fade_Out_Back");
-        SceneManager.LoadScene("Start Scene");
+        
     }
     public void CancelBack()
     {
@@ -36,6 +36,6 @@ public class SceneChangeEL02 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("Start Scene");
     }
 }

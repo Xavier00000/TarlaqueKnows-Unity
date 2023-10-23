@@ -36,6 +36,6 @@ public class SceneChangeEL07 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("Bamban");
+        SceneManager.LoadScene("Start Scene");
     }
 }

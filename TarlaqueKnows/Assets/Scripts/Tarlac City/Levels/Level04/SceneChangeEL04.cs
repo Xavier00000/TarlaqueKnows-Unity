@@ -28,7 +28,7 @@ public class SceneChangeEL04 : MonoBehaviour
     public void GoBack()
     {
         Animation.Play("Fade_Out_Back");
-        SceneManager.LoadScene("Start Scene");
+      
     }
     public void CancelBack()
     {
@@ -36,6 +36,6 @@ public class SceneChangeEL04 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("Tarlac City");
+        SceneManager.LoadScene("Start Scene");  
     }
 }
