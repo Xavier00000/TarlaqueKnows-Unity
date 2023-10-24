@@ -210,8 +210,8 @@ MonoBehaviour:
     sources, WWII combat films in the Bamban-Clark area as well as the Battle of
     Bataan, and books, maps, articles and papers from the US National Archives.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -321,7 +321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -808}
+  m_AnchoredPosition: {x: 0, y: -859}
   m_SizeDelta: {x: 1169.6824, y: 287.3269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64643321
@@ -370,8 +370,8 @@ MonoBehaviour:
     The ceiling has exposed wooden beams while each pier features a Marian image
     or a saint.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -673,7 +673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -942}
+  m_AnchoredPosition: {x: 0, y: -1038}
   m_SizeDelta: {x: 1169.6824, y: 475.7135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92011007
@@ -728,8 +728,8 @@ MonoBehaviour:
     owned, it is recommended that visitors secure prior schedules or appointments
     first, especially for group visitors and guests.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1771,9 +1771,9 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &380566063
 MonoBehaviour:
@@ -2633,7 +2633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &594280930
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2650,9 +2650,9 @@ RectTransform:
   m_Father: {fileID: 1140761148}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 650, y: -350}
   m_SizeDelta: {x: 1300, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594280931
@@ -2771,7 +2771,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2053198473}
   m_Direction: 2
   m_Value: 0.9999998
-  m_Size: 0.35294178
+  m_Size: 0.3363271
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5116,7 +5116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &839515094
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5133,9 +5133,9 @@ RectTransform:
   m_Father: {fileID: 1140761148}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 650, y: -350}
   m_SizeDelta: {x: 1300, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839515095
@@ -5686,7 +5686,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -1783}
+  m_AnchoredPosition: {x: 641.5, y: -1275}
   m_SizeDelta: {x: 1114.5282, y: 396.6606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929827396
@@ -6398,8 +6398,8 @@ RectTransform:
   m_Father: {fileID: 441608756}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.713649}
+  m_AnchorMax: {x: 1, y: 0.99999994}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6815,9 +6815,9 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1244833205
 MonoBehaviour:
@@ -6997,7 +6997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -119.99994}
+  m_AnchoredPosition: {x: 0, y: -162.83}
   m_SizeDelta: {x: 1169.6824, y: 325.666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251102529
@@ -7042,8 +7042,8 @@ MonoBehaviour:
     swimming pool area is also a faithful representation of Roman architecture, surrounded
     by columns with intricate sculptural designs and an all-white theme.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9358,8 +9358,8 @@ RectTransform:
   m_Father: {fileID: 1489274372}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.73297876}
+  m_AnchorMax: {x: 1, y: 0.9999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9561,8 +9561,8 @@ MonoBehaviour:
     Farm. While the road leading up to the farm may be off-road, the reward is a
     stunning and unobstructed view.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10619,8 +10619,8 @@ MonoBehaviour:
     This picturesque setting provides campers with ample space to relax and unwind
     amidst nature?s beauty.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10730,7 +10730,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 157}
+  m_AnchoredPosition: {x: 0, y: 201}
   m_SizeDelta: {x: 1169.6824, y: 353.0164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1910345460
@@ -10795,8 +10795,8 @@ MonoBehaviour:
     area. *The church was not affected by the Lahar flow as the area is situated
     on higher ground.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10912,7 +10912,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.0003}
-  m_SizeDelta: {x: 0, y: 1983.3298}
+  m_SizeDelta: {x: 0, y: 2081.307}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1910396130
 MonoBehaviour:
@@ -11126,7 +11126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -483.15527}
+  m_AnchoredPosition: {x: 0, y: -539}
   m_SizeDelta: {x: 1169.6824, y: 287.3269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009534604
@@ -11173,8 +11173,8 @@ MonoBehaviour:
     a spacious area with little landscape and a shrine depicting the image of crucified
     Christ in Golgotha. *There used to be an old bell in the front yard too. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11476,8 +11476,8 @@ MonoBehaviour:
     also has some activities for visitors to enjoy. Other facilities include a farm,
     a basketball court, function halls, and ATV.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11828,7 +11828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 17.358522}
+  m_AnchoredPosition: {x: 0, y: -445}
   m_SizeDelta: {x: 1169.6824, y: 475.7135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2109748743
@@ -11886,8 +11886,8 @@ MonoBehaviour:
     Road in Barangay Lourdes, Bamban, Tarlac. Bamban and Bamban Hills used to be
     one of the toughest battlefields of Luzon during WWII.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12028,8 +12028,8 @@ MonoBehaviour:
     the city, this 10-hectare resort surrounded by nature lets you have a romantic,
     elegant and tranquil relaxation.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
