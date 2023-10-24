@@ -339,8 +339,8 @@ MonoBehaviour:
     of man for God. Located at the heart of town abundant with ylang-ylang trees,
     the cafe not only serves nourishing food for the tummy but also for the soul.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1529,10 +1529,10 @@ MonoBehaviour:
     Center. In 2015, Kape Agape was born. Even as a cafe, it continues its advocacy
     to teach its town people about caring for the environment, developing tourism
     and mental health. The interior is a venue for arts, painting or photography
-    alike. Of course sharing the word of God continues.\
+    alike. Of course sharing the word of God continues.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1804,8 +1804,8 @@ MonoBehaviour:
     flatlands and perennial tropical weather suitable for the cultivation of Ylang
     Ylang trees.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5512,7 +5512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 437.00003, y: -1644.5}
+  m_AnchoredPosition: {x: 436.0001, y: -1661.2001}
   m_SizeDelta: {x: 604.0147, y: 453.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1296567063
@@ -7645,7 +7645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.008178711, y: -89}
+  m_AnchoredPosition: {x: 0, y: -116}
   m_SizeDelta: {x: 1169.6824, y: 381.6026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1731035684
@@ -7692,8 +7692,8 @@ MonoBehaviour:
     at Poblacion St., Anao 2310 Tarlac, Philippines, Titular: St. John Nepomucene,
     Feast on May 16 under the Vicariate of St. Rose of Lima.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8984,7 +8984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 946, y: -1646.3}
+  m_AnchoredPosition: {x: 945, y: -1663}
   m_SizeDelta: {x: 338, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139517924
@@ -9089,8 +9089,8 @@ MonoBehaviour:
     the main road as ease for access. The Ylang Ylang tree is understood to start
     flowering by 4-5 years after. The peak season is every January to May.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

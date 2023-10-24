@@ -144,10 +144,6 @@ public class ChangeScene : MonoBehaviour
 
 
 
-    public void MenuScreen()
-    {
-        SceneManager.LoadScene("MenuScene");
-    }
-
+  
 }
 

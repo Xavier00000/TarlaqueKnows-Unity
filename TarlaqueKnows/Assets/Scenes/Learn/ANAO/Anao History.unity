@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -790}
+  m_AnchoredPosition: {x: 0, y: -914}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &37609569
@@ -464,8 +464,8 @@ MonoBehaviour:
   m_text: Despite being the smallest in population and land area, Anao is classified
     as one of the fifth class municipalities in the Province of Tarlac.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5137,7 +5137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -162.99998}
+  m_AnchoredPosition: {x: 0, y: -186}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &596120162
@@ -5186,8 +5186,8 @@ MonoBehaviour:
     of Paniqui, which was also approved. In 1899, Anao regained its municipal status
     for the second time and became a 7th class municipality.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6215,8 +6215,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1180136932}
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.33519098
+  m_Value: 1
+  m_Size: 0.3029082
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12240,7 +12240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -493}
+  m_AnchoredPosition: {x: 0, y: -548}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1553546361
@@ -12289,8 +12289,8 @@ MonoBehaviour:
     town's name is that it comes from anahaw, a type of palm tree that was abundant
     in the area during its early history.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12996,7 +12996,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00010177816}
-  m_SizeDelta: {x: 0, y: 2088.3916}
+  m_SizeDelta: {x: 0, y: 2310.964}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1811345442
 MonoBehaviour:
@@ -16621,7 +16621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 289}
+  m_AnchoredPosition: {x: 0, y: 352}
   m_SizeDelta: {x: 1224.6187, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &2144484519
@@ -16655,8 +16655,8 @@ MonoBehaviour:
     creek banks and began clearing the land for agriculture, attracting more people
     from the north to settle in the area.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
