@@ -497,8 +497,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1190207496}
   m_HandleRect: {fileID: 1190207495}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.36120632
+  m_Value: 0.9999997
+  m_Size: 0.2992322
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f6bd615a6481ea849a818e00c37ccae3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_ShowMaskGraphic: 1
 --- !u!114 &103466372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,8 +678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000026226, y: -867.8794}
-  m_SizeDelta: {x: 1300, y: 2129.7588}
+  m_AnchoredPosition: {x: 0.000026226, y: -108.34021}
+  m_SizeDelta: {x: 1300, y: 610.6804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &131478179
 GameObject:
@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 131478184}
   - component: {fileID: 131478183}
   - component: {fileID: 131478182}
-  - component: {fileID: 131478181}
+  - component: {fileID: 131478185}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -722,18 +722,6 @@ RectTransform:
   m_AnchoredPosition: {x: 199, y: -225}
   m_SizeDelta: {x: 131.367, y: 110.9431}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &131478181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131478179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73a6a31d6ae449449d13129aa3482b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &131478182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,17 +766,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 131478181}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 131478185}
+        m_TargetAssemblyTypeName: LearnChangeScene, Assembly-CSharp
+        m_MethodName: AnaoTopic
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &131478183
 MonoBehaviour:
@@ -828,6 +816,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131478179}
   m_CullTransparentMesh: 1
+--- !u!114 &131478185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131478179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136679318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,8 +1180,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1463321303}
   m_HandleRect: {fileID: 1463321302}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.36120632
+  m_Value: 0.9999997
+  m_Size: 0.2992322
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1529,7 +1529,7 @@ MonoBehaviour:
     Center. In 2015, Kape Agape was born. Even as a cafe, it continues its advocacy
     to teach its town people about caring for the environment, developing tourism
     and mental health. The interior is a venue for arts, painting or photography
-    alike. Of course sharing the word of God continues.
+    alike. Of course sharing the word of God continues.\
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -3639,8 +3639,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1180136932}
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.36120632
+  m_Value: 0.9999997
+  m_Size: 0.2992322
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3749,7 +3749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4456,14 +4456,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34117648, g: 0.80784315, b: 0.89411765, a: 1}
+  m_Color: {r: 0.16470589, g: 0.2901961, b: 0.37254903, a: 0.62352943}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29bb1699c56a026429003b72f9732b1d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c1800bbecbdeab43804614f553ac5ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4741,6 +4741,7 @@ GameObject:
   - component: {fileID: 1183352740}
   - component: {fileID: 1183352739}
   - component: {fileID: 1183352738}
+  - component: {fileID: 1183352741}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -4767,8 +4768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -289.94867}
+  m_SizeDelta: {x: 1300, y: 579.8973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183352738
 MonoBehaviour:
@@ -4813,7 +4814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4838,6 +4839,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183352736}
   m_CullTransparentMesh: 1
+--- !u!114 &1183352741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183352736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1190207494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5181,7 +5195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5218,6 +5232,7 @@ GameObject:
   - component: {fileID: 1251135261}
   - component: {fileID: 1251135260}
   - component: {fileID: 1251135259}
+  - component: {fileID: 1251135262}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -5244,8 +5259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -289.94867}
+  m_SizeDelta: {x: 1300, y: 579.8973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251135259
 MonoBehaviour:
@@ -5290,7 +5305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5315,6 +5330,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251135257}
   m_CullTransparentMesh: 1
+--- !u!114 &1251135262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251135257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1264911018
 GameObject:
   m_ObjectHideFlags: 0
@@ -5380,6 +5408,7 @@ GameObject:
   - component: {fileID: 1294271191}
   - component: {fileID: 1294271190}
   - component: {fileID: 1294271189}
+  - component: {fileID: 1294271192}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -5406,8 +5435,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -289.94867}
+  m_SizeDelta: {x: 1300, y: 579.8973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294271189
 MonoBehaviour:
@@ -5452,7 +5481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5477,6 +5506,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294271187}
   m_CullTransparentMesh: 1
+--- !u!114 &1294271192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294271187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1296567061
 GameObject:
   m_ObjectHideFlags: 0
@@ -8924,7 +8966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

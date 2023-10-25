@@ -174,6 +174,7 @@ Transform:
   - {fileID: 2021069670}
   - {fileID: 520311167}
   - {fileID: 1613687110}
+  - {fileID: 19583796}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -312,6 +313,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17273863}
   m_CullTransparentMesh: 1
+--- !u!1 &19583795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 19583796}
+  - component: {fileID: 19583797}
+  m_Layer: 0
+  m_Name: BambanHist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &19583796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19583795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19583797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19583795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The municipality of Bamban, established during the Spanish regime, was
+      originally founded out of a vast jungle inhabited by mixed settlers comprising
+      the aborigines or Negritos, the Lambal Aetas, and Christian native immigrants
+      from Pampanga and the Tagalog provinces. As early as 1700, the Agustinian Missionaries
+      from Mabalacat, Pampanga came to spread the Roman Catholic faith and later
+      to civilize the natives.
+
+
+      On August 16, 1876, the ecclesiastical authorities
+      officially established the Mission de Pueblos. The Augustinian Recollects or
+      Orden Recoletos de San Agustin was in charge of the Mission. The Missionaries
+      received support from the Spanish Government, and in 1800, the Mission or Settlement
+      received official recognition from the Spanish Government and was named the
+      town Bamban, which was derived from an aquatic plant found abundant in the
+      fertile valleys. Bamban was originally part of Pampanga, with Villa de Bacolor
+      as its capital. However, with the creation of the Province of Tarlac in 1894,
+      Bamban was separated from its mother province of Pampanga and became part of
+      Tarlac province.
+
+
+      Bamban played a historical role during the Filipino-Spanish
+      and later the Filipino-American revolutions when, on June 6, 1899, it was proclaimed
+      the revolutionary capital of the Philippines by Gen. Emilio Aguinaldo. In recognition
+      of this historical event, the local legislative body, the Sangguniang Bayan,
+      passed Special Ordinance No. 1, series of 1999, declaring June 6 as Bamban
+      Day.'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 
+    Object: {fileID: 0}
 --- !u!1 &22483869
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22483870
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7099,7 +7177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &884615205
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8332,8 +8410,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.58, y: -702.7}
-  m_SizeDelta: {x: 427.15, y: 70.323}
+  m_AnchoredPosition: {x: -194.96, y: -715}
+  m_SizeDelta: {x: 389.9104, y: 70.323}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1081015240
 MonoBehaviour:
@@ -9461,7 +9539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TARLAC PLAZUELA
+  m_text: BAMBAN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -10505,8 +10583,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 219.28223, y: -702.7001}
-  m_SizeDelta: {x: 438.5642, y: 70.323}
+  m_AnchoredPosition: {x: 200.16, y: -715}
+  m_SizeDelta: {x: 400.3295, y: 70.323}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1405173918
 MonoBehaviour:
@@ -12645,10 +12723,10 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: 'Bamban is consists of 15 barangays:'
+    Text: 'Bamban is consisting of 15 barangays:'
     Object: {fileID: 0}
   - Language: Tagalog
-    Text: 
+    Text: "\rAng Bamban ay binubuo ng 15 barangay:"
     Object: {fileID: 0}
 --- !u!1 &1658051661
 GameObject:
@@ -12956,8 +13034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -632.37964}
-  m_SizeDelta: {x: 1224.6187, y: 70.323}
+  m_AnchoredPosition: {x: 0, y: -644.67944}
+  m_SizeDelta: {x: 1117.8545, y: 70.323}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1752773561
 MonoBehaviour:
@@ -12997,7 +13075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bamban is consists of 15 barangays:'
+  m_text: 'Bamban is consisting of 15 barangays:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -16953,8 +17031,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 503}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
+  m_AnchoredPosition: {x: 0, y: 516}
+  m_SizeDelta: {x: 1115.2507, y: 158.063}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &2144484519
 MonoBehaviour:
@@ -16976,12 +17054,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The municipality of Bamban, established during the Spanish regime, was
+  m_text: 'The municipality of Bamban, established during the Spanish regime, was
     originally founded out of a vast jungle inhabited by mixed settlers comprising
     the aborigines or Negritos, the Lambal Aetas, and Christian native immigrants
     from Pampanga and the Tagalog provinces. As early as 1700, the Agustinian Missionaries
     from Mabalacat, Pampanga came to spread the Roman Catholic faith and later to
     civilize the natives.
+
+
+    On August 16, 1876, the ecclesiastical authorities
+    officially established the Mission de Pueblos. The Augustinian Recollects or
+    Orden Recoletos de San Agustin was in charge of the Mission. The Missionaries
+    received support from the Spanish Government, and in 1800, the Mission or Settlement
+    received official recognition from the Spanish Government and was named the town
+    Bamban, which was derived from an aquatic plant found abundant in the fertile
+    valleys. Bamban was originally part of Pampanga, with Villa de Bacolor as its
+    capital. However, with the creation of the Province of Tarlac in 1894, Bamban
+    was separated from its mother province of Pampanga and became part of Tarlac
+    province.
+
+
+    Bamban played a historical role during the Filipino-Spanish and
+    later the Filipino-American revolutions when, on June 6, 1899, it was proclaimed
+    the revolutionary capital of the Philippines by Gen. Emilio Aguinaldo. In recognition
+    of this historical event, the local legislative body, the Sangguniang Bayan,
+    passed Special Ordinance No. 1, series of 1999, declaring June 6 as Bamban Day.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -17070,10 +17167,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: BambanH1
+  translationName: BambanHist
   FallbackText: The municipality of Bamban, established during the Spanish regime,
     was originally founded out of a vast jungle inhabited by mixed settlers comprising
     the aborigines or Negritos, the Lambal Aetas, and Christian native immigrants
     from Pampanga and the Tagalog provinces. As early as 1700, the Agustinian Missionaries
     from Mabalacat, Pampanga came to spread the Roman Catholic faith and later to
-    civilize the natives.
+    civilize the natives.  On August 16, 1876, the ecclesiastical authorities officially
+    established the Mission de Pueblos. The Augustinian Recollects or Orden Recoletos
+    de San Agustin was in charge of the Mission. The Missionaries received support
+    from the Spanish Government, and in 1800, the Mission or Settlement received
+    official recognition from the Spanish Government and was named the town Bamban,
+    which was derived from an aquatic plant found abundant in the fertile valleys.
+    Bamban was originally part of Pampanga, with Villa de Bacolor as its capital.
+    However, with the creation of the Province of Tarlac in 1894, Bamban was separated
+    from its mother province of Pampanga and became part of Tarlac province.  Bamban
+    played a historical role during the Filipino-Spanish and later the Filipino-American
+    revolutions when, on June 6, 1899, it was proclaimed the revolutionary capital
+    of the Philippines by Gen. Emilio Aguinaldo. In recognition of this historical
+    event, the local legislative body, the Sangguniang Bayan, passed Special Ordinance
+    No. 1, series of 1999, declaring June 6 as Bamban Day.

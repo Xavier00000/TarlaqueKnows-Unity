@@ -681,13 +681,14 @@ RectTransform:
   - {fileID: 171403088}
   - {fileID: 1822282886}
   - {fileID: 333732383}
+  - {fileID: 211150462}
   m_Father: {fileID: 1001847923}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.0003}
-  m_SizeDelta: {x: 0, y: 1091.9517}
+  m_SizeDelta: {x: 0, y: 1178.2778}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &168492901
 MonoBehaviour:
@@ -847,6 +848,157 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171403087}
+  m_CullTransparentMesh: 1
+--- !u!1 &186370810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186370811}
+  - component: {fileID: 186370812}
+  m_Layer: 0
+  m_Name: CamilingTRDesc_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &186370811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186370810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264911020}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &186370812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186370810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The Maria Clara Town Plaza is a spacious area with sports fields, a park,
+      a playground, an auditorium, and a large grassy field. It''s the second-largest
+      park plaza in the province, covering four hectares of land. It''s used for
+      various activities by the municipality and local schools in Camiling.
+
+      
+
+      On
+      one side of the plaza, you can find vendors selling products from Camiling,
+      including agricultural supplies, traditional items like Salakot and Balanggot,
+      and wooden furniture. There are also watermelon vendors and sellers offering
+      beautiful ornamental plants at affordable prices along the plaza''s edge.'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang Maria Clara Town Plaza ay isang malawak na lugar na may mga sports
+      field, parke, playground, auditorium, at malawak na damuhan. Ito ang pangalawang
+      pinakamalawak na park plaza sa lalawigan, na sumasakop sa apat na ektaryang
+      lupa. Ginagamit ito para sa iba''t ibang mga aktibidad ng munisipyo at mga
+      paaralan sa Camiling.
+
+      
+
+      Sa isang bahagi ng plaza, makakakita
+      ka ng mga nagtitinda ng mga produkto mula sa Camiling, kabilang na ang mga
+      kagamitan sa pagsasaka, tradisyonal na kagamitan tulad ng Salakot at Balanggot,
+      at kahoy na mga kasangkapan. Mayroon din mga nagtitinda ng pakwan at mga nag-aalok
+      ng magagandang ornamental na halaman sa abot-kayang presyo sa gilid ng plaza.'
+    Object: {fileID: 0}
+--- !u!1 &211150461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211150462}
+  - component: {fileID: 211150464}
+  - component: {fileID: 211150463}
+  m_Layer: 0
+  m_Name: Image_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &211150462
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211150461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 168492900}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1009.14453, y: -547.4}
+  m_SizeDelta: {x: 356.7766, y: 480.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &211150463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211150461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 362786b357f12f149b00e23b9153d826, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &211150464
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211150461}
   m_CullTransparentMesh: 1
 --- !u!1 &212564303
 GameObject:
@@ -1082,7 +1234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -394.72998}
+  m_AnchoredPosition: {x: 0, y: -392}
   m_SizeDelta: {x: 1169.6824, y: 302.489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333732384
@@ -1097,14 +1249,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CamilingTR6
-  FallbackText: The Saint Michael the Archangel Parish Church of Camiling was built
-    in 2009. With a total floor area of 2,200 square meters, the church features
-    a plethora of intricately designed stained glass windows depicting, aside from
-    Jesus Christ and the Virgin Mary, the angels. It is located besides the Camiling
-    Catholic School. It is also one of the most attractive church in Tarlac. The
-    Camiling Catholic School and the Camiling Catholic Church ruins are beside the
-    said church.
+  translationName: CamilingTRDesc_2
+  FallbackText: Pias Falls can be found in Barangay Papaac, Camiling, Tarlac. It's
+    one of the lesser-known waterfalls in Tarlac, mainly because it truly shines
+    in the rainy season. While its water source may be linked to the famous Ubod
+    Falls or Timmanguyob Falls, it doesn't flow strongly enough to create a spectacular
+    cascade during the summer.
 --- !u!114 &333732385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1125,14 +1275,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pias Falls is located in Tarlac province, Barangay Papaac Camiling. Amongst
-    the waterfalls in Tarlac, this is probably the least famous because its beauty
-    only comes out during the rainy season. Its waters could be from the famous Ubod
-    Falls or Timmanguyob Falls but not enough to create a perfect torrent during
-    summer. '
+  m_text: Pias Falls can be found in Barangay Papaac, Camiling, Tarlac. It's one
+    of the lesser-known waterfalls in Tarlac, mainly because it truly shines in the
+    rainy season. While its water source may be linked to the famous Ubod Falls or
+    Timmanguyob Falls, it doesn't flow strongly enough to create a spectacular cascade
+    during the summer.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1476,7 +1626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -1353}
+  m_AnchoredPosition: {x: 641.5, y: -1501}
   m_SizeDelta: {x: 1024, y: 390}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431107130
@@ -3540,16 +3690,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CamilingTR4
-  FallbackText: A wide plaza complex that features various sports fields, a park,
-    a playground, an auditorium and a wide grassy field. Maria Clara Town Plaza is
-    the second widest park plaza in the province which composed of four hectares
-    of lands suitable for some activities celebrated by the municipality and some
-    schools of Camiling. At the side of the municipal plaza you can find vendors
-    selling products of Camiling. From farming supplies to cultural items like Salakot
-    and Balanggot. There are also dealers of wood furniture. You can also find watermelon
-    vendors and beautiful Ornamental plants selling at the side of the plaza with
-    low prices.
+  translationName: CamilingTRDesc_1
+  FallbackText: The Maria Clara Town Plaza is a spacious area with sports fields,
+    a park, a playground, an auditorium, and a large grassy field. It's the second-largest
+    park plaza in the province, covering four hectares of land. It's used for various
+    activities by the municipality and local schools in Camiling.  On one side of
+    the plaza, you can find vendors selling products from Camiling, including agricultural
+    supplies, traditional items like Salakot and Balanggot, and wooden furniture.
+    There are also watermelon vendors and sellers offering beautiful ornamental plants
+    at affordable prices along the plaza's edge.
 --- !u!114 &807486438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3570,17 +3719,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A wide plaza complex that features various sports fields, a park, a playground,
-    an auditorium and a wide grassy field. Maria Clara Town Plaza is the second widest
-    park plaza in the province which composed of four hectares of lands suitable
-    for some activities celebrated by the municipality and some schools of Camiling.
-    At the side of the municipal plaza you can find vendors selling products of Camiling.
-    From farming supplies to cultural items like Salakot and Balanggot. There are
-    also dealers of wood furniture. You can also find watermelon vendors and beautiful
-    Ornamental plants selling at the side of the plaza with low prices.
+  m_text: 'The Maria Clara Town Plaza is a spacious area with sports fields, a park,
+    a playground, an auditorium, and a large grassy field. It''s the second-largest
+    park plaza in the province, covering four hectares of land. It''s used for various
+    activities by the municipality and local schools in Camiling.
+
+    
+
+    On
+    one side of the plaza, you can find vendors selling products from Camiling, including
+    agricultural supplies, traditional items like Salakot and Balanggot, and wooden
+    furniture. There are also watermelon vendors and sellers offering beautiful ornamental
+    plants at affordable prices along the plaza''s edge.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4066,6 +4219,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888856361}
   m_CullTransparentMesh: 1
+--- !u!1 &898628024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 898628025}
+  - component: {fileID: 898628027}
+  - component: {fileID: 898628026}
+  m_Layer: 0
+  m_Name: Image_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &898628025
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898628024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1086858296}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1005.6786, y: -524.7694}
+  m_SizeDelta: {x: 360.0956, y: 454.32}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &898628026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898628024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8b5e191b9fa5b0f42895b4d19abf8c2f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &898628027
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898628024}
+  m_CullTransparentMesh: 1
 --- !u!1 &931338052
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,6 +4583,146 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993197725}
   m_CullTransparentMesh: 1
+--- !u!1 &997553817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997553818}
+  - component: {fileID: 997553819}
+  m_Layer: 0
+  m_Name: CamilingTRDesc_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &997553818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997553817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264911020}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &997553819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997553817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Pias Falls can be found in Barangay Papaac, Camiling, Tarlac. It's one
+      of the lesser-known waterfalls in Tarlac, mainly because it truly shines in
+      the rainy season. While its water source may be linked to the famous Ubod Falls
+      or Timmanguyob Falls, it doesn't flow strongly enough to create a spectacular
+      cascade during the summer.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Matatagpuan ang Pias Falls sa Barangay Papaac, Camiling, Tarlac. Isa ito
+      sa mga hindi gaanong kilalang mga talon sa Tarlac, pangunahin dahil mas naii-emphasize
+      ang kanyang kagandahan tuwing tag-ulan. Bagaman maaaring ito'y mula sa sikat
+      na Ubod Falls o Timmanguyob Falls, hindi ito gaanong malakas na umagos upang
+      makabuo ng kahanga-hangang talon tuwing tag-araw.
+    Object: {fileID: 0}
+--- !u!1 &1000537277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1000537278}
+  - component: {fileID: 1000537279}
+  m_Layer: 0
+  m_Name: CamilingTRDesc_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1000537278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000537277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264911020}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1000537279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000537277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The Catholic Church of Camiling, originally constructed in the 18th century,
+      was damaged by a major earthquake in the 1880s and subsequently rebuilt. Both
+      the centuries-old church and convent have been recognized as historical sites
+      by the National Historical Commission in 1994. Notably, it was at this church
+      where General Pedro Pedroche and his men met their demise at the hands of Francisco
+      Makabulos. The present church was temporarily relocated to the gymnasium of
+      Camiling Catholic School before a new church was built next to the old ruins.
+      There were plans to convert the old church into a museum. \r\n\r\nThis is the
+      oldest church ever built in Tarlac province. It also has an underground war
+      tunnel that spans 500 meters, dating back to the colonial era, with an exit
+      leading to a remote area near Camiling River. This tunnel was used as a hiding
+      place by the Japanese during World War II, although most of it has since collapsed."
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang Simbahang Katoliko ng Camiling, na orihinal na itinayo noong ika-18
+      siglo, ay nasira dahil sa isang malakas na lindol noong dekada 1880 at muling
+      ipinatayo. Kinikilala bilang mga makasaysayang pook ng National Historical
+      Commission noong 1994 ang parehong siglo-na simbahan at kumbento. Hindi maitatanggi
+      na ito''y ang simbahan kung saan nagwakas ang buhay ni Heneral Pedro Pedroche
+      at kanyang mga kasamahan sa kamay ni Francisco Makabulos. Ang kasalukuyang
+      simbahan ay pansamantalang nailipat sa gymnasium ng Camiling Catholic School
+      bago itinayo ang isang bagong simbahan malapit sa mga lumang labi. May mga
+      plano rin na gawing museo ang lumang simbahan.
+
+      
+
+      Ito ang pinakamatandang
+      simbahan na itinayo sa lalawigan ng Tarlac. Mayroon din itong isang 500 metro
+      na underground na daanang pandigma mula pa noong panahon ng kolonyalismo, na
+      may paglabas patungo sa isang liblib na lugar malapit sa Ilog Camiling. Ginamit
+      ang tulay na ito bilang kanlungan ng mga Hapones noong World War II, bagamat
+      karamihan nito ay bumagsak na mula noon.'
+    Object: {fileID: 0}
 --- !u!1 &1001847922
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,8 +4849,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -508}
-  m_SizeDelta: {x: 684.3369, y: 454.7038}
+  m_AnchoredPosition: {x: 431, y: -524}
+  m_SizeDelta: {x: 681.847, y: 452.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1053985745
 MonoBehaviour:
@@ -4873,6 +5242,7 @@ RectTransform:
   - {fileID: 1184199336}
   - {fileID: 1053985744}
   - {fileID: 1979151473}
+  - {fileID: 898628025}
   m_Father: {fileID: 757429956}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5229,8 +5599,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 931338054}
   m_HandleRect: {fileID: 931338053}
   m_Direction: 2
-  m_Value: 0.9999994
-  m_Size: 0.641054
+  m_Value: 0.99999946
+  m_Size: 0.5940873
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6072,6 +6442,10 @@ Transform:
   - {fileID: 2086098362}
   - {fileID: 618582903}
   - {fileID: 1659025423}
+  - {fileID: 1324946179}
+  - {fileID: 186370811}
+  - {fileID: 997553818}
+  - {fileID: 1000537278}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6214,6 +6588,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290151517}
   m_CullTransparentMesh: 1
+--- !u!1 &1324946178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1324946179}
+  - component: {fileID: 1324946180}
+  m_Layer: 0
+  m_Name: CamilingTRDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1324946179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324946178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264911020}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1324946180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324946178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The Saint Michael the Archangel Parish Church in Camiling was constructed
+      in 2009. The church has a total floor space of 2,200 square meters and is adorned
+      with beautifully crafted stained glass windows, showcasing not only Jesus Christ
+      and the Virgin Mary but also various angels.
+
+      
+
+      This church is
+      situated next to the Camiling Catholic School and is recognized as one of the
+      most appealing churches in Tarlac. The Camiling Catholic School and the remnants
+      of the Camiling Catholic Church are located adjacent to this church.'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang Simbahang Parokya ng San Miguel Arkangel sa Camiling ay itinayo noong
+      2009. May kabuuang lawak na 2,200 metro kwadrado ang iglesya, at ito''y may
+      magagandang disenyo sa mga bintanang may stained glass, kung saan ipinapakita
+      ang hindi lamang si Hesukristo at Birheng Maria, kundi pati na rin ang mga
+      anghel.
+
+      
+
+      Matatagpuan ito malapit sa Camiling Catholic School
+      at kilala ito bilang isa sa mga pinakamaganda at atraktibong simbahan sa Tarlac.
+      Katabi nito ang paaralan at mga nalalabing bahagi ng dating Camiling Catholic
+      Church.'
+    Object: {fileID: 0}
 --- !u!1 &1468468763
 GameObject:
   m_ObjectHideFlags: 0
@@ -8129,8 +8576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -533}
-  m_SizeDelta: {x: 650.6765, y: 432.3384}
+  m_AnchoredPosition: {x: 454, y: -548}
+  m_SizeDelta: {x: 724.3761, y: 481.3076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822282887
 MonoBehaviour:
@@ -8880,19 +9327,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CamilingTR1
-  FallbackText: A historical building built around 18th century, the Catholic Church
-    of Camiling was destroyed and rebuilt in the 1880s after a surge of major earthquake.
-    The centuries-old Roman Catholic Church and Convent have been declared historical
-    sites by the National Historical Commission in 1994. The Church was the death
-    place of General Pedro Pedroche and his men in the hands of Francisco Makabulos.
-    The current church had been transferred to the then Camiling Catholic School's
-    Gymnasium before the construction of a new Camiling church were constructed beside
-    the old ruins. The old church was then planned to be transformed into a museum.
-    This is the oldest church ever built in the province of Tarlac. It has a 500
-    meter war tunnel underground constructed since the colonial era with an exit
-    going to a remote area near Camiling River and was used by the Japanese as hiding
-    spot during the World War II but most of its part has then caved in.
+  translationName: CamilingTRDesc_3
+  FallbackText: The Catholic Church of Camiling, originally constructed in the 18th
+    century, was damaged by a major earthquake in the 1880s and subsequently rebuilt.
+    Both the centuries-old church and convent have been recognized as historical
+    sites by the National Historical Commission in 1994. Notably, it was at this
+    church where General Pedro Pedroche and his men met their demise at the hands
+    of Francisco Makabulos. The present church was temporarily relocated to the gymnasium
+    of Camiling Catholic School before a new church was built next to the old ruins.
+    There were plans to convert the old church into a museum.   This is the oldest
+    church ever built in Tarlac province. It also has an underground war tunnel that
+    spans 500 meters, dating back to the colonial era, with an exit leading to a
+    remote area near Camiling River. This tunnel was used as a hiding place by the
+    Japanese during World War II, although most of it has since collapsed.
 --- !u!114 &1979151475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8913,21 +9360,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A historical building built around 18th century, the Catholic Church of
-    Camiling was destroyed and rebuilt in the 1880s after a surge of major earthquake.
-    The centuries-old Roman Catholic Church and Convent have been declared historical
-    sites by the National Historical Commission in 1994. The Church was the death
-    place of General Pedro Pedroche and his men in the hands of Francisco Makabulos.
-    The current church had been transferred to the then Camiling Catholic School's
-    Gymnasium before the construction of a new Camiling church were constructed beside
-    the old ruins. The old church was then planned to be transformed into a museum.
-    This is the oldest church ever built in the province of Tarlac. It has a 500
-    meter war tunnel underground constructed since the colonial era with an exit
-    going to a remote area near Camiling River and was used by the Japanese as hiding
-    spot during the World War II but most of its part has then caved in.
+  m_text: "The Catholic Church of Camiling, originally constructed in the 18th century,
+    was damaged by a major earthquake in the 1880s and subsequently rebuilt. Both
+    the centuries-old church and convent have been recognized as historical sites
+    by the National Historical Commission in 1994. Notably, it was at this church
+    where General Pedro Pedroche and his men met their demise at the hands of Francisco
+    Makabulos. The present church was temporarily relocated to the gymnasium of Camiling
+    Catholic School before a new church was built next to the old ruins. There were
+    plans to convert the old church into a museum. \r\n\r\nThis is the oldest church
+    ever built in Tarlac province. It also has an underground war tunnel that spans
+    500 meters, dating back to the colonial era, with an exit leading to a remote
+    area near Camiling River. This tunnel was used as a hiding place by the Japanese
+    during World War II, although most of it has since collapsed."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9286,15 +9733,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Saint Michael the Archangel Parish Church of Camiling was built in
-    2009. With a total floor area of 2,200 square meters, the church features a plethora
-    of intricately designed stained glass windows depicting, aside from Jesus Christ
-    and the Virgin Mary, the angels. It is located besides the Camiling Catholic
-    School. It is also one of the most attractive church in Tarlac. The Camiling
-    Catholic School and the Camiling Catholic Church ruins are beside the said church.
+  m_text: 'The Saint Michael the Archangel Parish Church in Camiling was constructed
+    in 2009. The church has a total floor space of 2,200 square meters and is adorned
+    with beautifully crafted stained glass windows, showcasing not only Jesus Christ
+    and the Virgin Mary but also various angels.
+
+    
+
+    This church is situated
+    next to the Camiling Catholic School and is recognized as one of the most appealing
+    churches in Tarlac. The Camiling Catholic School and the remnants of the Camiling
+    Catholic Church are located adjacent to this church.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9380,11 +9832,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CamilingTR5
-  FallbackText: The Saint Michael the Archangel Parish Church of Camiling was built
-    in 2009. With a total floor area of 2,200 square meters, the church features
-    a plethora of intricately designed stained glass windows depicting, aside from
-    Jesus Christ and the Virgin Mary, the angels. It is located besides the Camiling
-    Catholic School. It is also one of the most attractive church in Tarlac. The
-    Camiling Catholic School and the Camiling Catholic Church ruins are beside the
-    said church.
+  translationName: CamilingTRDesc
+  FallbackText: The Saint Michael the Archangel Parish Church in Camiling was constructed
+    in 2009. The church has a total floor space of 2,200 square meters and is adorned
+    with beautifully crafted stained glass windows, showcasing not only Jesus Christ
+    and the Virgin Mary but also various angels.  This church is situated next to
+    the Camiling Catholic School and is recognized as one of the most appealing churches
+    in Tarlac. The Camiling Catholic School and the remnants of the Camiling Catholic
+    Church are located adjacent to this church.

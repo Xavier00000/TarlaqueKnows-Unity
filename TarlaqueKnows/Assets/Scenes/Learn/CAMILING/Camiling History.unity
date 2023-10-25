@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Tagalog
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: English
   saveLoad: 1
@@ -173,6 +173,7 @@ Transform:
   - {fileID: 1990794972}
   - {fileID: 2021069670}
   - {fileID: 520311167}
+  - {fileID: 865185516}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2675,6 +2676,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375648728}
+  m_CullTransparentMesh: 1
+--- !u!1 &376311810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 376311811}
+  - component: {fileID: 376311813}
+  - component: {fileID: 376311812}
+  m_Layer: 0
+  m_Name: Image_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &376311811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376311810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 343.351, y: -424.1031}
+  m_SizeDelta: {x: 369.2999, y: 369.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &376311812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376311810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4ed07b98d5349d045bc9e76b14e6689b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &376311813
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376311810}
   m_CullTransparentMesh: 1
 --- !u!1 &387709741
 GameObject:
@@ -5288,168 +5365,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642116313}
   m_CullTransparentMesh: 1
---- !u!1 &657697327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 657697328}
-  - component: {fileID: 657697331}
-  - component: {fileID: 657697330}
-  - component: {fileID: 657697329}
-  m_Layer: 0
-  m_Name: Text (TMP)_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &657697328
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657697327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811345441}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -687.0001}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
-  m_Pivot: {x: 0.5, y: 0.49999964}
---- !u!114 &657697329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657697327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationName: CamillingH4
-  FallbackText: In 1838, Camiling became an independent town, formally separated
-    from the mother town of Paniqui and with Don Vicente Galsim as the first Governadorcillo.
-    Thirty-eight (38) others followed him. Don Buenaventura Torres was the last to
-    serve under the Spanish regime and the first Presidente Municipal under the Revolutionary
-    Government by Aguinaldo. Of historical importance, the Camiling Catholic Convent
-    was the death place of Gen. Pedro Pedroche and his men for being accused as rebels.
---- !u!114 &657697330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657697327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Noong 1838, naging isang independiyenteng bayan ang Camiling, opisyal na
-    hiwalay mula sa inang bayan ng Paniqui, at si Don Vicente Galsim ang unang Governadorcillo.
-    Sumunod sa kanya ang tatlumpu't walong (38) iba pa. Si Don Buenaventura Torres
-    ang huling naglingkod sa ilalim ng pamumuno ng mga Kastila at unang Presidente
-    Municipal sa ilalim ng Revolutionary Government ni Aguinaldo. Sa kontekstong
-    pangkasaysayan, ang Convento Katoliko ng Camiling ang naging lugar ng kamatayan
-    ni Heneral Pedro Pedroche at ng kanyang mga tauhan dahil sa kanilang pagkakasuspetsa
-    bilang mga rebolusyonaryo.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &657697331
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657697327}
-  m_CullTransparentMesh: 1
 --- !u!1 &662180303
 GameObject:
   m_ObjectHideFlags: 0
@@ -5990,7 +5905,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
   m_Value: 1.0000001
-  m_Size: 0.25708348
+  m_Size: 0.23335654
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6320,170 +6235,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806127086}
-  m_CullTransparentMesh: 1
---- !u!1 &815875801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 815875802}
-  - component: {fileID: 815875805}
-  - component: {fileID: 815875804}
-  - component: {fileID: 815875803}
-  m_Layer: 0
-  m_Name: Text (TMP)_4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &815875802
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815875801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811345441}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1098}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
-  m_Pivot: {x: 0.5, y: 0.49999964}
---- !u!114 &815875803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815875801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationName: CamillingH5
-  FallbackText: CAMILlNG is a first class municipality in the western part of the
-    province of Tarlac in the Philippines. It is about 150 kilometers north-northwest
-    of Manila, and about 50 kilometers south-southwest of Dagupan City in Pangasinan.
-    It is the commercial center of an area composed of about eight (8) towns, and
-    borders the Province of Pangasinan. It is the gateway to central and western
-    Pangasinan through the Romulo Highway (formerly Highway 13). It borders San Clemente
-    on the west, Bayambang from the north, Sta. Ignacia and Mayantoc to the south
-    and Paniqui by the east.
---- !u!114 &815875804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815875801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Ang Camiling ay isang munisipyong unang klase sa kanlurang bahagi ng lalawigan
-    ng Tarlac sa Pilipinas. Matatagpuan ito mga 150 kilometro hilagang-hilagang-kanluran
-    ng Maynila, at mga 50 kilometro timog-kanluran ng Dagupan City sa Pangasinan.
-    Ito ang pangunahing sentro ng kalakalan para sa isang rehiyon na binubuo ng mga
-    walong (8) bayan, at may mga hanggahan sa Lalawigan ng Pangasinan. Ito ang daanan
-    patungo sa sentral at kanlurang Pangasinan sa pamamagitan ng Romulo Highway (dating
-    Highway 13). Nagmumula ito sa San Clemente sa kanluran, Bayambang sa hilaga,
-    Sta. Ignacia at Mayantoc sa timog, at Paniqui sa silangan.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &815875805
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815875801}
   m_CullTransparentMesh: 1
 --- !u!1 &823108035
 GameObject:
@@ -7037,6 +6788,156 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852724962}
   m_CullTransparentMesh: 1
+--- !u!1 &865185515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865185516}
+  - component: {fileID: 865185517}
+  m_Layer: 0
+  m_Name: CamillingHist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865185516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865185515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865185517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865185515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'On the western reaches of Tarlac Province lies the historic town of Camiling.
+      Early in the eighteenth century, this thriving community was a sitio of Paniqui,
+      contrary to the popular belief that it was a a part of Bayambang, Pangasinan.
+      The discovery of a Spanish document in 1937 attested to the fact that it really
+      belonged to Paniqui. Further evidence shows that in the same document, it was
+      stated that the inhabitants of Camiling paid their tributes to Paniqui. In
+      the beginning, the community was a vast area of cogon growth interposed with
+      thick forestalls areas stretching far as the Zambales mountain ranges. A wide
+      river cut peacefully through it.
+
+
+      The early inhabitants of the place
+      were known as  Aetas  who depended as for their living on fruit trees and by
+      hunting and fishing. With the coming of the Pangasinenses and lIocanos from
+      the north ,the  Aetas  who used to roam freely in the wilderness obliged themselves
+      to move in to the interior. The new settlers first occupied the swampy land,
+      now known as  Cacamilingan  on the opposite side of the river. With the passage
+      of time, these settlers moved to the opposite shore considering that most often,
+      disastrous floods were visiting the present site. To this new location, the
+      residents therein built a little church or  visita  with the villagers taking 
+      ST. MICHAEL  as the Patron Saint.
+
+
+      The town Camiling owes its name after
+      the name of a tree called  "Camiring"  which grew abundantly in the wilderness.
+      The letter  R  in  "Camiring" was changed to  L  for its liquid sound. As this
+      settlement attained progress, CAMILlNG became a District Commission from 1834-1837.
+      It was founded by Don Francisco Soriano, an adventurous barangay leader who
+      incidentally became the town s first District Commissioner, followed by Domingo
+      Claudio, Bernabe Bugarin and Pascual Cabacungan.
+
+
+      In 1838, Camiling
+      became an independent town, formally separated from the mother town of Paniqui
+      and with Don Vicente Galsim as the first Governadorcillo. Thirty-eight (38)
+      others followed him. Don Buenaventura Torres was the last to serve under the
+      Spanish regime and the first Presidente Municipal under the Revolutionary Government
+      by Aguinaldo. Of historical importance, the Camiling Catholic Convent was the
+      death place of Gen. Pedro Pedroche and his men for being accused as rebels.
+
+
+      Camiling
+      is a first class municipality in the western part of the province of Tarlac
+      in the Philippines. It is about 150 kilometers north-northwest of Manila, and
+      about 50 kilometers south-southwest of Dagupan City in Pangasinan. It is the
+      commercial center of an area composed of about eight (8) towns, and borders
+      the Province of Pangasinan. It is the gateway to central and western Pangasinan
+      through the Romulo Highway (formerly Highway 13). It borders San Clemente on
+      the west, Bayambang from the north, Sta. Ignacia and Mayantoc to the south
+      and Paniqui by the east.'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'On the western reaches of Tarlac Province lies the historic town of Camiling.
+      Early in the eighteenth century, this thriving community was a sitio of Paniqui,
+      contrary to the popular belief that it was a a part of Bayambang, Pangasinan.
+      The discovery of a Spanish document in 1937 attested to the fact that it really
+      belonged to Paniqui. Further evidence shows that in the same document, it was
+      stated that the inhabitants of Camiling paid their tributes to Paniqui. In
+      the beginning, the community was a vast area of cogon growth interposed with
+      thick forestalls areas stretching far as the Zambales mountain ranges. A wide
+      river cut peacefully through it.
+
+
+      The early inhabitants of the place
+      were known as  Aetas  who depended as for their living on fruit trees and by
+      hunting and fishing. With the coming of the Pangasinenses and lIocanos from
+      the north ,the  Aetas  who used to roam freely in the wilderness obliged themselves
+      to move in to the interior. The new settlers first occupied the swampy land,
+      now known as  Cacamilingan  on the opposite side of the river. With the passage
+      of time, these settlers moved to the opposite shore considering that most often,
+      disastrous floods were visiting the present site. To this new location, the
+      residents therein built a little church or  visita  with the villagers taking 
+      ST. MICHAEL  as the Patron Saint.
+
+
+      The town Camiling owes its name after
+      the name of a tree called  CAMIRING  which grew abundantly in the wilderness.
+      The letter  R  in  CAMIRING  was changed to  L  for its liquid sound. As this
+      settlement attained progress, CAMILlNG became a District Commission from 1834-1837.
+      It was founded by Don Francisco Soriano, an adventurous barangay leader who
+      incidentally became the town s first District Commissioner, followed by Domingo
+      Claudio, Bernabe Bugarin and Pascual Cabacungan.
+
+
+      In 1838, Camiling
+      became an independent town, formally separated from the mother town of Paniqui
+      and with Don Vicente Galsim as the first Governadorcillo. Thirty-eight (38)
+      others followed him. Don Buenaventura Torres was the last to serve under the
+      Spanish regime and the first Presidente Municipal under the Revolutionary Government
+      by Aguinaldo. Of historical importance, the Camiling Catholic Convent was the
+      death place of Gen. Pedro Pedroche and his men for being accused as rebels.
+
+
+      Camiling
+      is a first class municipality in the western part of the province of Tarlac
+      in the Philippines. It is about 150 kilometers north-northwest of Manila, and
+      about 50 kilometers south-southwest of Dagupan City in Pangasinan. It is the
+      commercial center of an area composed of about eight (8) towns, and borders
+      the Province of Pangasinan. It is the gateway to central and western Pangasinan
+      through the Romulo Highway (formerly Highway 13). It borders San Clemente on
+      the west, Bayambang from the north, Sta. Ignacia and Mayantoc to the south
+      and Paniqui by the east.'
+    Object: {fileID: 0}
 --- !u!1 &869232612
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,173 +7366,6 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 1
---- !u!1 &919651078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 919651079}
-  - component: {fileID: 919651082}
-  - component: {fileID: 919651081}
-  - component: {fileID: 919651080}
-  m_Layer: 0
-  m_Name: Text (TMP)_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &919651079
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919651078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811345441}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
-  m_Pivot: {x: 0.5, y: 0.49999964}
---- !u!114 &919651080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919651078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationName: CamillingH2
-  FallbackText: The early inhabitants of the place were known as  Aetas  who depended
-    as for their living on fruit trees and by hunting and fishing. With the coming
-    of the Pangasinenses and lIocanos from the north ,the  Aetas  who used to roam
-    freely in the wilderness obliged themselves to move in to the interior. The new
-    settlers first occupied the swampy land, now known as  Cacamilingan  on the opposite
-    side of the river. With the passage of time, these settlers moved to the opposite
-    shore considering that most often, disastrous floods were visiting the present
-    site. To this new location, the residents therein built a little church or  visita 
-    with the villagers taking  ST. MICHAEL  as the Patron Saint.
---- !u!114 &919651081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919651078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Ang mga unang naninirahan sa lugar ay kilala bilang Aetas na umaasa sa
-    mga puno ng prutas at sa pangingisda at pangangaso para sa kanilang kabuhayan.
-    Sa pagdating ng mga Pangasinense at Ilocano mula sa hilaga, ang mga Aetas na
-    dating malayang naglalakad sa kagubatan ay kinailangang lumipat sa loob ng kalupaan.
-    Ang mga bagong residente ay una munang nanirahan sa malapantubig na lupain, na
-    kilala ngayon bilang Cacamilingan sa kabilang ibayo ng ilog. Sa paglipas ng panahon,
-    ang mga residenteng ito ay lumipat sa kabilang pampang, dahil sa madalas, ang
-    malalakas na pagbaha ay bumibisita sa kasalukuyang lugar. Sa bagong lokasyong
-    ito, nagtayo ng isang munting simbahan o visita ang mga residente at kinuha ang
-    ST. MICHAEL bilang Patron Saint.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &919651082
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919651078}
-  m_CullTransparentMesh: 1
 --- !u!1 &921945504
 GameObject:
   m_ObjectHideFlags: 0
@@ -9494,7 +9228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TARLAC PLAZUELA
+  m_text: CAMILING
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -9527,7 +9261,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -10158,167 +9892,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306372017}
-  m_CullTransparentMesh: 1
---- !u!1 &1317160328
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1317160329}
-  - component: {fileID: 1317160332}
-  - component: {fileID: 1317160331}
-  - component: {fileID: 1317160330}
-  m_Layer: 0
-  m_Name: Text (TMP)_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1317160329
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317160328}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811345441}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -321}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
-  m_Pivot: {x: 0.5, y: 0.49999964}
---- !u!114 &1317160330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317160328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationName: CamillingH3
-  FallbackText: The town Camiling owes its name after the name of a tree called 
-    CAMIRING  which grew abundantly in the wilderness. The letter  R  in  CAMIRING 
-    was changed to  L  for its liquid sound. As this settlement attained progress,
-    CAMILlNG became a District Commission from 1834-1837. It was founded by Don Francisco
-    Soriano, an adventurous barangay leader who incidentally became the town s first
-    District Commissioner, followed by Domingo Claudio, Bernabe Bugarin and Pascual
-    Cabacungan.
---- !u!114 &1317160331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317160328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Ang bayan ng Camiling ay nagmula sa pangalang ng puno na tinatawag na CAMIRING
-    na lumalago nang sagana sa kagubatan. Binago ang titik R sa CAMIRING upang maging
-    L dahil sa tunog nito. Habang naging maunlad ang nasabing settlement, naging
-    isang Distrito ng Camiling mula 1834-1837. Ito ay itinatag ni Don Francisco Soriano,
-    isang mapusong lider ng barangay na naging unang Distrito Commissioner ng bayan,
-    sinundan ni Domingo Claudio, Bernabe Bugarin, at Pascual Cabacungan.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1317160332
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317160328}
   m_CullTransparentMesh: 1
 --- !u!1 &1321934388
 GameObject:
@@ -12749,8 +12322,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 641.5, y: -424}
-  m_SizeDelta: {x: 608.89, y: 367.5161}
+  m_AnchoredPosition: {x: 821, y: -424}
+  m_SizeDelta: {x: 553.7906, y: 369.1036}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683233070
 MonoBehaviour:
@@ -12772,7 +12345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 78021859656be5e4087ba045c21aa5b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13092,17 +12665,14 @@ RectTransform:
   - {fileID: 974333797}
   - {fileID: 1683233069}
   - {fileID: 2144484518}
-  - {fileID: 919651079}
-  - {fileID: 1317160329}
-  - {fileID: 657697328}
-  - {fileID: 815875802}
+  - {fileID: 376311811}
   m_Father: {fileID: 1244833204}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00010177816}
-  m_SizeDelta: {x: 0, y: 2722.89}
+  m_SizeDelta: {x: 0, y: 2999.7444}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1811345442
 MonoBehaviour:
@@ -16727,8 +16297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 522}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
+  m_AnchoredPosition: {x: 0, y: 778}
+  m_SizeDelta: {x: 1129.5374, y: 160.0878}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &2144484519
 MonoBehaviour:
@@ -16750,18 +16320,58 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sa kanluran ng Lalawigan ng Tarlac matatagpuan ang makasaysayang bayan
-    ng Camiling. Noong simula ng ika-labingwalong siglo, ang nagiging maunlad na
-    komunidad na ito ay isang sitio ng Paniqui, laban sa popular na paniniwala na
-    ito ay bahagi ng Bayambang, Pangasinan. Natuklasan ang isang Spanish document
-    noong 1937 na nagpapatunay na talagang bahagi ito ng Paniqui. Nagpapakita rin
-    ang karagdagang ebidensya na sa parehong dokumento, itinalaga na nagbabayad ng
-    buwis ang mga taga-Camiling sa Paniqui. Noong simula, ang komunidad ay malawak
-    na may cogon na lumalago sa pagitan ng makapal na gubat na umaabot hanggang sa
-    mga kabundukan ng Zambales. May isang malaking ilog na tahimik na dumadaloy dito.
+  m_text: 'On the western reaches of Tarlac Province lies the historic town of Camiling.
+    Early in the eighteenth century, this thriving community was a sitio of Paniqui,
+    contrary to the popular belief that it was a a part of Bayambang, Pangasinan.
+    The discovery of a Spanish document in 1937 attested to the fact that it really
+    belonged to Paniqui. Further evidence shows that in the same document, it was
+    stated that the inhabitants of Camiling paid their tributes to Paniqui. In the
+    beginning, the community was a vast area of cogon growth interposed with thick
+    forestalls areas stretching far as the Zambales mountain ranges. A wide river
+    cut peacefully through it.
+
+
+    The early inhabitants of the place were known
+    as  Aetas  who depended as for their living on fruit trees and by hunting and
+    fishing. With the coming of the Pangasinenses and lIocanos from the north ,the 
+    Aetas  who used to roam freely in the wilderness obliged themselves to move in
+    to the interior. The new settlers first occupied the swampy land, now known as 
+    Cacamilingan  on the opposite side of the river. With the passage of time, these
+    settlers moved to the opposite shore considering that most often, disastrous
+    floods were visiting the present site. To this new location, the residents therein
+    built a little church or  visita  with the villagers taking  ST. MICHAEL  as
+    the Patron Saint.
+
+
+    The town Camiling owes its name after the name of a tree
+    called  "Camiring"  which grew abundantly in the wilderness. The letter  R  in 
+    "Camiring" was changed to  L  for its liquid sound. As this settlement attained
+    progress, CAMILlNG became a District Commission from 1834-1837. It was founded
+    by Don Francisco Soriano, an adventurous barangay leader who incidentally became
+    the town s first District Commissioner, followed by Domingo Claudio, Bernabe
+    Bugarin and Pascual Cabacungan.
+
+
+    In 1838, Camiling became an independent
+    town, formally separated from the mother town of Paniqui and with Don Vicente
+    Galsim as the first Governadorcillo. Thirty-eight (38) others followed him. Don
+    Buenaventura Torres was the last to serve under the Spanish regime and the first
+    Presidente Municipal under the Revolutionary Government by Aguinaldo. Of historical
+    importance, the Camiling Catholic Convent was the death place of Gen. Pedro Pedroche
+    and his men for being accused as rebels.
+
+
+    Camiling is a first class municipality
+    in the western part of the province of Tarlac in the Philippines. It is about
+    150 kilometers north-northwest of Manila, and about 50 kilometers south-southwest
+    of Dagupan City in Pangasinan. It is the commercial center of an area composed
+    of about eight (8) towns, and borders the Province of Pangasinan. It is the gateway
+    to central and western Pangasinan through the Romulo Highway (formerly Highway
+    13). It borders San Clemente on the west, Bayambang from the north, Sta. Ignacia
+    and Mayantoc to the south and Paniqui by the east.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16793,7 +16403,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -16847,7 +16457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CamillingH1
+  translationName: CamillingHist
   FallbackText: On the western reaches of Tarlac Province lies the historic town
     of Camiling. Early in the eighteenth century, this thriving community was a sitio
     of Paniqui, contrary to the popular belief that it was a a part of Bayambang,
