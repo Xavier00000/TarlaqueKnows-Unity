@@ -173,6 +173,7 @@ Transform:
   - {fileID: 1990794972}
   - {fileID: 2021069670}
   - {fileID: 520311167}
+  - {fileID: 1019568801}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -405,7 +406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &37609568
 RectTransform:
   m_ObjectHideFlags: 0
@@ -464,8 +465,8 @@ MonoBehaviour:
   m_text: Despite being the smallest in population and land area, Anao is classified
     as one of the fifth class municipalities in the Province of Tarlac.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -948,13 +949,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f6bd615a6481ea849a818e00c37ccae3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -984,7 +985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_ShowMaskGraphic: 1
 --- !u!114 &103466372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1033,8 +1034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000095367, y: -804.2739}
-  m_SizeDelta: {x: 1320, y: 2092.5974}
+  m_AnchoredPosition: {x: -0.00000095367, y: -80.72827}
+  m_SizeDelta: {x: 1320, y: 645.5061}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &124301648
 GameObject:
@@ -5119,7 +5120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &596120161
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5186,8 +5187,8 @@ MonoBehaviour:
     of Paniqui, which was also approved. In 1899, Anao regained its municipal status
     for the second time and became a 7th class municipality.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6216,7 +6217,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3029082
+  m_Size: 0.25052437
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8027,6 +8028,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016237099}
   m_CullTransparentMesh: 1
+--- !u!1 &1019568800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1019568801}
+  - component: {fileID: 1019568802}
+  m_Layer: 0
+  m_Name: AnaoHistDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1019568801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019568800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1019568802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019568800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Anao is the smallest town in terms of land area and has a long history,
+      being organized as a municipality on March 16, 1870. However, its history predates
+      this municipal status. The area that now comprises Anao was originally part
+      of Pangasinan but was later incorporated into the Province of Tarlac during
+      the Spanish rule in the early 1800s. At that time, the land was mostly uninhabited,
+      with creeks and lush vegetation, including balete trees, lining the creek banks.
+      The first settlers, migrating southward from the Ilocos Region, are believed
+      to have come from Paoay, a municipality in Ilocos Norte. They settled along
+      the creek banks and began clearing the land for agriculture, attracting more
+      people from the north to settle in the area.
+
+
+      As Anao''s population
+      and physical area grew over the years, the residents submitted a petition in
+      1870 for their barangay to be converted into a municipality, which was approved.
+      However, during the revolution, the municipality faced challenges in maintaining
+      its status, leading to another petition for reversion to a barangay of Paniqui,
+      which was also approved. In 1899, Anao regained its municipal status for the
+      second time and became a 7th class municipality.
+
+
+      There are various
+      accounts regarding the origin of Anao''s name. One explanation suggests it
+      comes from the Pangasinan word danao, meaning pond, lagoon, or shallow water.
+      Some residents believe it is derived from anaoang, a native boiler used for
+      cooking sugarcane juice into sugar. Perhaps the most popular version of the
+      town''s name is that it comes from anahaw, a type of palm tree that was abundant
+      in the area during its early history.Despite being the smallest in population
+      and land area, Anao is classified as one of the fifth class municipalities
+      in the Province of Tarlac.'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang Anao ay itinuturing na pinakamaliit na bayan pagdating sa lawak ng
+      lupa at may mahabang kasaysayan, na naging opisyal na munisipalidad noong Marso
+      16, 1870. Gayunman, ang kasaysayan nito ay nauuna pa kaysa sa kanyang status
+      bilang munisipalidad. Ang lugar na kasalukuyang binubuo ng Anao ay unang bahagi
+      ng Pangasinan ngunit naging bahagi ng Lalawigan ng Tarlac noong panahon ng
+      pananakop ng mga Kastila noong mga unang dekada ng 1800. Sa oras na iyon, ang
+      lupaing ito ay kalakipan ng malawak na mga ilog at makulay na vegetasyon, kabilang
+      ang mga puno ng balete, na nagmumula sa mga bangko ng ilog. Pinaniniwalaang
+      ang mga unang nanirahan, nagmula sa hilagang bahagi ng Ilocos Region, ay mula
+      sa Paoay, isang munisipalidad sa Ilocos Norte. Sila ay namumuhay sa tabi ng
+      mga ilog at nagsimulang linisin ang lupa para sa pagsasaka, na nag-udyok sa
+      higit pang mga tao mula sa hilaga na manirahan sa lugar.
+
+
+      Sa paglipas
+      ng mga taon, habang lumalaki ang populasyon at pisikal na sakop ng Anao, nagsumite
+      ang mga residente ng petisyon noong 1870 upang gawing munisipalidad ang kanilang
+      barangay, na inaprubahan. Gayunpaman, noong panahon ng rebolusyon, kinaharap
+      ng munisipalidad ang mga hamon sa pagpapanatili ng kanilang status, na humantong
+      sa isa pang petisyon na ibalik ito bilang barangay ng Paniqui, na inaprubahan
+      rin. Noong 1899, nakuha ng Anao ang kanyang pangalawang pagiging munisipalidad
+      at naging isang ika-7 na klase na munisipalidad.
+
+
+      May iba''t ibang mga
+      akda hinggil sa pinagmulan ng pangalang Anao. Isang paliwanag ay nagsusuggest
+      na ito ay nagmula sa salitang Pangasinan na "danao," na nangangahulugang bukal,
+      lawa, o malalim na tubig. May mga residenteng naniniwala na ito ay nagmula
+      sa "anaoang," isang katutubong kaldero na ginagamit sa pagluluto ng katas ng
+      tubo para maging asukal. Marahil ang pinakasikat na bersyon ng pangalang bayan
+      ay nagmula sa "anahaw," isang uri ng puno ng niyog na may makapal na mga dahon
+      na naglalaganap sa lugar noong mga unang panahon.Kahit na ito ang pinakamaliit
+      sa populasyon at lawak ng lupa, inirereklasipika ang Anao bilang isa sa mga
+      bayan ng ika-5 na klase sa Lalawigan ng Tarlac.'
+    Object: {fileID: 0}
 --- !u!1 &1062928517
 GameObject:
   m_ObjectHideFlags: 0
@@ -8548,14 +8663,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29699183, g: 0.79476684, b: 0.8867924, a: 1}
+  m_Color: {r: 0.16470589, g: 0.2901961, b: 0.37254903, a: 0.62352943}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29bb1699c56a026429003b72f9732b1d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c1800bbecbdeab43804614f553ac5ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9659,7 +9774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9696,6 +9811,7 @@ GameObject:
   - component: {fileID: 1251135261}
   - component: {fileID: 1251135260}
   - component: {fileID: 1251135259}
+  - component: {fileID: 1251135262}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -9722,8 +9838,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -350}
-  m_SizeDelta: {x: 1300, y: 700.01}
+  m_AnchoredPosition: {x: 650, y: -323.5188}
+  m_SizeDelta: {x: 1300, y: 578.9529}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251135259
 MonoBehaviour:
@@ -9768,7 +9884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9793,6 +9909,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251135257}
   m_CullTransparentMesh: 1
+--- !u!114 &1251135262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251135257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1293620079
 GameObject:
   m_ObjectHideFlags: 0
@@ -12222,7 +12351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1553546360
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12289,8 +12418,8 @@ MonoBehaviour:
     town's name is that it comes from anahaw, a type of palm tree that was abundant
     in the area during its early history.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16644,7 +16773,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Anao is the smallest town in terms of land area and has a long history,
+  m_text: 'Anao is the smallest town in terms of land area and has a long history,
     being organized as a municipality on March 16, 1870. However, its history predates
     this municipal status. The area that now comprises Anao was originally part of
     Pangasinan but was later incorporated into the Province of Tarlac during the
@@ -16654,6 +16783,25 @@ MonoBehaviour:
     to have come from Paoay, a municipality in Ilocos Norte. They settled along the
     creek banks and began clearing the land for agriculture, attracting more people
     from the north to settle in the area.
+
+
+    As Anao''s population and physical
+    area grew over the years, the residents submitted a petition in 1870 for their
+    barangay to be converted into a municipality, which was approved. However, during
+    the revolution, the municipality faced challenges in maintaining its status,
+    leading to another petition for reversion to a barangay of Paniqui, which was
+    also approved. In 1899, Anao regained its municipal status for the second time
+    and became a 7th class municipality.
+
+
+    There are various accounts regarding
+    the origin of Anao''s name. One explanation suggests it comes from the Pangasinan
+    word danao, meaning pond, lagoon, or shallow water. Some residents believe it
+    is derived from anaoang, a native boiler used for cooking sugarcane juice into
+    sugar. Perhaps the most popular version of the town''s name is that it comes
+    from anahaw, a type of palm tree that was abundant in the area during its early
+    history.Despite being the smallest in population and land area, Anao is classified
+    as one of the fifth class municipalities in the Province of Tarlac.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -16742,7 +16890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: AnaoH1
+  translationName: AnaoHistDesc
   FallbackText: Anao is the smallest town in terms of land area and has a long history,
     being organized as a municipality on March 16, 1870. However, its history predates
     this municipal status. The area that now comprises Anao was originally part of
@@ -16752,4 +16900,17 @@ MonoBehaviour:
     The first settlers, migrating southward from the Ilocos Region, are believed
     to have come from Paoay, a municipality in Ilocos Norte. They settled along the
     creek banks and began clearing the land for agriculture, attracting more people
-    from the north to settle in the area.
+    from the north to settle in the area.  As Anao's population and physical area
+    grew over the years, the residents submitted a petition in 1870 for their barangay
+    to be converted into a municipality, which was approved. However, during the
+    revolution, the municipality faced challenges in maintaining its status, leading
+    to another petition for reversion to a barangay of Paniqui, which was also approved.
+    In 1899, Anao regained its municipal status for the second time and became a
+    7th class municipality.  There are various accounts regarding the origin of Anao's
+    name. One explanation suggests it comes from the Pangasinan word danao, meaning
+    pond, lagoon, or shallow water. Some residents believe it is derived from anaoang,
+    a native boiler used for cooking sugarcane juice into sugar. Perhaps the most
+    popular version of the town's name is that it comes from anahaw, a type of palm
+    tree that was abundant in the area during its early history.Despite being the
+    smallest in population and land area, Anao is classified as one of the fifth
+    class municipalities in the Province of Tarlac.

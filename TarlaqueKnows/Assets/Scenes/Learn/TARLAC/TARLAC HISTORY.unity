@@ -802,7 +802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f6bd615a6481ea849a818e00c37ccae3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_ShowMaskGraphic: 1
 --- !u!114 &103466372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,8 +881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000095367, y: -1542}
-  m_SizeDelta: {x: 1320, y: 3568.0496}
+  m_AnchoredPosition: {x: -0.00000095367, y: -74.204346}
+  m_SizeDelta: {x: 1320, y: 632.4585}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &124301648
 GameObject:
@@ -1183,7 +1183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &176929358
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4513,8 +4513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -416.58066}
-  m_SizeDelta: {x: 1224.6, y: 209.1727}
+  m_AnchoredPosition: {x: 0, y: -424.58066}
+  m_SizeDelta: {x: 1165.3351, y: 209.1727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541589981
 MonoBehaviour:
@@ -4558,8 +4558,8 @@ MonoBehaviour:
     in 1942. It didn't regain its freedom until 1945 when military forces liberated
     Camp O'Donell and rescued the prisoners of war in Capas.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6059,8 +6059,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1180136932}
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.20136784
+  m_Value: 1.0000005
+  m_Size: 0.25826102
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6698,7 +6698,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_SizeDelta: {x: 1300, y: 676.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839515095
 MonoBehaviour:
@@ -7600,7 +7600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &974333797
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7998,8 +7998,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 180.41946}
-  m_SizeDelta: {x: 1224.6, y: 209.1727}
+  m_AnchoredPosition: {x: 0, y: 172.41943}
+  m_SizeDelta: {x: 1165.3351, y: 209.1727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063792072
 MonoBehaviour:
@@ -8043,8 +8043,8 @@ MonoBehaviour:
     under Spanish rule in Central Luzon, and until 1874, it was part of Pangasinan
     and Pampanga.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8548,14 +8548,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29699183, g: 0.79476684, b: 0.8867924, a: 1}
+  m_Color: {r: 0.16470589, g: 0.2901961, b: 0.37254903, a: 0.62352943}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29bb1699c56a026429003b72f9732b1d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d0cb419300300b4a89a05c27ad167c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8916,7 +8916,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -24}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1140761149
@@ -9009,8 +9009,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -689.5806}
-  m_SizeDelta: {x: 1224.6, y: 209.1727}
+  m_AnchoredPosition: {x: 0, y: -697.5806}
+  m_SizeDelta: {x: 1165.3351, y: 209.1727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142121910
 MonoBehaviour:
@@ -9058,8 +9058,8 @@ MonoBehaviour:
     major fires, severe floods, and other calamities. Tarlac continues to write its
     history.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9169,8 +9169,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 819.4195}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
+  m_AnchoredPosition: {x: 0, y: 811.41956}
+  m_SizeDelta: {x: 1165.353, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1156801164
 MonoBehaviour:
@@ -9216,8 +9216,8 @@ MonoBehaviour:
     the land that would become Tarlac. The Aeta were the earliest inhabitants of
     Luzon, leading a nomadic lifestyle in search of food.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9709,8 +9709,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: tarlac city
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
-  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9977,14 +9977,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10014,6 +10014,7 @@ GameObject:
   - component: {fileID: 1251135261}
   - component: {fileID: 1251135260}
   - component: {fileID: 1251135259}
+  - component: {fileID: 1251135262}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -10040,8 +10041,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -350}
-  m_SizeDelta: {x: 1300, y: 700.01}
+  m_AnchoredPosition: {x: 650, y: -290.1147}
+  m_SizeDelta: {x: 1300, y: 580.2394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251135259
 MonoBehaviour:
@@ -10111,6 +10112,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251135257}
   m_CullTransparentMesh: 1
+--- !u!114 &1251135262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251135257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1293620079
 GameObject:
   m_ObjectHideFlags: 0
@@ -11397,8 +11411,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
-  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12783,7 +12797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1683233069
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13148,8 +13162,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 485.41946}
-  m_SizeDelta: {x: 1224.6, y: 381.6586}
+  m_AnchoredPosition: {x: 0.008972168, y: 418}
+  m_SizeDelta: {x: 1165.3351, y: 381.6586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793031254
 MonoBehaviour:
@@ -13201,8 +13215,8 @@ MonoBehaviour:
     into lakes where canoes sailed during the rainy season from Manila Bay to Lingayen
     Gulf.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13312,8 +13326,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -939.5806}
-  m_SizeDelta: {x: 1224.6, y: 209.1727}
+  m_AnchoredPosition: {x: 0, y: -947.5806}
+  m_SizeDelta: {x: 1165.3351, y: 209.1727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804012455
 MonoBehaviour:
@@ -13355,8 +13369,8 @@ MonoBehaviour:
     challenges, political shifts, and more, as it continually emerges as a stronger
     and more beautiful Tarlac, ready to face the challenges of the future.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13475,8 +13489,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00010177816}
-  m_SizeDelta: {x: 0, y: 3476.2751}
+  m_AnchoredPosition: {x: 25, y: -0.00075759506}
+  m_SizeDelta: {x: 0, y: 2246.6873}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1811345442
 MonoBehaviour:
@@ -13538,8 +13552,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -109.580536}
-  m_SizeDelta: {x: 1224.6, y: 209.1727}
+  m_AnchoredPosition: {x: 0, y: -117.580536}
+  m_SizeDelta: {x: 1165.3351, y: 209.1727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1818347982
 MonoBehaviour:
@@ -13591,8 +13605,8 @@ MonoBehaviour:
     he was pursued by the Americans to Nueva Ecija. In November 1899, it fell into
     American hands.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17265,8 +17279,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1010}
-  m_SizeDelta: {x: 1224.6187, y: 173.5636}
+  m_AnchoredPosition: {x: 0, y: 1002}
+  m_SizeDelta: {x: 1165.353, y: 173.5636}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &2144484519
 MonoBehaviour:
@@ -17292,8 +17306,8 @@ MonoBehaviour:
     to the north, Ilocano influence from Nueva Ecija to the east, Tagalog from Zambales
     to the west, and finally, Kapampangan from the south.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
