@@ -19,7 +19,14 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Settings");
     }
-
+    public void BackToStartScene()
+    {
+        SceneManager.LoadScene("Start Scene");
+    }
+    public void Puzzle()
+    {
+        SceneManager.LoadScene("PuzzleMunicipality");
+    }
     //district
     public void DistrictSelector()
     {
