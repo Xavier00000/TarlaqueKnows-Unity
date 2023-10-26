@@ -7394,7 +7394,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144552898}
-  - component: {fileID: 2144552897}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Audio
@@ -7402,25 +7401,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2144552897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2144552896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2e7c8d22227d7049a12f48dc09a96c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicSource: {fileID: 432205991}
-  SFXSource: {fileID: 2130352696}
-  background: {fileID: 8300000, guid: 921648d5c62ba6843bd9c590d1106582, type: 3}
-  btnClick: {fileID: 8300000, guid: 383facda97ab28f4fa5c9933b48eb583, type: 3}
-  hint: {fileID: 8300000, guid: 871de0310818cb146b9403b4495fe5d4, type: 3}
-  levelComplete: {fileID: 8300000, guid: 1c99af46cb546d64cb9b748ba57fb2e7, type: 3}
-  error: {fileID: 8300000, guid: 2e69c4415c09c4048905b4e66ed0c2cb, type: 3}
 --- !u!4 &2144552898
 Transform:
   m_ObjectHideFlags: 0
