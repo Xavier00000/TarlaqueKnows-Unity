@@ -3913,7 +3913,7 @@ MonoBehaviour:
   hint: {fileID: 8300000, guid: 871de0310818cb146b9403b4495fe5d4, type: 3}
   levelComplete: {fileID: 8300000, guid: 1c99af46cb546d64cb9b748ba57fb2e7, type: 3}
   error: {fileID: 8300000, guid: 2e69c4415c09c4048905b4e66ed0c2cb, type: 3}
-  musicVolume: 1
+  musicVolume: 0.674
   sfxVolume: 1
 --- !u!4 &1820290583
 Transform:
