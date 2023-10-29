@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class ButtonContainer02 : MonoBehaviour
 {
@@ -8,7 +9,12 @@ public class ButtonContainer02 : MonoBehaviour
     public Text[] btnConText;
     public GameObject AllParent;
     SceneChangeEL02 GameObjectScript;
+    AudioManager audioManager;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         GameObjectScript = AllParent.GetComponent<SceneChangeEL02>();
@@ -25,7 +31,8 @@ public class ButtonContainer02 : MonoBehaviour
                 }
                 else if(btnConText[0].text=="TARLAC CITY")
                 {
-                    GameObjectScript.Animation.Play("Show_Info");
+                audioManager.PlaySFX(audioManager.levelComplete);
+                GameObjectScript.Animation.Play("Show_Info");
                     FinishedLevel.isLevelFinished[1]=true;
                     FinishedLevel.nextRoomIndex=FinishedLevel.currentRoom+1;
                     HintPoints.trials=0;
@@ -39,7 +46,8 @@ public class ButtonContainer02 : MonoBehaviour
                 }
                 else
                 {
-                    HintPoints.trials++;
+                audioManager.PlaySFX(audioManager.error);
+                HintPoints.trials++;
                     btnConText[0].color = Color.red;
                    
                     break;
