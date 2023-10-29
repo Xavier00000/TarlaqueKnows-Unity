@@ -123,6 +123,127 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &8067060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8067061}
+  - component: {fileID: 8067062}
+  m_Layer: 0
+  m_Name: Devo_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8067061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8067060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8067062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8067060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: The first house of worship was made of light construction materials in
+      the 18th century. It was rebuilt into a stone church in 1872 and completed
+      in 1890. It was ruined during World War II and reconstructed years later. The
+      church was elevated to a cathedral when the Diocese of Tarlac was established
+      on February 16, 1963.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang unang bahay-palakasan ay gawa sa mga magaang materyales noong ika-18
+      siglo. Ito ay itinayo ulit bilang isang simbahang bato noong 1872 at natapos
+      noong 1890. Ito ay nasira noong Panahon ng Ikalawang Digmaang Pandaigdig at
+      muling itinayo ng mga taon pagkatapos. Ang simbahan ay itinaas bilang isang
+      katedral nang itatag ang Diyosesis ng Tarlac noong Pebrero 16, 1963.
+
+'
+    Object: {fileID: 0}
+--- !u!1 &9778035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9778036}
+  - component: {fileID: 9778037}
+  m_Layer: 0
+  m_Name: KF_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9778036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9778035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9778037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9778035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: KanLAHI Festival comes from the shortened form of kanlungan ng lahi, which
+      translates to cradle of races. It was first launched under the term of Governor
+      Susan Yap in May 2017 in line with the 144th founding anniversary.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang KanLAHI Festival ay nagmula sa maikliang bersyon ng "kanlungan ng
+      lahi," na nangangahulugang "silungan ng mga lahi." Ito ay unang inilunsad sa
+      ilalim ng panunungkulan ni Gobernador Susan Yap noong Mayo 2017 bilang bahagi
+      ng ika-144 taon ng pagkakatatag ng lalawigan.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &16423214
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,7 +294,32 @@ Transform:
   - {fileID: 1990794972}
   - {fileID: 2021069670}
   - {fileID: 520311167}
-  - {fileID: 198358112}
+  - {fileID: 283869307}
+  - {fileID: 1291249724}
+  - {fileID: 877074731}
+  - {fileID: 210712935}
+  - {fileID: 1786080326}
+  - {fileID: 560221537}
+  - {fileID: 1146510728}
+  - {fileID: 1773125305}
+  - {fileID: 1491972450}
+  - {fileID: 1103894811}
+  - {fileID: 2046304541}
+  - {fileID: 779689146}
+  - {fileID: 1101094759}
+  - {fileID: 8067061}
+  - {fileID: 2003981864}
+  - {fileID: 1827767026}
+  - {fileID: 2135005862}
+  - {fileID: 9778036}
+  - {fileID: 591533055}
+  - {fileID: 738714777}
+  - {fileID: 314417879}
+  - {fileID: 213248038}
+  - {fileID: 463747350}
+  - {fileID: 1645388324}
+  - {fileID: 1892396797}
+  - {fileID: 386595121}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -261,7 +407,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 936070544}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.20136783
+  m_Size: 0.16736197
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -381,8 +527,8 @@ MonoBehaviour:
   m_text: In succeeding years, the schedule was moved and the provincial legislative
     board declared every first week of March as KanLAHI Festival Week.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -514,7 +660,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f6bd615a6481ea849a818e00c37ccae3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -544,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_ShowMaskGraphic: 1
 --- !u!114 &103466372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,8 +739,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000095367, y: -1542}
-  m_SizeDelta: {x: 1320, y: 3568.0496}
+  m_AnchoredPosition: {x: -0.00000095367, y: -78.87506}
+  m_SizeDelta: {x: 1320, y: 641.7995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &124866172
 GameObject:
@@ -677,8 +823,8 @@ MonoBehaviour:
     March. It was conceptualized to celebrate the diversity of its people and promote
     tourism.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -899,82 +1045,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca53cc902874a74abc8a217fa257dd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &198358111
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 198358112}
-  - component: {fileID: 198358113}
-  m_Layer: 0
-  m_Name: CamCult
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &198358112
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198358111}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 16423216}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &198358113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198358111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: 0
-  entries:
-  - Language: English
-    Text: "The Chicharon and Iniruban Festival, also known as Tarlac's finest celebration,
-      takes place in the town of Camiling during the last week of October. It serves
-      as both a preparation for All Saints Day and a thanksgiving celebration for
-      bountiful harvests, especially Iniruban rice cakes and quality meat products
-      like Chicharon or Bagnet. \r\n\r\n\n\n\n\n\n\n\nThe festival showcases the
-      delicious Chicharon, a favorite among tourists, and the unique and tasty rice
-      cakes known as Iniruban. Camiling proudly hosts the Iniruban and Chicharon
-      Festival every last week of October, featuring vibrant and artistic presentations,
-      as well as street dances performed by various schools in Camiling. Highlights
-      of the festival include the Miss Iniruban beauty pageant, and an agricultural
-      trade exhibit. This cultural celebration has been a cherished tradition in
-      the province since 2000."
-    Object: {fileID: 0}
-  - Language: Tagalog
-    Text: "Ang Chicharon at Iniruban Festival, kilala rin bilang ang pinakamahusay
-      na selebrasyon ng Tarlac, ay ginaganap sa bayan ng Camiling tuwing huling linggo
-      ng Oktubre. Ito'y naglilingkod bilang paghahanda para sa Araw ng mga Santo
-      at pagdiriwang ng pasasalamat para sa magandang ani, partikular ang Iniruban
-      na mga rice cake at ang de-kalidad na produktong karne tulad ng Chicharon o
-      Bagnet. \r\n\r\r\n\n\n\n\n\n\n\nIpinapakita rin ng festival ang masarap na
-      Chicharon, na paborito ng mga turista, at ang natatanging at masarap na mga
-      rice cake na tinatawag na Iniruban. Taos-pusong tinatanggap ng Camiling ang
-      Iniruban at Chicharon Festival tuwing huling linggo ng Oktubre, kung saan may
-      makulay at likhang-sining na mga presentasyon at street dancing mula sa iba't
-      ibang paaralan sa Camiling. Kasama sa mga tampok ng festival, ang patimpalak
-      na Miss Iniruban, at isang eksibisyon ng agrikultura. Ang kulturang selebrasyon
-      na ito ay may kasaysayan na mula pa noong 2000 at ito ang pinakamatandang selebrasyon
-      sa lalawigan."
-    Object: {fileID: 0}
 --- !u!1 &202142547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,10 +1118,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INIRUBAN FESTIVAL
+  m_text: KAISA FESTIVAL
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1125,6 +1195,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202142547}
   m_CullTransparentMesh: 1
+--- !u!1 &210712934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210712935}
+  - component: {fileID: 210712936}
+  m_Layer: 0
+  m_Name: KaisaHistDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210712935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210712934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &210712936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210712934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: The city of Tarlac used to hold the Malatarlak Festival every January 20.
+      The name of the fest comes from a kind of grass indigenous to Luzon. One can
+      see the archives found in the Senate of the Philippines of the list of presidential
+      proclamations declaring the date as a special non-working holiday for this
+      festival in Tarlac spanning from 2004 until 2010.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Starting in 2012, the city government led by Mayor Ace Manalang changed
+      the name of this yearly celebration from Malatarlak Festival to Melting Pot
+      Festival. It is inspired by how the city has become a home for people from
+      different backgrounds particularly among Ilocano, Tagalog, Pampangueno, and
+      Pangasinenses. The convergence of peoples from different parts of the country
+      has brought forth a vibrant culture and diversity in the city.
+    Object: {fileID: 0}
 --- !u!1 &212564303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1340,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &213248037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 213248038}
+  - component: {fileID: 213248039}
+  m_Layer: 0
+  m_Name: KFA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &213248038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213248037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213248039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213248037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: KanLAHI Festival Activities
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Mga Aktibidad ng KanLAHI Festival
+    Object: {fileID: 0}
 --- !u!1 &254404112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,10 +1473,12 @@ MonoBehaviour:
     Palaro ng Lahi (which is traditional games), street dancing and showdown called
     Sayawan at Yugyugan, chorale, pet shows, fireworks display, etc. Its schedule
     also has space for sports such as fun run, basketball, paralympics, motocross,
-    and e-games. '
+    and e-games.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1444,6 +1629,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259721174}
   m_CullTransparentMesh: 1
+--- !u!1 &283869306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 283869307}
+  - component: {fileID: 283869308}
+  m_Layer: 0
+  m_Name: Kaisa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &283869307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283869306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &283869308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283869306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: KAISA FESTIVAL
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: PISTA NG KAISA
+    Object: {fileID: 0}
 --- !u!1 &297962909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,10 +1739,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: camiling
+  m_text: tarlac city
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1617,8 +1854,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -350}
-  m_SizeDelta: {x: 1300, y: 700.01}
+  m_AnchoredPosition: {x: 650, y: -290.89313}
+  m_SizeDelta: {x: 1300, y: 581.7963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302396664
 MonoBehaviour:
@@ -1663,7 +1900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.02745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1688,6 +1925,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302396662}
   m_CullTransparentMesh: 1
+--- !u!1 &314417878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314417879}
+  - component: {fileID: 314417880}
+  m_Layer: 0
+  m_Name: KF_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &314417879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314417878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &314417880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314417878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: It pushed through its activities in 2020 despite the COVID-19 scare. The
+      next year, much of the activities were streamed online to avoid the gathering
+      of crowds.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Pinagtuloy nito ang mga aktibidad nito noong 2020 sa kabila ng pangamba
+      ng COVID-19. Sa susunod na taon, marami sa mga aktibidad ay isinatream online
+      upang maiwasan ang pagtitipon ng malalaking grupo ng tao.
+    Object: {fileID: 0}
 --- !u!1 &339415581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,8 +2202,8 @@ MonoBehaviour:
     moved to the province coming from nearby places such as the Ilocanos, Pampangue\xF1os,
     Pangasinenses, and Tagalogs."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1984,6 +2277,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363202598}
   m_CullTransparentMesh: 1
+--- !u!1 &386595120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386595121}
+  - component: {fileID: 386595122}
+  m_Layer: 0
+  m_Name: Pa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &386595121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386595120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &386595122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386595120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "Launched in 2020, Pana-Pana Festival is the street dance competition within
+      the Kaisa Festival. It reenacts the martyrdom of the saint whose body was tied
+      and pierced by arrows. During the festivity, different dance contingents representing
+      the schools of the city compete to come up with the most creative rendition
+      of the patron\u2019s life."
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Inilunsad noong 2020, ang Pana-Pana Festival ay ang kompetisyon sa pagsasayaw
+      sa kalsada sa loob ng Kaisa Festival. Ito ay nagpapaulit-ulit ng pagmamartir
+      ng santo na ang katawan ay isinabit at tinusok ng mga palaso. Sa panahon ng
+      pagdiriwang, iba't-ibang mga grupo ng pagsasayaw na kumakatawan sa mga paaralan
+      sa lungsod ay naglalaban-laban upang makabuo ng pinakakreatibong pagganap ng
+      buhay ng patron.
+    Object: {fileID: 0}
 --- !u!1 &387709741
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,6 +2446,164 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &397358677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397358678}
+  - component: {fileID: 397358681}
+  - component: {fileID: 397358680}
+  - component: {fileID: 397358679}
+  m_Layer: 0
+  m_Name: Text (TMP)_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &397358678
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397358677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -783.13806}
+  m_SizeDelta: {x: 1065.7, y: 151.0466}
+  m_Pivot: {x: 0.5, y: 0.49999964}
+--- !u!114 &397358679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397358677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaAct_2
+  FallbackText: 'Religious activities start with the nine-day novena and masses.
+    On the tenth day, a high mass or pontifical mass is held. Afterwards, a solemn
+    foot procession is conducted where the processional image of St. Sebastian is
+    brought out to the streets along with a throng of devotees. '
+--- !u!114 &397358680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397358677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Religious activities start with the nine-day novena and masses. On the
+    tenth day, a high mass or pontifical mass is held. Afterwards, a solemn foot
+    procession is conducted where the processional image of St. Sebastian is brought
+    out to the streets along with a throng of devotees.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &397358681
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397358677}
+  m_CullTransparentMesh: 1
 --- !u!1 &425776729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,6 +2718,66 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &463747349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 463747350}
+  - component: {fileID: 463747351}
+  m_Layer: 0
+  m_Name: KFA_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &463747350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463747349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463747351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463747349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'A few of the activities of the festival start before the official opening.
+      This is true for preliminary events of the Binibining Kanlahi, the prestigious
+      beauty pageant. As one of the highlights, it is search for the female candidate
+      with wit, beauty, and presence.
+
+'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Ilalabas ang ilang mga aktibidad ng pista bago ang opisyal na pagbubukas.
+      Ito'y totoo para sa mga preliminary event ng Binibining Kanlahi, ang prestihiyosong
+      beauty pageant. Isa itong paghahanap ng babaeng kandidata na may talino, kagandahan,
+      at kahalagahan.
+    Object: {fileID: 0}
 --- !u!1 &473927707
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,8 +2927,8 @@ MonoBehaviour:
     independence as a separate parish in 1727. However after thirty years, it was
     absorbed back to the parish of Magalang.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3310,6 +3882,66 @@ MonoBehaviour:
       pa ring masilayan sa maayos na kinatitirikan ng munisipyo, maraming lumang
       bahay na may disenyo ng Espanyol, at iba't-ibang istrakturang itinayo higit
       sa isang siglo na ang nakalilipas.
+--- !u!1 &560221536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560221537}
+  - component: {fileID: 560221538}
+  m_Layer: 0
+  m_Name: KaisaHistDesc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560221537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560221536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560221538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560221536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "Then in 2017, the Melting Pot Festival was again changed to Kaisa Festival
+      by Mayor Cristy Angeles. The name of the fest is derived from the Filipino
+      word \u201Cmagkaisa\u201D which means to unite. It pays tribute to the unity
+      shown by the people of the city in confronting challenges head on and a recognition
+      of the year-round blessing received."
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Nang maganap sa 2017, binago ulit ni Mayor Cristy Angeles ang pangalan
+      ng Melting Pot Festival patungo sa Kaisa Festival. Ang pangalan ng pista ay
+      nagmula sa Filipino na salitang "magkaisa" na nangangahulugang magkaisa. Ito'y
+      isang pagkilala sa pagkakaisa na ipinakita ng mga mamamayan ng lungsod sa harapin
+      ang mga hamon at isang pagkilala sa mga biyayang natatanggap buong taon.
+    Object: {fileID: 0}
 --- !u!1 &564603355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3406,6 +4038,210 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
   m_PrefabInstance: {fileID: 339956338}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &591533054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591533055}
+  - component: {fileID: 591533056}
+  m_Layer: 0
+  m_Name: KF_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &591533055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591533054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &591533056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591533054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: In succeeding years, the schedule was moved and the provincial legislative
+      board declared every first week of March as KanLAHI Festival Week.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Sa mga sumunod na taon, inilipat ang schedule at idineklara ng provincial
+      legislative board na ang bawat unang linggo ng Marso ay KanLAHI Festival Week.
+    Object: {fileID: 0}
+--- !u!1 &605668009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 605668010}
+  - component: {fileID: 605668013}
+  - component: {fileID: 605668012}
+  - component: {fileID: 605668011}
+  m_Layer: 5
+  m_Name: Text (TMP)_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &605668010
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605668009}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.4000003, y: 2.4000003, z: 2.4000003}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -413.13794}
+  m_SizeDelta: {x: -880.3941, y: -3514.273}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &605668011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605668009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaAct
+  FallbackText: History of Kaisa Festival
+--- !u!114 &605668012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605668009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: KanLAHI Festival Activities
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 17
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -38.9
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0.0001451781, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &605668013
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605668009}
+  m_CullTransparentMesh: 1
 --- !u!1 &635901599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,10 +4317,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Various contests are also held such talent competitions, cook fest, etc.
-    People can also see and buy locally made products in the agri-farm trade. '
+    People can also see and buy locally made products in the agri-farm trade.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3637,8 +4475,8 @@ MonoBehaviour:
     next year, much of the activities were streamed online to avoid the gathering
     of crowds.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3796,7 +4634,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 874563892}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.20136783
+  m_Size: 0.16736197
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3839,6 +4677,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724552497}
   m_CullTransparentMesh: 1
+--- !u!1 &738714776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738714777}
+  - component: {fileID: 738714778}
+  m_Layer: 0
+  m_Name: KF_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &738714777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738714776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738714778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738714776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The festival gives a toast to the people, culture, and tradition of the
+      province. According to the Philippine Statistics Office in 2000, it is considered
+      the \u2018melting pot\u2019 of Luzon. Its population is composed of people
+      who moved to the province coming from nearby places such as the Ilocanos, Pampangue\xF1os,
+      Pangasinenses, and Tagalogs."
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: "Ang pista ay nagbibigay-pugay sa mga tao, kultura, at tradisyon ng lalawigan.
+      Ayon sa Philippine Statistics Office noong 2000, ito ay tinuturing na 'melting
+      pot' ng Luzon. Binubuo ito ng mga tao na nagmula sa mga kalapit na lugar tulad
+      ng mga Ilokano, Pampangue\xF1o, Pangasinense, at Tagalog."
+    Object: {fileID: 0}
 --- !u!1 &759081691
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,7 +4820,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.26849994
+  m_Size: 0.21361898
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4004,8 +4901,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -350}
-  m_SizeDelta: {x: 1300, y: 700.01}
+  m_AnchoredPosition: {x: 650, y: -290.89313}
+  m_SizeDelta: {x: 1300, y: 581.7963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &770886512
 MonoBehaviour:
@@ -4050,7 +4947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.02745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4075,6 +4972,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770886510}
   m_CullTransparentMesh: 1
+--- !u!1 &779689145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779689146}
+  - component: {fileID: 779689147}
+  m_Layer: 0
+  m_Name: Devo_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &779689146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779689145}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &779689147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779689145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: The devotion to San Sebastian (St. Sebastian) began with the story of Christianity
+      in Tarlac City during the Spanish conquest. Christian missionaries belonging
+      to the Augustinian order established the church in 1686, which they managed
+      as a visita of Magalang, Pampanga. Decades later, it ceded from Pampanga and
+      gained independence as a separate parish in 1727. However after thirty years,
+      it was absorbed back to the parish of Magalang.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang debosyon kay San Sebastian (San Sebastian) ay nagsimula sa kuwento
+      ng Kristiyanismo sa Lungsod ng Tarlac noong panahon ng pananakop ng mga Kastila.
+      Ang mga misyonerong Kristiyano na kasapi ng orden ng mga Agustino ay itinatag
+      ang simbahan noong 1686, na kanilang pinamahalaan bilang isang visita ng Magalang,
+      Pampanga. Makalipas ang mga dekada, ito ay naghiwalay mula sa Pampanga at naging
+      isang hiwalay na parokya noong 1727. Subalit matapos ang tatlong dekada, ito
+      ay ibinalik sa parokya ng Magalang.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &823108035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4280,6 +5242,160 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839515093}
+  m_CullTransparentMesh: 1
+--- !u!1 &842317735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842317736}
+  - component: {fileID: 842317739}
+  - component: {fileID: 842317738}
+  - component: {fileID: 842317737}
+  m_Layer: 0
+  m_Name: Text (TMP)_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &842317736
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842317735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1047.1381}
+  m_SizeDelta: {x: 1065.7, y: 151.0466}
+  m_Pivot: {x: 0.5, y: 0.49999964}
+--- !u!114 &842317737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842317735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaAct_3
+  FallbackText: On the other hand, secular activities often span for a week (such
+    as the 2018 calendar for example). Activities include job fair, trade fair, float
+    parade, music festival, coronation of Miss Tarlac, homecoming night, etc.
+--- !u!114 &842317738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842317735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: On the other hand, secular activities often span for a week (such as the
+    2018 calendar for example). Activities include job fair, trade fair, float parade,
+    music festival, coronation of Miss Tarlac, homecoming night, etc.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &842317739
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842317735}
   m_CullTransparentMesh: 1
 --- !u!1 &842990231
 GameObject:
@@ -4499,6 +5615,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874563891}
   m_CullTransparentMesh: 1
+--- !u!1 &877074730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877074731}
+  - component: {fileID: 877074732}
+  m_Layer: 0
+  m_Name: Kaisahist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877074731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877074730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &877074732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877074730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: History of Kaisa Festival
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Kasaysayan ng Kaisa Festival
+    Object: {fileID: 0}
 --- !u!1 &891206421
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,6 +5819,156 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936070543}
+  m_CullTransparentMesh: 1
+--- !u!1 &945886606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945886607}
+  - component: {fileID: 945886610}
+  - component: {fileID: 945886609}
+  - component: {fileID: 945886608}
+  m_Layer: 5
+  m_Name: Text (TMP)_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &945886607
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945886606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.4000003, y: 2.4000003, z: 2.4000003}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 760}
+  m_SizeDelta: {x: -890.542, y: -2559.097}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &945886608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945886606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: Kaisahist
+  FallbackText: History of Kaisa Festival
+--- !u!114 &945886609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945886606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: History of Kaisa Festival
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 17
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -38.9
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0.0001451781, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &945886610
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945886606}
   m_CullTransparentMesh: 1
 --- !u!1 &949027172
 GameObject:
@@ -5032,8 +6350,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: tarlac city
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5175,6 +6493,123 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1101094758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101094759}
+  - component: {fileID: 1101094760}
+  m_Layer: 0
+  m_Name: Devo_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101094759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101094758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101094760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101094758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "From the beginning, the church was placed under the patronage of St. Sebastian,
+      saint and martyr who died in the name of Christian faith. He is called \u201CApung
+      Baste\u201D by the devotees."
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Mula sa simula, ang simbahan ay inilagay sa ilalim ng patronato ni San
+      Sebastian, isang santo at martir na namatay sa ngalan ng pananampalatayang
+      Kristiyano. Tinatawag siyang "Apung Baste" ng mga deboto.
+
+'
+    Object: {fileID: 0}
+--- !u!1 &1103894810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1103894811}
+  - component: {fileID: 1103894812}
+  m_Layer: 0
+  m_Name: KaisaAct_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1103894811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103894810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1103894812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103894810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: On the other hand, secular activities often span for a week (such as the
+      2018 calendar for example). Activities include job fair, trade fair, float
+      parade, music festival, coronation of Miss Tarlac, homecoming night, etc.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Sa kabilang dako, karaniwang umaabot ng isang linggo ang mga sekular na
+      aktibidad (tulad ng kalendaryo noong 2018 halimbawa). Kasama sa mga aktibidad
+      ang job fair, trade fair, float parade, music festival, koronasyon ng Miss
+      Tarlac, homecoming night, at iba pa.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &1127657027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5226,14 +6661,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29699183, g: 0.79476684, b: 0.8867924, a: 1}
+  m_Color: {r: 0.16470589, g: 0.2901961, b: 0.37254903, a: 0.62352943}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29bb1699c56a026429003b72f9732b1d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d0cb419300300b4a89a05c27ad167c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5291,7 +6726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1140761149
@@ -5348,6 +6783,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!1 &1146510727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146510728}
+  - component: {fileID: 1146510729}
+  m_Layer: 0
+  m_Name: KaisaAct
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146510728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146510727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1146510729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146510727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: KanLAHI Festival Activities
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Mga Aktibidad ng KanLAHI Festival
+    Object: {fileID: 0}
 --- !u!1 &1180136930
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,6 +6911,166 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180136930}
   m_CullTransparentMesh: 1
+--- !u!1 &1234338068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1234338069}
+  - component: {fileID: 1234338072}
+  - component: {fileID: 1234338071}
+  - component: {fileID: 1234338070}
+  m_Layer: 0
+  m_Name: Text (TMP)_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1234338069
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234338068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 259.86194}
+  m_SizeDelta: {x: 1065.7, y: 151.0466}
+  m_Pivot: {x: 0.5, y: 0.49999964}
+--- !u!114 &1234338070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234338068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaHistDesc1
+  FallbackText: Starting in 2012, the city government led by Mayor Ace Manalang changed
+    the name of this yearly celebration from Malatarlak Festival to Melting Pot Festival.
+    It is inspired by how the city has become a home for people from different backgrounds
+    particularly among Ilocano, Tagalog, Pampangueno, and Pangasinenses. The convergence
+    of peoples from different parts of the country has brought forth a vibrant culture
+    and diversity in the city.
+--- !u!114 &1234338071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234338068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Starting in 2012, the city government led by Mayor Ace Manalang changed
+    the name of this yearly celebration from Malatarlak Festival to Melting Pot Festival.
+    It is inspired by how the city has become a home for people from different backgrounds
+    particularly among Ilocano, Tagalog, Pampangueno, and Pangasinenses. The convergence
+    of peoples from different parts of the country has brought forth a vibrant culture
+    and diversity in the city.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1234338072
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234338068}
+  m_CullTransparentMesh: 1
 --- !u!1 &1244833203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5490,7 +7137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5575,8 +7222,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KanLAHI Festival
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5662,6 +7309,7 @@ GameObject:
   - component: {fileID: 1251135261}
   - component: {fileID: 1251135260}
   - component: {fileID: 1251135259}
+  - component: {fileID: 1251135262}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -5688,8 +7336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -350}
-  m_SizeDelta: {x: 1300, y: 700.01}
+  m_AnchoredPosition: {x: 650, y: -303.32678}
+  m_SizeDelta: {x: 1300, y: 556.929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251135259
 MonoBehaviour:
@@ -5734,14 +7382,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.02745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5759,6 +7407,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251135257}
   m_CullTransparentMesh: 1
+--- !u!114 &1251135262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251135257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!1 &1280523389
 GameObject:
   m_ObjectHideFlags: 0
@@ -5825,6 +7486,64 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 1
+--- !u!1 &1291249723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291249724}
+  - component: {fileID: 1291249725}
+  m_Layer: 0
+  m_Name: KaisaDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1291249724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291249723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1291249725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291249723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "Kaisa Festival is the cultural festival and religious fiesta in the city
+      of Tarlac, Tarlac, Philippines every January 20. It is held as a celebration
+      of the city\u2019s culture and history and in honor of St. Sebastian, the patron
+      saint of the city."
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Ang Kaisa Festival ay ang cultural festival at religious fiesta sa lungsod
+      ng Tarlac, Tarlac, Philippines tuwing Enero 20. Ito ay ginaganap bilang pagdiriwang
+      ng kultura at kasaysayan ng lungsod at bilang parangal kay St. Sebastian, ang
+      patron ng lungsod.
+    Object: {fileID: 0}
 --- !u!1 &1384182704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5956,8 +7675,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CULTURE AND TRADITION
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6031,6 +7750,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468468763}
   m_CullTransparentMesh: 1
+--- !u!1 &1491972449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1491972450}
+  - component: {fileID: 1491972451}
+  m_Layer: 0
+  m_Name: KaisaAct_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1491972450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491972449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1491972451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491972449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Religious activities start with the nine-day novena and masses. On the
+      tenth day, a high mass or pontifical mass is held. Afterwards, a solemn foot
+      procession is conducted where the processional image of St. Sebastian is brought
+      out to the streets along with a throng of devotees.
+
+'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Nagsisimula ang mga relihiyosong aktibidad sa isang siyam-na-araw na novena
+      at mga misa. Sa ikasampung araw, isinasagawa ang isang mataas na misa o pontifical
+      mass. Pagkatapos nito, isinasagawa ang isang makatarungan na foot procession
+      kung saan ang prosesyonal na imahe ni San Sebastian ay dala patungo sa mga
+      kalsada kasama ang maraming deboto.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &1500220680
 GameObject:
   m_ObjectHideFlags: 0
@@ -6106,8 +7888,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KanLAHI Festival Activities
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6258,8 +8040,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6393,8 +8175,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: tarlac city
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6547,10 +8329,12 @@ MonoBehaviour:
   m_text: 'A few of the activities of the festival start before the official opening.
     This is true for preliminary events of the Binibining Kanlahi, the prestigious
     beauty pageant. As one of the highlights, it is search for the female candidate
-    with wit, beauty, and presence. '
+    with wit, beauty, and presence.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6624,6 +8408,225 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547454009}
   m_CullTransparentMesh: 1
+--- !u!1 &1631369237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631369238}
+  - component: {fileID: 1631369241}
+  - component: {fileID: 1631369240}
+  - component: {fileID: 1631369239}
+  m_Layer: 0
+  m_Name: Text (TMP)_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1631369238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631369237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -552.13806}
+  m_SizeDelta: {x: 1065.7, y: 151.0466}
+  m_Pivot: {x: 0.5, y: 0.49999964}
+--- !u!114 &1631369239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631369237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaAct_1
+  FallbackText: "Kaisa Festival\u2019s schedule of activities can be divided into
+    two, religious and secular. Religious activities are organized by religious authorities
+    while the secular calendar of activities are organized by the city government
+    of Tarlac. "
+--- !u!114 &1631369240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631369237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Kaisa Festival\u2019s schedule of activities can be divided into two,
+    religious and secular. Religious activities are organized by religious authorities
+    while the secular calendar of activities are organized by the city government
+    of Tarlac.\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1631369241
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631369237}
+  m_CullTransparentMesh: 1
+--- !u!1 &1645388323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645388324}
+  - component: {fileID: 1645388325}
+  m_Layer: 0
+  m_Name: KFA_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645388324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645388323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1645388325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645388323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Others are events such as music, parade, art shows, painting contest,
+      Palaro ng Lahi (which is traditional games), street dancing and showdown called
+      Sayawan at Yugyugan, chorale, pet shows, fireworks display, etc. Its schedule
+      also has space for sports such as fun run, basketball, paralympics, motocross,
+      and e-games.
+
+'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Kabilang dito ang iba't-ibang mga aktibidad tulad ng musika, prusisyon,
+      eksibisyon ng sining, patimpalak sa pagpipinta, Palaro ng Lahi (tradisyonal
+      na mga laro), pagsasayaw sa kalsada at showdown na tinatawag na Sayawan at
+      Yugyugan, chorale, pet show, paputok, at iba pa. May mga oras din sa schedule
+      para sa mga paligsahan sa sports tulad ng fun run, basketball, paralympics,
+      motocross, at e-games.
+    Object: {fileID: 0}
 --- !u!1 &1659117458
 GameObject:
   m_ObjectHideFlags: 0
@@ -6707,8 +8710,8 @@ MonoBehaviour:
     was elevated to a cathedral when the Diocese of Tarlac was established on February
     16, 1963.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6842,8 +8845,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: tarlac city
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6917,6 +8920,222 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741331218}
   m_CullTransparentMesh: 1
+--- !u!1 &1742364793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1742364794}
+  - component: {fileID: 1742364797}
+  - component: {fileID: 1742364796}
+  - component: {fileID: 1742364795}
+  m_Layer: 0
+  m_Name: Text (TMP)_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1742364794
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742364793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811345441}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -138.13806}
+  m_SizeDelta: {x: 1065.7, y: 151.0466}
+  m_Pivot: {x: 0.5, y: 0.49999964}
+--- !u!114 &1742364795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742364793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaHistDesc2
+  FallbackText: In Tarlac, you can find a blend of cultures, with Pangasinense culture
+    to the north, Ilocano influence from Nueva Ecija to the east, Tagalog from Zambales
+    to the west, and finally, Kapampangan from the south.
+--- !u!114 &1742364796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742364793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Then in 2017, the Melting Pot Festival was again changed to Kaisa Festival
+    by Mayor Cristy Angeles. The name of the fest is derived from the Filipino word
+    \u201Cmagkaisa\u201D which means to unite. It pays tribute to the unity shown
+    by the people of the city in confronting challenges head on and a recognition
+    of the year-round blessing received."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1742364797
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742364793}
+  m_CullTransparentMesh: 1
+--- !u!1 &1773125304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1773125305}
+  - component: {fileID: 1773125306}
+  m_Layer: 0
+  m_Name: KaisaAct_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1773125305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773125304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1773125306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773125304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "Kaisa Festival\u2019s schedule of activities can be divided into two,
+      religious and secular. Religious activities are organized by religious authorities
+      while the secular calendar of activities are organized by the city government
+      of Tarlac.\n"
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang schedule ng mga aktibidad ng Kaisa Festival ay maaaring hatiin sa
+      dalawa, relihiyoso at sekular. Ang mga relihiyosong aktibidad ay inoorganisa
+      ng mga awtoridad sa relihiyon habang ang kalendaryo ng mga sekular na aktibidad
+      ay inoorganisa ng pamahalaang lungsod ng Tarlac.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &1780711148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6954,6 +9173,69 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1786080325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786080326}
+  - component: {fileID: 1786080327}
+  m_Layer: 0
+  m_Name: KaisaHistDesc1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786080326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786080325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786080327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786080325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Starting in 2012, the city government led by Mayor Ace Manalang changed
+      the name of this yearly celebration from Malatarlak Festival to Melting Pot
+      Festival. It is inspired by how the city has become a home for people from
+      different backgrounds particularly among Ilocano, Tagalog, Pampangueno, and
+      Pangasinenses. The convergence of peoples from different parts of the country
+      has brought forth a vibrant culture and diversity in the city.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Simula noong 2012, binago ng pamahalaang lungsod sa pamumuno ni Mayor Ace
+      Manalang ang pangalan ng taunang pagdiriwang na ito mula Malatarlak Festival
+      patungo sa Melting Pot Festival. Ito ay nainspirasyon sa kung paano ang lungsod
+      ay naging tahanan para sa mga tao mula sa iba't-ibang mga pinagmulan, partikular
+      na sa mga Ilocano, Tagalog, Pampangueno, at Pangasinense. Ang pagtatagpo ng
+      mga tao mula sa iba't-ibang bahagi ng bansa ay nagdala ng masigla at pagkakaiba-iba
+      sa kultura ng lungsod.
+    Object: {fileID: 0}
 --- !u!1 &1806464029
 GameObject:
   m_ObjectHideFlags: 0
@@ -7037,8 +9319,8 @@ MonoBehaviour:
     the schools of the city compete to come up with the most creative rendition of
     the patron\u2019s life."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7144,8 +9426,14 @@ RectTransform:
   - {fileID: 974333797}
   - {fileID: 202142548}
   - {fileID: 2144484518}
-  - {fileID: 1956476074}
-  - {fileID: 1933237801}
+  - {fileID: 945886607}
+  - {fileID: 1921026804}
+  - {fileID: 1234338069}
+  - {fileID: 1742364794}
+  - {fileID: 605668010}
+  - {fileID: 1631369238}
+  - {fileID: 397358678}
+  - {fileID: 842317736}
   m_Father: {fileID: 1244833204}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7178,6 +9466,67 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 1
+--- !u!1 &1827767025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827767026}
+  - component: {fileID: 1827767027}
+  m_Layer: 0
+  m_Name: KF_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1827767026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827767025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1827767027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827767025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: KanLAHI Festival, officially Kanlungan ng Lahi Festival, is the annual
+      cultural festival in the province of Tarlac, Philippines every first week of
+      March. It was conceptualized to celebrate the diversity of its people and promote
+      tourism.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang unang bahay-palakasan ay gawa sa mga magaang materyales noong ika-18
+      siglo. Ito ay itinayo ulit bilang isang simbahang bato noong 1872 at natapos
+      noong 1890. Ito ay nasira noong Panahon ng Ikalawang Digmaang Pandaigdig at
+      muling itinayo ng mga taon pagkatapos. Ang simbahan ay itinaas bilang isang
+      katedral nang itatag ang Diyosesis ng Tarlac noong Pebrero 16, 1963.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &1830029391
 GameObject:
   m_ObjectHideFlags: 0
@@ -7262,7 +9611,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 509436207}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.27809444
+  m_Size: 0.23113146
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7378,10 +9727,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'History of KanLAHI Festival '
+  m_text: 'History of KanLAHI Festival
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7680,7 +10031,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835455869}
   m_CullTransparentMesh: 1
---- !u!1 &1933237800
+--- !u!1 &1892396796
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7688,23 +10039,81 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1933237801}
-  - component: {fileID: 1933237803}
-  - component: {fileID: 1933237802}
+  - component: {fileID: 1892396797}
+  - component: {fileID: 1892396798}
   m_Layer: 0
-  m_Name: Image_1
+  m_Name: KFA_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1933237801
+--- !u!4 &1892396797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892396796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892396798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892396796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Various contests are also held such talent competitions, cook fest, etc.
+      People can also see and buy locally made products in the agri-farm trade.
+
+'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: Isinasagawa rin ang iba't-ibang patimpalak tulad ng paligsahan ng talento,
+      cook fest, at iba pa. Makakakita rin at makabibili ang mga tao ng mga lokal
+      na gawang produkto sa agri-farm trade.
+    Object: {fileID: 0}
+--- !u!1 &1921026803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921026804}
+  - component: {fileID: 1921026807}
+  - component: {fileID: 1921026806}
+  - component: {fileID: 1921026805}
+  m_Layer: 0
+  m_Name: Text (TMP)_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1921026804
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933237800}
+  m_GameObject: {fileID: 1921026803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -7715,19 +10124,37 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 285.75, y: 818}
-  m_SizeDelta: {x: 580.7976, y: 365.1765}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1933237802
+  m_AnchoredPosition: {x: 0, y: 617.8621}
+  m_SizeDelta: {x: 1065.7, y: 151.0466}
+  m_Pivot: {x: 0.5, y: 0.49999964}
+--- !u!114 &1921026805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933237800}
+  m_GameObject: {fileID: 1921026803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: KaisaHistDesc
+  FallbackText: The city of Tarlac used to hold the Malatarlak Festival every January
+    20. The name of the fest comes from a kind of grass indigenous to Luzon. One
+    can see the archives found in the Senate of the Philippines of the list of presidential
+    proclamations declaring the date as a special non-working holiday for this festival
+    in Tarlac spanning from 2004 until 2010.
+--- !u!114 &1921026806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921026803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -7738,23 +10165,86 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39abc94e03d7a744b900a49c759f3607, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1933237803
+  m_text: The city of Tarlac used to hold the Malatarlak Festival every January 20.
+    The name of the fest comes from a kind of grass indigenous to Luzon. One can
+    see the archives found in the Senate of the Philippines of the list of presidential
+    proclamations declaring the date as a special non-working holiday for this festival
+    in Tarlac spanning from 2004 until 2010.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9869002}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1921026807
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933237800}
+  m_GameObject: {fileID: 1921026803}
   m_CullTransparentMesh: 1
 --- !u!1001 &1933744681
 PrefabInstance:
@@ -7825,82 +10315,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec42e2074e930e94992aeb030caf4604, type: 3}
---- !u!1 &1956476073
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1956476074}
-  - component: {fileID: 1956476076}
-  - component: {fileID: 1956476075}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1956476074
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1956476073}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811345441}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -291, y: 818}
-  m_SizeDelta: {x: 554.1978, y: 369.2343}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1956476075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1956476073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a8c433e813b25004f947fe38066e1739, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1956476076
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1956476073}
-  m_CullTransparentMesh: 1
 --- !u!1 &1985256004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,8 +10394,8 @@ MonoBehaviour:
     translates to cradle of races. It was first launched under the term of Governor
     Susan Yap in May 2017 in line with the 144th founding anniversary.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8097,6 +10511,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: ec42e2074e930e94992aeb030caf4604, type: 3}
   m_PrefabInstance: {fileID: 1933744681}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2003981863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003981864}
+  - component: {fileID: 2003981865}
+  m_Layer: 0
+  m_Name: KF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2003981864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003981863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2003981865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003981863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: KanLAHI Festival, officially Kanlungan ng Lahi Festival, is the annual
+      cultural festival in the province of Tarlac, Philippines every first week of
+      March. It was conceptualized to celebrate the diversity of its people and promote
+      tourism.
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Ang KanLAHI Festival, opisyal na Kilala rin bilang Kanlungan ng Lahi Festival,
+      ay taunang pista ng kultura sa lalawigan ng Tarlac, Pilipinas tuwing unang
+      linggo ng Marso. Ito ay itinatag upang ipagdiwang ang pagkakaiba-iba ng mga
+      tao nito at itaguyod ang turismo.
+
+'
+    Object: {fileID: 0}
 --- !u!1 &2021069669
 GameObject:
   m_ObjectHideFlags: 0
@@ -8851,6 +11325,60 @@ MonoBehaviour:
       the well-preserved municipal building, several old houses featuring Spanish
       architecture, and various structures that were constructed more than a century
       ago.
+--- !u!1 &2046304540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046304541}
+  - component: {fileID: 2046304542}
+  m_Layer: 0
+  m_Name: Devo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046304541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046304540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2046304542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046304540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Devotion to St. Sebastian
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Paggalang kay San Sebastian
+
+'
+    Object: {fileID: 0}
 --- !u!1 &2046485405
 GameObject:
   m_ObjectHideFlags: 0
@@ -9021,8 +11549,8 @@ MonoBehaviour:
     saint and martyr who died in the name of Christian faith. He is called \u201CApung
     Baste\u201D by the devotees."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9187,6 +11715,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133060999}
   m_CullTransparentMesh: 1
+--- !u!1 &2135005861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2135005862}
+  - component: {fileID: 2135005863}
+  m_Layer: 0
+  m_Name: KF_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2135005862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135005861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 16423216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135005863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135005861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'History of KanLAHI Festival
+
+'
+    Object: {fileID: 0}
+  - Language: Tagalog
+    Text: 'Kasaysayan ng KanLAHI Festival
+
+'
+    Object: {fileID: 0}
 --- !u!1 &2143375216
 GameObject:
   m_ObjectHideFlags: 0
@@ -9225,8 +11809,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -350}
-  m_SizeDelta: {x: 1300, y: 700.01}
+  m_AnchoredPosition: {x: 650, y: -290.89313}
+  m_SizeDelta: {x: 1300, y: 581.7963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143375218
 MonoBehaviour:
@@ -9271,7 +11855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.02745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9371,8 +11955,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Devotion to St. Sebastian
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9482,7 +12066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 519}
+  m_AnchoredPosition: {x: 0, y: 953.8621}
   m_SizeDelta: {x: 1065.7, y: 151.0466}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &2144484519
@@ -9505,20 +12089,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The Chicharon and Iniruban Festival, also known as Tarlac's finest celebration,
-    takes place in the town of Camiling during the last week of October. It serves
-    as both a preparation for All Saints Day and a thanksgiving celebration for bountiful
-    harvests, especially Iniruban rice cakes and quality meat products like Chicharon
-    or Bagnet. \r\n\r\n\n\n\n\n\n\n\nThe festival showcases the delicious Chicharon,
-    a favorite among tourists, and the unique and tasty rice cakes known as Iniruban.
-    Camiling proudly hosts the Iniruban and Chicharon Festival every last week of
-    October, featuring vibrant and artistic presentations, as well as street dances
-    performed by various schools in Camiling. Highlights of the festival include
-    the Miss Iniruban beauty pageant, and an agricultural trade exhibit. This cultural
-    celebration has been a cherished tradition in the province since 2000."
+  m_text: "Kaisa Festival is the cultural festival and religious fiesta in the city
+    of Tarlac, Tarlac, Philippines every January 20. It is held as a celebration
+    of the city\u2019s culture and history and in honor of St. Sebastian, the patron
+    saint of the city."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
-  m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
+  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9604,7 +12181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CamCult
+  translationName: KaisaDesc
   FallbackText: "Kaisa Festival is the cultural festival and religious fiesta in
     the city of Tarlac, Tarlac, Philippines every January 20. It is held as a celebration
     of the city\u2019s culture and history and in honor of St. Sebastian, the patron
