@@ -14,6 +14,12 @@ public class AudioManager : MonoBehaviour
     public AudioClip levelComplete;
     public AudioClip error;
 
+    [Header("------- Volume Settings -------")]
+    [Range(0.0f, 1.0f)]
+    public float musicVolume = 1.0f; // Default music volume.
+    [Range(0.0f, 1.0f)]
+    public float sfxVolume = 1.0f; // Default SFX volume.
+
     // Use this to ensure there's only one AudioManager in the scene.
     private static AudioManager instance;
 
@@ -32,6 +38,10 @@ public class AudioManager : MonoBehaviour
         // Ensure this AudioManager object isn't destroyed when loading new scenes.
         DontDestroyOnLoad(this.gameObject);
 
+        // Apply the saved volume settings (if any) when the AudioManager starts.
+        musicSource.volume = PlayerPrefs.GetFloat("MusicVolume", musicVolume);
+        SFXSource.volume = PlayerPrefs.GetFloat("SFXVolume", sfxVolume);
+
         musicSource.clip = background;
         musicSource.Play();
     }
@@ -47,6 +57,26 @@ public class AudioManager : MonoBehaviour
         SFXSource.Play();
     }
 
+    public void SetMusicVolume(float volume)
+    {
+        musicVolume = volume;
+        musicSource.volume = volume;
+
+        // Save the music volume setting.
+        PlayerPrefs.SetFloat("MusicVolume", volume);
+        PlayerPrefs.Save();
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        sfxVolume = volume;
+        SFXSource.volume = volume;
+
+        // Save the SFX volume setting.
+        PlayerPrefs.SetFloat("SFXVolume", volume);
+        PlayerPrefs.Save();
+    }
+
     private void Update()
     {
         // Check if the background music is not playing, and play it if necessary.
@@ -56,7 +86,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -70,9 +100,13 @@ public class AudioManager : MonoBehaviour
     {
         // Handle scene changes here based on the scene and mode if necessary.
         // For example, you can stop the music when transitioning to a specific scene.
-        if (scene.buildIndex == 1)
+        if (scene.buildIndex == 0)
         {
             musicSource.Stop();
         }
-    }
+
+        // Reapply the saved volume settings every time a scene is loaded.
+        musicSource.volume = PlayerPrefs.GetFloat("MusicVolume", musicVolume);
+        SFXSource.volume = PlayerPrefs.GetFloat("SFXVolume", sfxVolume);
+    }*/
 }

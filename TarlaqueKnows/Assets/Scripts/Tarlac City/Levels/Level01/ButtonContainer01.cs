@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class ButtonContainer01 : MonoBehaviour
 {
@@ -9,6 +10,12 @@ public class ButtonContainer01 : MonoBehaviour
     public GameObject AllParent;
     SceneChangeEL01 GameObjectScript;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         GameObjectScript = AllParent.GetComponent<SceneChangeEL01>();
@@ -37,7 +44,8 @@ public class ButtonContainer01 : MonoBehaviour
                 else if(btnConText[0].text=="T" && btnConText[1].text=="A" && btnConText[2].text=="R" && btnConText[3].text=="L" && btnConText[4].text=="A" && btnConText[5].text=="C" &&
                     btnConText[6].text=="C" && btnConText[7].text == "A" && btnConText[8].text == "P" && btnConText[9].text == "I" && btnConText[10].text == "T" && btnConText[11].text == "O" && btnConText[12].text == "L")
                 {
-                    GameObjectScript.Animation.Play("Show_Info");
+                audioManager.PlaySFX(audioManager.levelComplete);
+                GameObjectScript.Animation.Play("Show_Info");
                     FinishedLevel.isLevelFinished[0]=true;
                     HintPoints.trials=0;
                     break;
@@ -47,6 +55,7 @@ public class ButtonContainer01 : MonoBehaviour
                      || btnConText[6].text == "" && btnConText[7].text == "" || btnConText[8].text == "" || btnConText[9].text == "" ||
                     btnConText[10].text == "" || btnConText[11].text == "" || btnConText[12].text == "")
                 {
+                
                     btnConText[0].color = Color.white;
                     btnConText[1].color = Color.white;
                     btnConText[2].color = Color.white;
@@ -63,7 +72,7 @@ public class ButtonContainer01 : MonoBehaviour
                     break;
                 }
                 else
-                {
+                {audioManager.PlaySFX(audioManager.error);
                     HintPoints.trials++;
                     btnConText[0].color = Color.red;
                     btnConText[1].color = Color.red;
