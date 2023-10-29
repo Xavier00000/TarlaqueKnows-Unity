@@ -218,7 +218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f6bd615a6481ea849a818e00c37ccae3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_ShowMaskGraphic: 1
 --- !u!114 &103466372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,8 +297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000026226, y: -867.8794}
-  m_SizeDelta: {x: 1300, y: 2129.7588}
+  m_AnchoredPosition: {x: 0.000026226, y: -110.194885}
+  m_SizeDelta: {x: 1300, y: 614.3899}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &107081356
 GameObject:
@@ -339,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0003}
+  m_AnchoredPosition: {x: 0, y: -0.00052675477}
   m_SizeDelta: {x: 0, y: 1937.9504}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &107081358
@@ -687,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0003}
+  m_AnchoredPosition: {x: 0, y: 0.0000060797}
   m_SizeDelta: {x: 0, y: 1178.2778}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &168492901
@@ -901,7 +901,7 @@ MonoBehaviour:
       park plaza in the province, covering four hectares of land. It''s used for
       various activities by the municipality and local schools in Camiling.
 
-      
+
 
       On
       one side of the plaza, you can find vendors selling products from Camiling,
@@ -916,13 +916,13 @@ MonoBehaviour:
       lupa. Ginagamit ito para sa iba''t ibang mga aktibidad ng munisipyo at mga
       paaralan sa Camiling.
 
-      
 
-      Sa isang bahagi ng plaza, makakakita
-      ka ng mga nagtitinda ng mga produkto mula sa Camiling, kabilang na ang mga
-      kagamitan sa pagsasaka, tradisyonal na kagamitan tulad ng Salakot at Balanggot,
-      at kahoy na mga kasangkapan. Mayroon din mga nagtitinda ng pakwan at mga nag-aalok
-      ng magagandang ornamental na halaman sa abot-kayang presyo sa gilid ng plaza.'
+
+      Sa isang bahagi ng plaza, makakakita ka ng mga
+      nagtitinda ng mga produkto mula sa Camiling, kabilang na ang mga kagamitan
+      sa pagsasaka, tradisyonal na kagamitan tulad ng Salakot at Balanggot, at kahoy
+      na mga kasangkapan. Mayroon din mga nagtitinda ng pakwan at mga nag-aalok ng
+      magagandang ornamental na halaman sa abot-kayang presyo sa gilid ng plaza.'
     Object: {fileID: 0}
 --- !u!1 &211150461
 GameObject:
@@ -1439,8 +1439,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2014740240}
   m_HandleRect: {fileID: 2014740239}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.46256527
+  m_Value: 0.9962137
+  m_Size: 0.3647676
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1793,6 +1793,7 @@ GameObject:
   - component: {fileID: 617244636}
   - component: {fileID: 617244635}
   - component: {fileID: 617244634}
+  - component: {fileID: 617244637}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -1819,8 +1820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -305.27557}
+  m_SizeDelta: {x: 1300, y: 552.0028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &617244634
 MonoBehaviour:
@@ -1890,6 +1891,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617244632}
   m_CullTransparentMesh: 1
+--- !u!114 &617244637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617244632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &618396358
 GameObject:
   m_ObjectHideFlags: 0
@@ -3595,8 +3609,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1180136932}
   m_HandleRect: {fileID: 1180136931}
   m_Direction: 2
-  m_Value: 0.9999996
-  m_Size: 0.55793744
+  m_Value: 0.9870222
+  m_Size: 0.43997577
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3724,10 +3738,10 @@ MonoBehaviour:
     park plaza in the province, covering four hectares of land. It''s used for various
     activities by the municipality and local schools in Camiling.
 
-    
 
-    On
-    one side of the plaza, you can find vendors selling products from Camiling, including
+
+    On one side
+    of the plaza, you can find vendors selling products from Camiling, including
     agricultural supplies, traditional items like Salakot and Balanggot, and wooden
     furniture. There are also watermelon vendors and sellers offering beautiful ornamental
     plants at affordable prices along the plaza''s edge.'
@@ -4714,7 +4728,7 @@ MonoBehaviour:
       bago itinayo ang isang bagong simbahan malapit sa mga lumang labi. May mga
       plano rin na gawing museo ang lumang simbahan.
 
-      
+
 
       Ito ang pinakamatandang
       simbahan na itinayo sa lalawigan ng Tarlac. Mayroon din itong isang 500 metro
@@ -5112,6 +5126,7 @@ GameObject:
   - component: {fileID: 1086340108}
   - component: {fileID: 1086340107}
   - component: {fileID: 1086340106}
+  - component: {fileID: 1086340109}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -5138,8 +5153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -305.27557}
+  m_SizeDelta: {x: 1300, y: 552.0028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086340106
 MonoBehaviour:
@@ -5209,6 +5224,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086340104}
   m_CullTransparentMesh: 1
+--- !u!114 &1086340109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086340104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1086858295
 GameObject:
   m_ObjectHideFlags: 0
@@ -5248,7 +5276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0003}
+  m_AnchoredPosition: {x: 0, y: 3.639669}
   m_SizeDelta: {x: 0, y: 1513.2998}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1086858297
@@ -5599,8 +5627,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 931338054}
   m_HandleRect: {fileID: 931338053}
   m_Direction: 2
-  m_Value: 0.99999946
-  m_Size: 0.5940873
+  m_Value: 1
+  m_Size: 0.46848273
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6295,6 +6323,7 @@ GameObject:
   - component: {fileID: 1251135261}
   - component: {fileID: 1251135260}
   - component: {fileID: 1251135259}
+  - component: {fileID: 1251135262}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -6321,8 +6350,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -305.27557}
+  m_SizeDelta: {x: 1300, y: 552.0028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251135259
 MonoBehaviour:
@@ -6392,6 +6421,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251135257}
   m_CullTransparentMesh: 1
+--- !u!114 &1251135262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251135257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1264911018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6640,12 +6682,12 @@ MonoBehaviour:
       with beautifully crafted stained glass windows, showcasing not only Jesus Christ
       and the Virgin Mary but also various angels.
 
-      
 
-      This church is
-      situated next to the Camiling Catholic School and is recognized as one of the
-      most appealing churches in Tarlac. The Camiling Catholic School and the remnants
-      of the Camiling Catholic Church are located adjacent to this church.'
+
+      This church is situated
+      next to the Camiling Catholic School and is recognized as one of the most appealing
+      churches in Tarlac. The Camiling Catholic School and the remnants of the Camiling
+      Catholic Church are located adjacent to this church.'
     Object: {fileID: 0}
   - Language: Tagalog
     Text: 'Ang Simbahang Parokya ng San Miguel Arkangel sa Camiling ay itinayo noong
@@ -6654,12 +6696,11 @@ MonoBehaviour:
       ang hindi lamang si Hesukristo at Birheng Maria, kundi pati na rin ang mga
       anghel.
 
-      
 
-      Matatagpuan ito malapit sa Camiling Catholic School
-      at kilala ito bilang isa sa mga pinakamaganda at atraktibong simbahan sa Tarlac.
-      Katabi nito ang paaralan at mga nalalabing bahagi ng dating Camiling Catholic
-      Church.'
+
+      Matatagpuan ito malapit sa Camiling Catholic School at kilala
+      ito bilang isa sa mga pinakamaganda at atraktibong simbahan sa Tarlac. Katabi
+      nito ang paaralan at mga nalalabing bahagi ng dating Camiling Catholic Church.'
     Object: {fileID: 0}
 --- !u!1 &1468468763
 GameObject:
@@ -6899,6 +6940,7 @@ GameObject:
   - component: {fileID: 1527478728}
   - component: {fileID: 1527478727}
   - component: {fileID: 1527478726}
+  - component: {fileID: 1527478729}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -6925,8 +6967,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 649.99, y: -350}
-  m_SizeDelta: {x: 1300, y: 700}
+  m_AnchoredPosition: {x: 649.99, y: -305.27557}
+  m_SizeDelta: {x: 1300, y: 552.0028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1527478726
 MonoBehaviour:
@@ -6996,6 +7038,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527478724}
   m_CullTransparentMesh: 1
+--- !u!114 &1527478729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527478724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &1637889400
 GameObject:
   m_ObjectHideFlags: 0
@@ -8514,7 +8569,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0003}
+  m_AnchoredPosition: {x: 0, y: 9.118307}
   m_SizeDelta: {x: 0, y: 1254.6208}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1811345442
@@ -9232,8 +9287,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1637889402}
   m_HandleRect: {fileID: 1637889401}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.36120632
+  m_Value: 1.0000004
+  m_Size: 0.28483844
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9738,10 +9793,10 @@ MonoBehaviour:
     with beautifully crafted stained glass windows, showcasing not only Jesus Christ
     and the Virgin Mary but also various angels.
 
-    
 
-    This church is situated
-    next to the Camiling Catholic School and is recognized as one of the most appealing
+
+    This church is situated next
+    to the Camiling Catholic School and is recognized as one of the most appealing
     churches in Tarlac. The Camiling Catholic School and the remnants of the Camiling
     Catholic Church are located adjacent to this church.'
   m_isRightToLeft: 0
