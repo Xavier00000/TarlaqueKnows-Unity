@@ -7864,8 +7864,8 @@ MonoBehaviour:
   hint: {fileID: 8300000, guid: e182de28c58328b4393901b8c252ac43, type: 3}
   levelComplete: {fileID: 8300000, guid: a88adbb5cf6d9c0498ebb249cca31d85, type: 3}
   error: {fileID: 8300000, guid: 4e838dc4185cfe641ac4384abc0f0b70, type: 3}
-  musicVolume: 0.58
-  sfxVolume: 0.59
+  musicVolume: 0.4
+  sfxVolume: 1
 --- !u!4 &1805702680
 Transform:
   m_ObjectHideFlags: 0
