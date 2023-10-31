@@ -11,7 +11,7 @@ public class SceneChangeEL06 : MonoBehaviour
     }
     public void EasyRoom02()
     {
-        SceneManager.LoadScene("EasyRoom06");
+        SceneManager.LoadScene("EasyRoom01");
     }
     public void ContinueAnim()
     {

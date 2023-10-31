@@ -72,6 +72,28 @@ public class DifficultyScreen : MonoBehaviour
             SanJose.SetActive(true);
             Victoria.SetActive(true);
         }
+        else if (FinishedLevel.isLevelFinished[29] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(false);
+            Gerona.SetActive(false);
+            Anao.SetActive(false);
+            SanJose.SetActive(false);
+            Victoria.SetActive(true);
+        }
+        else if (FinishedLevel.isLevelFinished[33] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(false);
+            Gerona.SetActive(false);
+            Anao.SetActive(false);
+            SanJose.SetActive(false);
+            Victoria.SetActive(false);
+        }
     }
     
     public void MenuScreen()
