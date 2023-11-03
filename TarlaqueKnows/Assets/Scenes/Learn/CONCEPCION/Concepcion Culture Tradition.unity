@@ -297,7 +297,6 @@ Transform:
   - {fileID: 2021069670}
   - {fileID: 520311167}
   - {fileID: 917182136}
-  - {fileID: 837302478}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -395,7 +394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &90744685
 RectTransform:
   m_ObjectHideFlags: 0
@@ -412,9 +411,9 @@ RectTransform:
   m_Father: {fileID: 1140761148}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2050, y: -350}
   m_SizeDelta: {x: 1300, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90744686
@@ -787,7 +786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: CapCult
+  translationName: ConCult
   FallbackText: "Capas as all other towns in Tarlac province was a part of vast wilderness
     inhabited by the Abelling tribes known as Aetas. The history of Capas dates back
     in the late 16th century when immigrants from Pampanga, Zambales, Pangasinan
@@ -817,15 +816,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Capas as all other towns in Tarlac province was a part of vast wilderness
-    inhabited by the Abelling tribes known as Aetas. The history of Capas dates back
-    in the late 16th century when immigrants from Pampanga, Zambales, Pangasinan
-    and the Ilocos region flock into the settlements. It is considered the oldest
-    town in Tarlac. \r\n\r\nCapas became a pueblo (town) in 1710 beginning as a sleepy
-    settlement at a place between Cutcut River in Sitio Pagbatuan and Gudya (present
-    site) founded by Kapitan Mariano Capiendo. Capas' patron saint is San Nicolas
-    de Tolentino. September 9\u201310 is the Capas Town Fiesta. Tarlac province was
-    founded on May 28, 1874."
+  m_text: 'Concepcion, a town in southern Tarlac, celebrates two fiestas: ''Fiestang
+    Patrun'' and ''Fiestang Balen.'' ''Fiestang Patrun'' honors their patron, Apung
+    Imaculada Concepcion, while ''Fiestang Balen'' is celebrated on April 25, though
+    its origins have been forgotten.
+
+
+    The town tried to merge these fiestas
+    in the 1950s, but the move was opposed by the town''s devout ladies. In 1973,
+    during Martial Law, they successfully combined ''Fiestang Balen'' with ''Fiestang
+    Patrun'' for frugality reasons. However, after experiencing major fire damage
+    during joint celebrations, the townsfolk decided to separate the two fiestas
+    again. ''Fiestang Balen'' is a civil affair, possibly in honor of an important
+    figure from the town. In the past, it might have marked the start of the rice
+    harvest season, symbolizing unity among the town and its barangays. The town
+    plaza would fill with barrio folks'' carts in preparation for the fiesta.
+
+
+    Some
+    recall a 1950s celebration called ''Kabukiran,'' where various barrios displayed
+    their agricultural products in the town center. Some residents suggest that ''Fiestang
+    Balen'' was a feast for the poor, highlighting class distinctions in Concepcion.
+    They believe the rich''s real celebration was the ''Ding Masibucan'' Grand Ball,
+    which took place during New Year''s Eve.This distinction may have emerged during
+    the period of Socialism and the Hukbalahap movement in the 1930s and 40s.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -983,15 +997,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The event dubbed \u201CPamilalamu\u201D (the Aeta word for \u201Cpakikisama\u201D
-    or solidarity), organized by Kabalikat sa Kaunlaran ng mga Ayta, Inc. (KAKAI),
-    focused on celebrating the culture of the Aetas and empowering the youth. The
-    festival aimed to remind the younger generation of Aetas about their cultural
-    practices and traditions, including rituals, crafts, songs, dances and folk games\r\n\r\nThe
-    festival was held in Sitio Alunan, a community in the middle of the mountains
-    of Capas, Tarlac. To get there, a handful of photographers and volunteers traveled
-    by bus from Manila to Tarlac, transferred to a tricycle, then hitched on the
-    back of a trailer pulled by a 4\xD74 jeep up to the mountains."
+  m_text: "Capas as all other towns in Tarlac province was a part of vast wilderness
+    inhabited by the Abelling tribes known as Aetas. The history of Capas dates back
+    in the late 16th century when immigrants from Pampanga, Zambales, Pangasinan
+    and the Ilocos region flock into the settlements. It is considered the oldest
+    town in Tarlac.   Capas became a pueblo (town) in 1710 beginning as a sleepy
+    settlement at a place between Cutcut River in Sitio Pagbatuan and Gudya (present
+    site) founded by Kapitan Mariano Capiendo. Capas' patron saint is San Nicolas
+    de Tolentino. September 9\u201310 is the Capas Town Fiesta. Tarlac province was
+    founded on May 28, 1874."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -1485,7 +1499,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Capas Town Fiesta
+  m_text: Fiestang Balen & Fiestang Patrun
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -1524,7 +1538,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -38.9
+  m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -3189,75 +3203,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823108035}
   m_CullTransparentMesh: 1
---- !u!1 &837302477
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 837302478}
-  - component: {fileID: 837302479}
-  m_Layer: 0
-  m_Name: CapCult_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &837302478
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837302477}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 16423216}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &837302479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837302477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: 0
-  entries:
-  - Language: English
-    Text: "The event dubbed \u201CPamilalamu\u201D (the Aeta word for \u201Cpakikisama\u201D
-      or solidarity), organized by Kabalikat sa Kaunlaran ng mga Ayta, Inc. (KAKAI),
-      focused on celebrating the culture of the Aetas and empowering the youth. The
-      festival aimed to remind the younger generation of Aetas about their cultural
-      practices and traditions, including rituals, crafts, songs, dances and folk
-      games\r\n\r\nThe festival was held in Sitio Alunan, a community in the middle
-      of the mountains of Capas, Tarlac. To get there, a handful of photographers
-      and volunteers traveled by bus from Manila to Tarlac, transferred to a tricycle,
-      then hitched on the back of a trailer pulled by a 4\xD74 jeep up to the mountains."
-    Object: {fileID: 0}
-  - Language: Tagalog
-    Text: "Ang pagtitipon na tinawag na \"Pamilalamu\" (ang salitang Aeta para sa
-      \"pakikisama\" o solidarity), na inorganisa ng Kabalikat sa Kaunlaran ng mga
-      Ayta, Inc. (KAKAI), ay nakatuon sa pagdiriwang ng kultura ng mga Aeta at sa
-      pagpapalakas sa kabataan. Layunin ng festival na ipaalala sa mga kabataang
-      Aeta ang kanilang kultural na kaugalian at tradisyon, kabilang ang ritwal,
-      mga gawaing pantinig, awit, sayaw, at mga laro ng bayan.\r\n\r\nGinanap ang
-      festival sa Sitio Alunan, isang komunidad sa gitna ng mga bundok sa Capas,
-      Tarlac. Upang makarating doon, ilang mga litratista at boluntaryo ang naglakbay
-      mula sa Manila patungong Tarlac sa pamamagitan ng bus, lumipat sa tricycle,
-      at sumakay sa likod ng isang trailer na hinila ng 4x4 jeep patungo sa mga bundok.\r"
-    Object: {fileID: 0}
 --- !u!1 &917182135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3269,7 +3214,7 @@ GameObject:
   - component: {fileID: 917182136}
   - component: {fileID: 917182137}
   m_Layer: 0
-  m_Name: CapCult
+  m_Name: ConCult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3305,32 +3250,62 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: "Capas as all other towns in Tarlac province was a part of vast wilderness
-      inhabited by the Abelling tribes known as Aetas. The history of Capas dates
-      back in the late 16th century when immigrants from Pampanga, Zambales, Pangasinan
-      and the Ilocos region flock into the settlements. It is considered the oldest
-      town in Tarlac. \r\n\r\nCapas became a pueblo (town) in 1710 beginning as a
-      sleepy settlement at a place between Cutcut River in Sitio Pagbatuan and Gudya
-      (present site) founded by Kapitan Mariano Capiendo. Capas' patron saint is
-      San Nicolas de Tolentino. September 9\u201310 is the Capas Town Fiesta. Tarlac
-      province was founded on May 28, 1874."
+    Text: 'Concepcion, a town in southern Tarlac, celebrates two fiestas: ''Fiestang
+      Patrun'' and ''Fiestang Balen.'' ''Fiestang Patrun'' honors their patron, Apung
+      Imaculada Concepcion, while ''Fiestang Balen'' is celebrated on April 25, though
+      its origins have been forgotten.
+
+
+      The town tried to merge these fiestas
+      in the 1950s, but the move was opposed by the town''s devout ladies. In 1973,
+      during Martial Law, they successfully combined ''Fiestang Balen'' with ''Fiestang
+      Patrun'' for frugality reasons. However, after experiencing major fire damage
+      during joint celebrations, the townsfolk decided to separate the two fiestas
+      again. ''Fiestang Balen'' is a civil affair, possibly in honor of an important
+      figure from the town. In the past, it might have marked the start of the rice
+      harvest season, symbolizing unity among the town and its barangays. The town
+      plaza would fill with barrio folks'' carts in preparation for the fiesta.
+
+
+      Some
+      recall a 1950s celebration called ''Kabukiran,'' where various barrios displayed
+      their agricultural products in the town center. Some residents suggest that
+      ''Fiestang Balen'' was a feast for the poor, highlighting class distinctions
+      in Concepcion. They believe the rich''s real celebration was the ''Ding Masibucan''
+      Grand Ball, which took place during New Year''s Eve.This distinction may have
+      emerged during the period of Socialism and the Hukbalahap movement in the 1930s
+      and 40s.'
     Object: {fileID: 0}
   - Language: Tagalog
-    Text: 'Ang Capas, katulad ng iba pang mga bayan sa lalawigan ng Tarlac, ay bahagi
-      ng malawak na kagubatan na tinitirahan ng mga tribong Aeta na kilala bilang
-      mga Abelling. Ang kasaysayan ng Capas ay umuugma noong ika-16 dantaon nang
-      dumating ang mga imigrante mula sa Pampanga, Zambales, Pangasinan, at mula
-      sa rehiyon ng Ilocos sa mga pamayanan. Ito ay itinuturing na pinakamatandang
-      bayan sa Tarlac.
+    Text: 'Sa Concepcion, isang bayan sa timog na bahagi ng Tarlac, may dalawang
+      fiesta silang ipinagdiriwang: ''Fiestang Patrun'' at ''Fiestang Balen.'' Ipinagdiriwang
+      ang ''Fiestang Patrun'' bilang pagsamba sa kanilang patron, Apung Imaculada
+      Concepcion, samantalang ang ''Fiestang Balen'' ay ipinagdiriwang tuwing Abril
+      25, ngunit nalimutan na ang mga pinagmulan nito.
 
 
+      Noong 1950s, sinubukan
+      ng bayan na pagsamahin ang dalawang fiesta, ngunit tinutulan ito ng mga debotadong
+      kababaihan ng bayan. Noong 1973, sa panahon ng Martial Law, matagumpay na isinama
+      ang ''Fiestang Balen'' sa ''Fiestang Patrun'' para sa kadahilanang praktikalidad.
+      Gayunpaman, matapos maranasan ang malalaking pinsala dulot ng sunog sa panahon
+      ng magkasamang pagdiriwang, nagdesisyon ang mga mamamayan na buwagin muli ang
+      dalawang fiesta. Ang ''Fiestang Balen'' ay isang pang-sibil na okasyon, posibleng
+      bilang pagsilbihan o pagkilala sa isang mahalagang personalidad mula sa bayan.
+      Noong unang panahon, maaaring ito ang simula ng panahon ng pag-aani ng palay,
+      na sumisimbolo ng pagkakaisa sa buong bayan at mga barangay nito. Ang plaza
+      ng bayan ay puno ng mga karwahe ng mga taga-barrio bilang paghahanda para sa
+      fiesta.
 
-      Naging isang pueblo (bayan) ang Capas noong 1710,
-      na nagsimula bilang isang tahimik na pamayanan sa pagitan ng Ilog Cutcut sa
-      Sitio Pagbatuan at Gudya (kasalukuyang lokasyon) na itinatag ni Kapitan Mariano
-      Capiendo. Ang patron santo ng Capas ay si San Nicolas de Tolentino. Ang Kapistahan
-      ng Bayan ng Capas ay ginugunita tuwing Setyembre 9-10. Itinatag ang lalawigan
-      ng Tarlac noong Mayo 28, 1874.'
+
+      May mga nag-aalaala ng pagdiriwang noong 1950s na tinatawag
+      na ''Kabukiran,'' kung saan ipinapakita ng iba''t-ibang barangay ang kanilang
+      mga produkto sa plaza ng bayan. May mga mamamayan na nagsasabi na ang ''Fiestang
+      Balen'' ay isang salu-salo para sa mga mahihirap, na nagpapakita ng mga pagkakaiba
+      sa uri sa Concepcion. Naniniwala sila na ang tunay na pagdiriwang ng mayayaman
+      ay ang ''Ding Masibucan'' Grand Ball, na idinaraos tuwing Bisperas ng Bagong
+      Taon.Ang pagkakabukod na ito ay maaaring lumitaw noong panahon ng Sosyalismo
+      at ng kilusang Hukbalahap noong 1930s at 40s.'
     Object: {fileID: 0}
 --- !u!1 &965495137
 GameObject:
@@ -3647,7 +3622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1067251483
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4135,7 +4110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Capas
+  m_text: Concepcion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
   m_sharedMaterial: {fileID: 4893278255078722911, guid: 55bd6a0877ad91b4385bd80b7de3c5a0, type: 2}
@@ -4734,7 +4709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1835455870
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5814,8 +5789,8 @@ RectTransform:
   m_Father: {fileID: 382615649}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.53304064}
+  m_AnchorMax: {x: 1, y: 0.99999934}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5893,9 +5868,9 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2127192477
 MonoBehaviour:
