@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChangeEL29 : MonoBehaviour
+public class SceneChangeEL30 : MonoBehaviour
 {
     public Animator Animation;
     public GameObject BackWarnBox;
@@ -12,7 +12,7 @@ public class SceneChangeEL29 : MonoBehaviour
     }
     public void EasyRoom01()
     {
-        SceneManager.LoadScene("EasyLevel30");
+        SceneManager.LoadScene("EasyRoom07");
     }
     public void ContinueAnim()
     {

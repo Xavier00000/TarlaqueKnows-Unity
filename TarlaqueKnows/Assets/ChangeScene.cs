@@ -143,9 +143,25 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("EasyLevel18");
     }
+    //Level scene 19-22
+    public void MoveToScene19()
+    {
+        SceneManager.LoadScene("EasyLevel19");
+    }
+    public void MoveToScene20()
+    {
+        SceneManager.LoadScene("EasyLevel20");
+    }
+    public void MoveToScene21()
+    {
+        SceneManager.LoadScene("EasyLevel21");
+    }
+    public void MoveToScene22()
+    {
+        SceneManager.LoadScene("EasyLevel22");
+    }
 
 
 
-  
 }
 
