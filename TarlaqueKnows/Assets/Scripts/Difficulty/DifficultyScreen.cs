@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DifficultyScreen : MonoBehaviour
 {
-    public GameObject TarlacCity,Bamban,SanManuel, Conception, Gerona, Anao, SanJose, Victoria;
+    public GameObject TarlacCity,Bamban,SanManuel, Conception, Gerona, Anao, SanJose, Victoria, Mayantoc;
     void Start()
     {
         if(FinishedLevel.isLevelFinished[5]==false)
@@ -93,6 +93,19 @@ public class DifficultyScreen : MonoBehaviour
             Anao.SetActive(false);
             SanJose.SetActive(false);
             Victoria.SetActive(false);
+            Mayantoc.SetActive(true);
+        }
+        else if (FinishedLevel.isLevelFinished[37] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(false);
+            Conception.SetActive(false);
+            Gerona.SetActive(false);
+            Anao.SetActive(false);
+            SanJose.SetActive(false);
+            Victoria.SetActive(false);
+            Mayantoc.SetActive(false);
         }
     }
     

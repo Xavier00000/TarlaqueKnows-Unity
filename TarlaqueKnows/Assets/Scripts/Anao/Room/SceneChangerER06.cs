@@ -7,7 +7,7 @@ public class SceneChangerER06 : MonoBehaviour
     void Start()
     {
         FinishedLevel.currentRoom=SceneManager.GetActiveScene().buildIndex;
-        if(FinishedLevel.isLevelFinished[9]==true)
+        if(FinishedLevel.isLevelFinished[25]==true)
         {
             Animation.Play("Finished_Level");
         }
