@@ -10,7 +10,7 @@ public class SceneChangeEL30 : MonoBehaviour
     {
         Animation.Play("Fade_Out");
     }
-    public void EasyRoom01()
+    public void EasyRoom07()
     {
         SceneManager.LoadScene("EasyRoom07");
     }
@@ -29,7 +29,7 @@ public class SceneChangeEL30 : MonoBehaviour
     public void GoBack()
     {
         Animation.Play("Fade_Out_Back");
-        SceneManager.LoadScene("Start Scene");
+        
     }
     public void CancelBack()
     {
@@ -37,6 +37,6 @@ public class SceneChangeEL30 : MonoBehaviour
     }
     public void MenuScreen()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Start Scene");
     }
 }

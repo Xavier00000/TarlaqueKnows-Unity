@@ -9,7 +9,7 @@ public class SceneChangeEL26 : MonoBehaviour
     {
         Animation.Play("Fade_Out");
     }
-    public void EasyRoom02()
+    public void EasyRoom06()
     {
         SceneManager.LoadScene("EasyRoom06");
     }

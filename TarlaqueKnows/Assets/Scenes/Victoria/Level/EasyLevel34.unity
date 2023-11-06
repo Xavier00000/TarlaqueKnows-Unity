@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -340,8 +340,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked34, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -646,7 +646,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL34, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -860,7 +860,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -994,7 +994,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -1448,7 +1448,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LEVEL 30 UNLOCKED!
+  m_Text: 'LEVEL 34 UNLOCKED!
 
 
     HINT POINTS +50'
@@ -1545,7 +1545,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL34, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 455762824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d93e9344ab9f1b242b14c8e53812963f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a7d1d7c144543948af14e12b29fb5a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 455762825}
@@ -2396,7 +2396,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -3876,19 +3876,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The establishment of Victoria as a community may be traced back in the
-    mid 1800s when the Spanish regime started to expand north from Manila. It almost
-    happened at the same time when Porac and Floridablanca (now part of Pampanga)
-    and Tarlac (now Tarlac City) were formed. In the mid 1800s people started to
-    settle around the swamp or wetland in search for a place where food is abundant.
-    By 1849 houses and pockets of communities were deriving subsistence from the
-    wetland. The biggest sitio was Namitinan which became part of the earliest barrio
-    formed in 1852 called San Vicente de Canarum. The name was derived from the wetland
-    called Canarum Lake. Not until the signing of the decree by the Spanish Governor
-    General Manuel Crespo on March 28, 1855, that the barrio San Vicente de Canarum
-    was separated from Tarlac to form an independent pueblo named Victoria. The name
-    was used to highlight the victorious battle of the faithful followers of Queen
-    Isabela II of Spain over their European enemies.
+  m_Text: On November 25, 1854, the residents led by two cabezas de barangay, filed
+    a petition to the government in Manila and demanded that Canarem (still a barrio
+    then) be separated from its mother town, Tarlac, a town in Pampanga at that time.
+    The petitioners argued that they were already paying more than of 200 tributes,
+    and that the Ilocano settlers called for the separation of Canarem from Tarlac,
+    so they did not need to do community work outside their own. Governor General
+    Gorospe approved the petition to separate Canarem and turn it into a new municipality.
+    He, then, signed the decree making Canarem a civil town on March 28, 1855. As
+    stated earlier, it was renamed Victoria, meaning victory to commemorate the victory
+    of the loyal followers of Queen Isabela of Spain over the moors.
 --- !u!222 &856602716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4151,7 +4148,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a45c0b7b0ba1534b8a40b3b41b97b06, type: 3}
+  m_Script: {fileID: 11500000, guid: 489c57f404bc69645ba8f713d25cba3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -4823,8 +4820,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202247508}
-  - component: {fileID: 1202247509}
-  - component: {fileID: 1202247510}
+  - component: {fileID: 1202247512}
+  - component: {fileID: 1202247511}
   m_Layer: 5
   m_Name: ButtonChoices
   m_TagString: Untagged
@@ -4856,7 +4853,7 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000061035, y: 301}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1202247509
+--- !u!114 &1202247511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4865,7 +4862,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d19a212a02230e34eb4811207891ffd1, type: 3}
+  m_Script: {fileID: 11500000, guid: fbb2baf8df968894bb0eaa26f09c8793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnChoiParent: {fileID: 1202247507}
+  btnConParent: {fileID: 1799257642}
+  hintsObj: {fileID: 905907879}
+--- !u!114 &1202247512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202247507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1156a66aa1ceaa2409845ad90357f036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -4878,21 +4890,6 @@ MonoBehaviour:
   - {fileID: 505128715}
   - {fileID: 972319325}
   - {fileID: 224521024}
---- !u!114 &1202247510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202247507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67de93262dc799f44b1f8d4c3fc54486, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btnChoiParent: {fileID: 1202247507}
-  btnConParent: {fileID: 1799257642}
-  hintsObj: {fileID: 905907879}
 --- !u!1 &1299925827
 GameObject:
   m_ObjectHideFlags: 0
@@ -4978,7 +4975,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -5111,8 +5108,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked34, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -5406,7 +5403,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -5907,7 +5904,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 30
+  m_Text: Level 34
 --- !u!222 &1413563949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6500,7 +6497,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1603286223}
-        m_TargetAssemblyTypeName: ClearAndMoveText30, Assembly-CSharp
+        m_TargetAssemblyTypeName: ClearAndMoveText34, Assembly-CSharp
         m_MethodName: ClearAndMoveTextToChoices
         m_Mode: 1
         m_Arguments:
@@ -6558,11 +6555,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1603286218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fe2060487be2714887fbe2631877a73, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d9ed059e4fdd1345a47dc967ada8392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnConScript: {fileID: 1799257645}
-  btnChoiScript: {fileID: 1202247509}
+  btnChoiScript: {fileID: 1202247512}
 --- !u!1 &1634939981
 GameObject:
   m_ObjectHideFlags: 0
@@ -7173,8 +7170,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked34, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -7308,7 +7305,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked30, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked34, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -7452,7 +7449,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL34, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -7668,7 +7665,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a9a99d96f996f241b3f5232c0f97559, type: 3}
+  m_Script: {fileID: 11500000, guid: 797472086cb44b84db4afccb6a11c439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -7682,7 +7679,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c8e0d00baf2444bbd8511da927b999, type: 3}
+  m_Script: {fileID: 11500000, guid: 07a4b250229bc2246bbe9f0fa5a9cf24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -7777,8 +7774,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247511}
+        m_TargetAssemblyTypeName: ChoicesClicked34, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -8203,7 +8200,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL34, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -8492,7 +8489,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints34, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
