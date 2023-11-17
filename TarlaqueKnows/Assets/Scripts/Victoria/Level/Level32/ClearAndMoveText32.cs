@@ -3,7 +3,7 @@ using UnityEngine;
 public class ClearAndMoveText32 : MonoBehaviour
 {
     public ButtonContainer32 btnConScript;
-    public ButtonChoices32 btnChoiScript;
+    public ButtonChoices322 btnChoiScript;
 
     public void ClearAndMoveTextToChoices()
     {

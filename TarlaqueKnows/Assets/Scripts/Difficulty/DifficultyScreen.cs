@@ -3,10 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class DifficultyScreen : MonoBehaviour
 {
-    public GameObject TarlacCity,Bamban,SanManuel, Conception, Gerona, Anao, SanJose, Victoria, Mayantoc;
+    public GameObject TarlacCity, Bamban, SanManuel, Conception, Gerona, Anao, SanJose, Victoria, Mayantoc;
     void Start()
     {
-        if(FinishedLevel.isLevelFinished[5]==false)
+
+
+
+
+        if (FinishedLevel.isLevelFinished[0] == false)
         {
             TarlacCity.SetActive(false);
             Bamban.SetActive(true);
@@ -17,7 +21,7 @@ public class DifficultyScreen : MonoBehaviour
             SanJose.SetActive(true);
             Victoria.SetActive(true);
         }
-        else if(FinishedLevel.isLevelFinished[9]==false)
+        else if (FinishedLevel.isLevelFinished[5] == false)
         {
             TarlacCity.SetActive(false);
             Bamban.SetActive(false);
@@ -28,7 +32,18 @@ public class DifficultyScreen : MonoBehaviour
             SanJose.SetActive(true);
             Victoria.SetActive(true);
         }
-        else if(FinishedLevel.isLevelFinished[13]==false)
+        else if (FinishedLevel.isLevelFinished[9] == false)
+        {
+            TarlacCity.SetActive(false);
+            Bamban.SetActive(false);
+            SanManuel.SetActive(true);
+            Conception.SetActive(true);
+            Gerona.SetActive(true);
+            Anao.SetActive(true);
+            SanJose.SetActive(true);
+            Victoria.SetActive(true);
+        }
+        else if (FinishedLevel.isLevelFinished[13] == false)
         {
             TarlacCity.SetActive(false);
             Bamban.SetActive(false);
@@ -68,7 +83,7 @@ public class DifficultyScreen : MonoBehaviour
             SanManuel.SetActive(false);
             Conception.SetActive(false);
             Gerona.SetActive(false);
-            Anao.SetActive(false) ;
+            Anao.SetActive(false);
             SanJose.SetActive(true);
             Victoria.SetActive(true);
         }
@@ -108,24 +123,6 @@ public class DifficultyScreen : MonoBehaviour
             Mayantoc.SetActive(false);
         }
     }
-    
-    public void MenuScreen()
-    {
-        SceneManager.LoadScene("MenuScene");
-    }
-    public void Room()
-    {
-        if(FinishedLevel.onLevel01==false)
-        {            
-            SceneManager.LoadScene("Room");    
-        }
-        else if(FinishedLevel.isLevelFinished[6]==true || FinishedLevel.currentRoom<FinishedLevel.nextRoomIndex)
-        {
-            SceneManager.LoadScene(FinishedLevel.currentRoom);
-        }
-        else if(FinishedLevel.onLevel01==true)
-        {
-            SceneManager.LoadScene("EasyLevel01");
-        }
-    }
+
+
 }

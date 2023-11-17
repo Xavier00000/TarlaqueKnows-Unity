@@ -2396,15 +2396,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2e7c8d22227d7049a12f48dc09a96c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 1561300529}
-  SFXSource: {fileID: 164529471}
-  background: {fileID: 8300000, guid: 921648d5c62ba6843bd9c590d1106582, type: 3}
-  btnClick: {fileID: 8300000, guid: 383facda97ab28f4fa5c9933b48eb583, type: 3}
-  hint: {fileID: 8300000, guid: 871de0310818cb146b9403b4495fe5d4, type: 3}
-  levelComplete: {fileID: 8300000, guid: 1c99af46cb546d64cb9b748ba57fb2e7, type: 3}
-  error: {fileID: 8300000, guid: 2e69c4415c09c4048905b4e66ed0c2cb, type: 3}
-  musicVolume: 1
-  sfxVolume: 1
 --- !u!4 &900633805
 Transform:
   m_ObjectHideFlags: 0
@@ -3831,9 +3822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae1455a47c017141be20a8003019e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myMixer: {fileID: 24100000, guid: 11ef29e626f629f42af9670a7d40b0a4, type: 2}
-  musicSlider: {fileID: 728323178}
-  SFXSlider: {fileID: 1924382549}
 --- !u!224 &1582909827
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4217,15 +4205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2e7c8d22227d7049a12f48dc09a96c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 666873156}
-  SFXSource: {fileID: 844037294}
-  background: {fileID: 8300000, guid: 921648d5c62ba6843bd9c590d1106582, type: 3}
-  btnClick: {fileID: 8300000, guid: 383facda97ab28f4fa5c9933b48eb583, type: 3}
-  hint: {fileID: 8300000, guid: 871de0310818cb146b9403b4495fe5d4, type: 3}
-  levelComplete: {fileID: 8300000, guid: 1c99af46cb546d64cb9b748ba57fb2e7, type: 3}
-  error: {fileID: 8300000, guid: 2e69c4415c09c4048905b4e66ed0c2cb, type: 3}
-  musicVolume: 0.674
-  sfxVolume: 1
 --- !u!4 &1820290583
 Transform:
   m_ObjectHideFlags: 0

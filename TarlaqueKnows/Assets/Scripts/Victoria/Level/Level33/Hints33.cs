@@ -3,7 +3,7 @@ using UnityEngine.UI;
 public class Hints33 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices33 btnChoiScript;
+    ButtonChoices333 btnChoiScript;
     public GameObject btnConParent;
     ButtonContainer33 btnConScript;
     int hint1 = 0;
@@ -16,7 +16,7 @@ public class Hints33 : MonoBehaviour
 
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices33>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices333>();
         btnConScript = btnConParent.GetComponent<ButtonContainer33>();
         for(int ctr=0; ctr>isAlreadyAnswer.Length; ctr++)
         {

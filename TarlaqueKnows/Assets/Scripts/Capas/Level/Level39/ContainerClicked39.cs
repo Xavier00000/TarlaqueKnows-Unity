@@ -3,12 +3,12 @@
 public class ContainerClicked39 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices39 btnChoiScript;
+    ButtonChoices399 btnChoiScript;
     public GameObject btnConParent;
     ButtonContainer39 btnConScript;
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices39>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices399>();
         btnConScript = btnConParent.GetComponent<ButtonContainer39>();
     }
     public void btnClicked01()
@@ -149,61 +149,4 @@ public class ContainerClicked39 : MonoBehaviour
         }
 
     }
-    public void btnClicked11()
-    {
-        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[10].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
-            {
-                btnChoiScript.btnChoices[ctr].SetActive(true);
-                btnConScript.btnConText[10].text = "";
-                btnConScript.IsCorrect();
-                break;
-            }
-        }
-
-    }
-    public void btnClicked12()
-    {
-        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[11].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
-            {
-                btnChoiScript.btnChoices[ctr].SetActive(true);
-                btnConScript.btnConText[11].text = "";
-                btnConScript.IsCorrect();
-                break;
-            }
-        }
-
-    }
-    public void btnClicked013()
-    {
-        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[12].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
-            {
-                btnChoiScript.btnChoices[ctr].SetActive(true);
-                btnConScript.btnConText[12].text = "";
-                btnConScript.IsCorrect();
-                break;
-            }
-        }
-
-    }
-    public void btnClicked14()
-    {
-        for (int ctr = 0; ctr < btnChoiScript.btnChoiText.Length; ctr++)
-        {
-            if (btnConScript.btnConText[13].text == btnChoiScript.btnChoiText[ctr].text && btnChoiScript.btnChoices[ctr].activeSelf == false)
-            {
-                btnChoiScript.btnChoices[ctr].SetActive(true);
-                btnConScript.btnConText[13].text = "";
-                btnConScript.IsCorrect();
-                break;
-            }
-        }
-
-    }
-
 }
