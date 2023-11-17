@@ -3,12 +3,12 @@
 public class ContainerClicked40 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices40 btnChoiScript;
+    ButtonChoices400 btnChoiScript;
     public GameObject btnConParent;
     ButtonContainer40 btnConScript;
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices40>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices400>();
         btnConScript = btnConParent.GetComponent<ButtonContainer40>();
     }
     public void btnClicked01()

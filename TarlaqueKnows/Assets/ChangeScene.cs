@@ -16,9 +16,9 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
-    public void Municipality()
+    public void Municipality1()
     {
-        SceneManager.LoadScene("Tarlac City");
+        SceneManager.LoadScene("TarlacCity");
     }
     public void Municipality2()
     {

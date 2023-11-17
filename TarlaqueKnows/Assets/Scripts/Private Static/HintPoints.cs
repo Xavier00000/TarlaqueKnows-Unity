@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class HintPoints : MonoBehaviour
 {
@@ -8,10 +9,14 @@ public class HintPoints : MonoBehaviour
     public static int puzzleTrials=0;
     float time=0;
     public Text hintPnts;
+    private string savePath;
 
     void Update()
     {
-        if(HintsPoints<0)
+        savePath = Application.persistentDataPath + "/hntPoints.json";
+        LoadGameData();
+
+        if (HintsPoints<0)
         {
             hintPnts.text = "Hint Points : 0";
         }
@@ -42,5 +47,35 @@ public class HintPoints : MonoBehaviour
          }
 
     }
-    
+    public void SaveGameData()
+    {
+        SaveData data = new SaveData();
+        data.isLevelFinished = FinishedLevel.isLevelFinished;
+
+        string jsonData = JsonUtility.ToJson(data);
+        File.WriteAllText(savePath, jsonData);
+    }
+    void LoadGameData()
+    {
+        if (File.Exists(savePath))
+        {
+            string jsonData = File.ReadAllText(savePath);
+            SaveData data = JsonUtility.FromJson<SaveData>(jsonData);
+
+            if (data != null)
+            {
+                FinishedLevel.isLevelFinished = data.isLevelFinished;
+            }
+        }
+    }
+    void OnDestroy()
+    {
+        SaveGameData();
+    }
+
+    [System.Serializable]
+    public class SaveData
+    {
+        public bool[] isLevelFinished;
+    }
 }

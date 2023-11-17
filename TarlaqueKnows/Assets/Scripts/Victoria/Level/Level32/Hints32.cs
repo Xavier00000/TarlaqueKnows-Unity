@@ -2,7 +2,7 @@
 public class Hints32 : MonoBehaviour
 {
     public GameObject btnChoiParent;
-    ButtonChoices32 btnChoiScript;
+    ButtonChoices322 btnChoiScript;
     public GameObject btnConParent;
     ButtonContainer32 btnConScript;
     int hint1 = 0;
@@ -15,7 +15,7 @@ public class Hints32 : MonoBehaviour
 
     void Start()
     {
-        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices32>();
+        btnChoiScript = btnChoiParent.GetComponent<ButtonChoices322>();
         btnConScript = btnConParent.GetComponent<ButtonContainer32>();
         for(int ctr=0; ctr>isAlreadyAnswer.Length; ctr++)
         {
