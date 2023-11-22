@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -352,8 +352,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247509}
+        m_TargetAssemblyTypeName: ChoicesClicked46, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -514,7 +514,7 @@ RectTransform:
   - {fileID: 230997929}
   - {fileID: 1202247508}
   - {fileID: 1799257643}
-  - {fileID: 903020123}
+  - {fileID: 1245397172}
   - {fileID: 781929540}
   - {fileID: 731759834}
   - {fileID: 604697815}
@@ -571,8 +571,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 7.8999023}
-  m_SizeDelta: {x: -564.2, y: -1035.2}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &133944607
 MonoBehaviour:
@@ -670,8 +670,20 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL46, Assembly-CSharp
           m_MethodName: ContinueAnim
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 455762829}
+          m_TargetAssemblyTypeName: SaveLoadManager, Assembly-CSharp
+          m_MethodName: SaveGameData
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -885,7 +897,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -1031,7 +1043,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1177,8 +1189,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
-        m_MethodName: CloseNEHPBox
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
+        m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1944,7 +1956,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL46, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -2549,6 +2561,7 @@ GameObject:
   - component: {fileID: 455762825}
   - component: {fileID: 455762827}
   - component: {fileID: 455762828}
+  - component: {fileID: 455762829}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2605,7 +2618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063ef121e84a48a488cd72b287a3fccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hintPnts: {fileID: 903020121}
+  hintPnts: {fileID: 1245397173}
 --- !u!114 &455762828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,11 +2628,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 455762824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d93e9344ab9f1b242b14c8e53812963f, type: 3}
+  m_Script: {fileID: 11500000, guid: 41df77e89f122a642b51a459cbb06b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 455762825}
   BackWarnBox: {fileID: 1686221997}
+--- !u!114 &455762829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455762824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fccb5e7a8486e9488a8aa2f800bba7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &456795217
 GameObject:
   m_ObjectHideFlags: 0
@@ -4102,7 +4127,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -6976,8 +7001,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChangeEL28, Assembly-CSharp
+      - m_Target: {fileID: 455762828}
+        m_TargetAssemblyTypeName: SceneChangeEL46, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -7307,8 +7332,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2074751050}
-  - {fileID: 1603286219}
   - {fileID: 3693098}
+  - {fileID: 1603286219}
   m_Father: {fileID: 96931492}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7886,87 +7911,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898044897}
   m_CullTransparentMesh: 1
---- !u!1 &903020120
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 903020123}
-  - component: {fileID: 903020122}
-  - component: {fileID: 903020121}
-  m_Layer: 5
-  m_Name: HintPointsTxt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &903020121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903020120}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
-    m_FontSize: 35
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 99
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Hint Points
---- !u!222 &903020122
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903020120}
-  m_CullTransparentMesh: 0
---- !u!224 &903020123
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903020120}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1589104596}
-  m_Father: {fileID: 96931492}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -171.9, y: -59.041}
-  m_SizeDelta: {x: 307.2, y: 104.9}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &903860503
 GameObject:
   m_ObjectHideFlags: 0
@@ -8021,7 +7965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NATAPUS ANG ANTAS
+  m_text: LEVEL COMPLETE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -8168,7 +8112,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a45c0b7b0ba1534b8a40b3b41b97b06, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dfccd4c776e6834bb2f5bdaaa140b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -8208,7 +8152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Tagalog
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: English
   saveLoad: 1
@@ -9423,7 +9367,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PINDUTION DITO PARA MAGPATULOY...
+  m_text: CLICK HERE TO CONTINUE...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -9581,8 +9525,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202247508}
-  - component: {fileID: 1202247509}
   - component: {fileID: 1202247510}
+  - component: {fileID: 1202247509}
   m_Layer: 5
   m_Name: ButtonChoices
   m_TagString: Untagged
@@ -9623,7 +9567,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d19a212a02230e34eb4811207891ffd1, type: 3}
+  m_Script: {fileID: 11500000, guid: 8659fee35f8aefe45b7fc963d9410543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnChoiParent: {fileID: 1202247507}
+  btnConParent: {fileID: 1799257642}
+  hintsObj: {fileID: 905907879}
+--- !u!114 &1202247510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202247507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2479166c7460e514791e52ce5fd5237c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -9636,21 +9595,6 @@ MonoBehaviour:
   - {fileID: 505128715}
   - {fileID: 972319325}
   - {fileID: 224521024}
---- !u!114 &1202247510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202247507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67de93262dc799f44b1f8d4c3fc54486, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btnChoiParent: {fileID: 1202247507}
-  btnConParent: {fileID: 1799257642}
-  hintsObj: {fileID: 905907879}
 --- !u!1 &1244256361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9711,6 +9655,86 @@ MonoBehaviour:
 
       PUNTOS NG PAHIWATIG +50'
     Object: {fileID: 0}
+--- !u!1 &1245397171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245397172}
+  - component: {fileID: 1245397174}
+  - component: {fileID: 1245397173}
+  m_Layer: 5
+  m_Name: HintPointsTxt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1245397172
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245397171}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 96931492}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -171.90015, y: -59.041077}
+  m_SizeDelta: {x: 307.2, y: 104.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1245397173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245397171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
+    m_FontSize: 35
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 99
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Hint Points
+--- !u!222 &1245397174
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245397171}
+  m_CullTransparentMesh: 0
 --- !u!1 &1253062525
 GameObject:
   m_ObjectHideFlags: 0
@@ -10035,8 +10059,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
-        m_MethodName: CloseRMHPBox
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
+        m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10180,8 +10204,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247509}
+        m_TargetAssemblyTypeName: ChoicesClicked46, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -10488,7 +10512,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -11797,157 +11821,6 @@ MonoBehaviour:
   - Language: Tagalog
     Text: HINDI
     Object: {fileID: 0}
---- !u!1 &1589104592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1589104596}
-  - component: {fileID: 1589104595}
-  - component: {fileID: 1589104594}
-  - component: {fileID: 1589104593}
-  m_Layer: 0
-  m_Name: POINTS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1589104593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589104592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationName: POINT
-  FallbackText: It is made from malunggay and squash. Kape Agape is your friendly
-    restaurant in Tarlac that supports mental health advocacy and the arts.
---- !u!114 &1589104594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589104592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '     PUNTOS:'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
-  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 20.944366, y: 0, z: 14.6614685, w: 0.9869002}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1589104595
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589104592}
-  m_CullTransparentMesh: 1
---- !u!224 &1589104596
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589104592}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0534335, y: 1.0534335, z: 1.0534335}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 903020123}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -2.100586, y: -51.759094}
-  m_SizeDelta: {x: 307.2, y: 81.3}
-  m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!1 &1594711447
 GameObject:
   m_ObjectHideFlags: 0
@@ -12114,7 +11987,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1603286223}
-        m_TargetAssemblyTypeName: ClearAndMoveText30, Assembly-CSharp
+        m_TargetAssemblyTypeName: ClearAndMoveText46, Assembly-CSharp
         m_MethodName: ClearAndMoveTextToChoices
         m_Mode: 1
         m_Arguments:
@@ -12184,11 +12057,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1603286218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fe2060487be2714887fbe2631877a73, type: 3}
+  m_Script: {fileID: 11500000, guid: b4c6d924f884d1d44bd73ac8b580b774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnConScript: {fileID: 1799257645}
-  btnChoiScript: {fileID: 1202247509}
+  btnChoiScript: {fileID: 1202247510}
 --- !u!1 &1617748825
 GameObject:
   m_ObjectHideFlags: 0
@@ -12562,7 +12435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Saan ipinanganak si Pangulong Corazon Aquino?
+  m_text: Where is the birthplace of President Corazon Aquino?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -13117,8 +12990,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247509}
+        m_TargetAssemblyTypeName: ChoicesClicked46, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -13264,7 +13137,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked30, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked46, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -13408,7 +13281,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL46, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -13859,7 +13732,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a9a99d96f996f241b3f5232c0f97559, type: 3}
+  m_Script: {fileID: 11500000, guid: de08b379f1c0e4e4fb6671d26c685bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -13873,7 +13746,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c8e0d00baf2444bbd8511da927b999, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ee71ed6c22d9424fa82647efe3fc844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -13968,8 +13841,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202247510}
-        m_TargetAssemblyTypeName: ChoicesClicked30, Assembly-CSharp
+      - m_Target: {fileID: 1202247509}
+        m_TargetAssemblyTypeName: ChoicesClicked46, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -14316,7 +14189,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tumpak
+  m_text: 'Correct!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -14860,7 +14735,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL30, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL46, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -15512,7 +15387,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints30, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints46, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
@@ -15627,18 +15502,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tAng Paniqui, opisyal na kinikilalang Bayan ng Paniqui, ay isang kilalang
-    unang klaseng bayan na matatagpuan sa lalawigan ng Tarlac, Pilipinas. Sa kanyang
-    mayamang kasaysayan, masiglang komunidad, at kahalagahan sa pambansang larangan
-    ng pulitika, ang Paniqui ay isang lugar ng kahalagahan sa kultura at kasaysayan.\r\n\r\n\tIsa
-    sa pinakakilalang pagmamay-ari ng bayan ay ang koneksyon nito sa ika-11 na Pangulo
-    ng Pilipinas, si Corazon Aquino. Isinilang sa Paniqui, si Corazon Aquino ay magiging
-    isang kilalang personalidad sa kasaysayan ng Pilipinas. Siya ay naglaro ng mahalagang
-    papel sa People Power Revolution ng 1986, na nagdulot ng pag-alis ng awtoritaryanong
-    rehimen ni Pangulong Ferdinand Marcos at ang kanyang eventual na pag-angat sa
-    pagkapangulo. Ang pamana ni Corazon Aquino bilang unang babaeng pangulo ng Pilipinas
-    at ang kanyang dedikasyon sa demokrasya ay nag-iwan ng hindi malilimutang marka
-    sa kasaysayan ng bansa."
+  m_text: "\tPaniqui, officially recognized as the Municipality of Paniqui, is a
+    prominent 1st class municipality located in the province of Tarlac, Philippines.
+    With its rich history, vibrant community, and notable contributions to the nation's
+    political landscape, Paniqui is a place of significant cultural and historical
+    importance.\n\n\tOne of the town's most renowned claims to fame is its association
+    with the 11th President of the Philippines, Corazon Aquino. Born in Paniqui,
+    Corazon Aquino would go on to become an iconic figure in Philippine history.
+    She played a pivotal role in the People Power Revolution of 1986, which led to
+    the ousting of the authoritarian regime of President Ferdinand Marcos and her
+    eventual rise to the presidency. Corazon Aquino's legacy as the first female
+    president of the Philippines and her commitment to democracy have left an indelible
+    mark on the country's history."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -16024,11 +15899,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'NA-UNLOCK, ANTAS 36!
+  m_text: 'LEVEL 46 UNLOCKED!
 
 
 
-    PUNTOS NG PAHIWATIG +50'
+    HINT POINTS +50'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}

@@ -520,7 +520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked13
         m_Mode: 1
         m_Arguments:
@@ -1359,9 +1359,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
-        m_MethodName: btnClicked09
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
+        m_MethodName: btnClicked11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3200,9 +3200,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
-        m_MethodName: btnClicked09
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
+        m_MethodName: btnClicked10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3422,7 +3422,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked07
         m_Mode: 1
         m_Arguments:
@@ -3567,9 +3567,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
-        m_MethodName: btnClicked09
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
+        m_MethodName: btnClicked15
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3702,7 +3702,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -3839,87 +3839,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182854668}
   m_CullTransparentMesh: 1
---- !u!1 &187497145
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 187497146}
-  - component: {fileID: 187497148}
-  - component: {fileID: 187497147}
-  m_Layer: 5
-  m_Name: HintPointsTxt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &187497146
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187497145}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1540651485}
-  m_Father: {fileID: 670444558}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -171.9, y: -59.041}
-  m_SizeDelta: {x: 307.2, y: 104.9}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &187497147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187497145}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
-    m_FontSize: 35
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 99
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Hint Points
---- !u!222 &187497148
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187497145}
-  m_CullTransparentMesh: 0
 --- !u!1 &195309619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4004,8 +3923,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked09
         m_Mode: 1
         m_Arguments:
@@ -4450,7 +4369,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -4574,7 +4493,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3909091327
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4823,7 +4742,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: CloseHint02Box
         m_Mode: 1
         m_Arguments:
@@ -5113,6 +5032,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236085976}
   m_CullTransparentMesh: 1
+--- !u!1 &244371499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244371500}
+  - component: {fileID: 244371502}
+  - component: {fileID: 244371501}
+  m_Layer: 5
+  m_Name: HintPointsTxt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &244371500
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244371499}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 670444558}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -171.90015, y: -59.041077}
+  m_SizeDelta: {x: 307.2, y: 104.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &244371501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244371499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 65a68bd4be86fd145812c65f768f8096, type: 3}
+    m_FontSize: 35
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 99
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Hint Points
+--- !u!222 &244371502
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244371499}
+  m_CullTransparentMesh: 0
 --- !u!1 &248197137
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,7 +5276,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL71, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -5498,8 +5497,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked06
         m_Mode: 1
         m_Arguments:
@@ -6148,9 +6147,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
-        m_MethodName: btnClicked09
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
+        m_MethodName: btnClicked12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6596,7 +6595,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -7005,7 +7004,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked08
         m_Mode: 1
         m_Arguments:
@@ -7151,7 +7150,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -7266,19 +7265,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tAng baybayin ng bayan, na tinatawag na Luis Morales Park, na pinangalanan
-    matapos ang isa sa mga pinakamatanyag na anak ng Moncada, ay may espesyal na
-    puwang sa puso ng komunidad at naglilingkod bilang buhay na pagpapakita ng kultura,
-    kasaysayan, at lokal na pagmamalaki ng bayan. Ang kahalagahan ng baybayin na
-    ito ay hindi lamang nauukit sa kanyang pisikal na anyo; ito ay isang simbolikong
-    sentro na naglalarawan ng pagkakakilanlan at kultura ng bayan.\r\n\r\n\tSi Luis
-    Morales, ang tao na binigyan ng pangalan ang parke, ay tiyak na nag-iwan ng hindi
-    malilimutang marka sa kasaysayan at pag-unlad ng Moncada. Ang kanyang mga tagumpay
-    at ambag ay maaaring umabot sa iba't ibang larangan, tulad ng pulitika, sining,
-    o pangangalakal, at ang parke ay naglilingkod bilang parangal sa kanyang pamana.
-    Ang koneksiyong ito sa isang kilalang personalidad mula sa nakaraan ng bayan
-    ay nagbibigay ng damdamin ng patuloy na pag-unlad at pagsamba sa baybayin, dahil
-    ito ay sumasalamin sa diwa ng matatag na mga halaga ng komunidad."
+  m_text: "\tThe town plaza, named after one of the Moncada's most illustrious sons,
+    the Luis Morales Park, holds a special place in the heart of the community and
+    serves as a vibrant showcase of the town's culture, history, and local pride.
+    The significance of this plaza goes far beyond its physical appearance; it is
+    a symbolic center that reflects the town's identity and heritage\n\n\tLuis Morales,
+    the individual after whom the park is named, must have left an indelible mark
+    on Moncada's history and development. His achievements and contributions may
+    span various fields, such as politics, arts, or philanthropy, and the park stands
+    as a tribute to his legacy. This connection to a respected figure from the town's
+    past lends a sense of continuity and reverence to the plaza, as it embodies the
+    spirit of the community's enduring values."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -7440,7 +7437,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 495570297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 456d6eb1abe5ce24b987877fdfbc5210, type: 3}
+  m_Script: {fileID: 11500000, guid: e5cb5db0981b3b449a8f30081f1464fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -7490,11 +7487,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 495570297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bcc383fd5dff04438aeabf20362705c, type: 3}
+  m_Script: {fileID: 11500000, guid: 30ce39909a10d9f4fadfa96ccf5ff213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
-  btnConParent: {fileID: 0}
+  btnConParent: {fileID: 1141675328}
   hintsObj: {fileID: 813268896}
 --- !u!1 &501797643
 GameObject:
@@ -7581,7 +7578,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL71, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -7936,7 +7933,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -8371,7 +8368,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked17
         m_Mode: 1
         m_Arguments:
@@ -8592,7 +8589,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
@@ -8852,7 +8849,7 @@ RectTransform:
   - {fileID: 44872354}
   - {fileID: 1141675329}
   - {fileID: 1564275721}
-  - {fileID: 187497146}
+  - {fileID: 244371500}
   - {fileID: 1242022039}
   - {fileID: 262945208}
   - {fileID: 55222686}
@@ -9160,8 +9157,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -9764,8 +9761,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -10265,11 +10262,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 813268896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82b9814444e16c549895c6a7cd3ebedd, type: 3}
+  m_Script: {fileID: 11500000, guid: 14509d87d8825ac4c805f72fe213f7dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
-  btnConParent: {fileID: 0}
+  btnConParent: {fileID: 1141675328}
   isAlreadyFalse: 000000000000000000000000000000000000
   HintConfirmBox:
   - {fileID: 1984423925}
@@ -10887,7 +10884,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked15
         m_Mode: 1
         m_Arguments:
@@ -11231,7 +11228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: G
+  m_Text: S
 --- !u!222 &883154744
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11654,7 +11651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -12293,7 +12290,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -14306,8 +14303,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 7.9000244}
-  m_SizeDelta: {x: -564.2, y: -1035.2}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086986288
 MonoBehaviour:
@@ -14695,8 +14692,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -15065,7 +15062,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -15135,8 +15132,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1141675329}
-  - component: {fileID: 1141675330}
   - component: {fileID: 1141675331}
+  - component: {fileID: 1141675330}
   m_Layer: 5
   m_Name: ButtonContainer
   m_TagString: Untagged
@@ -15188,21 +15185,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1141675328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de6570ff8fc749f47935d03950e0d967, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btnChoiParent: {fileID: 0}
-  btnConParent: {fileID: 1141675328}
---- !u!114 &1141675331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141675328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd73b8dd4d2023d48a32cf84b5a748eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 998bf3984fdf9fd43ad34a5ad65cbda6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -15215,6 +15198,12 @@ MonoBehaviour:
   - {fileID: 2084943548}
   - {fileID: 1420054875}
   - {fileID: 195309619}
+  - {fileID: 133299374}
+  - {fileID: 74188345}
+  - {fileID: 339983896}
+  - {fileID: 1304556365}
+  - {fileID: 2069420626}
+  - {fileID: 157802664}
   btnConText:
   - {fileID: 697673995}
   - {fileID: 1888741319}
@@ -15225,6 +15214,12 @@ MonoBehaviour:
   - {fileID: 1456087552}
   - {fileID: 1555616496}
   - {fileID: 1872608825}
+  - {fileID: 248197139}
+  - {fileID: 1190518323}
+  - {fileID: 703884096}
+  - {fileID: 2073374265}
+  - {fileID: 1813055517}
+  - {fileID: 1677485610}
   - {fileID: 697673995}
   - {fileID: 1888741319}
   - {fileID: 916172146}
@@ -15234,7 +15229,27 @@ MonoBehaviour:
   - {fileID: 1456087552}
   - {fileID: 1555616496}
   - {fileID: 1872608825}
-  AllParent: {fileID: 0}
+  - {fileID: 248197139}
+  - {fileID: 1190518323}
+  - {fileID: 703884096}
+  - {fileID: 2073374265}
+  - {fileID: 1813055517}
+  - {fileID: 1677485610}
+  AllParent: {fileID: 1820972333}
+--- !u!114 &1141675331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141675328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471f010178d9bb04481afab5eb58f102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnChoiParent: {fileID: 495570297}
+  btnConParent: {fileID: 1141675328}
 --- !u!1 &1179336009
 GameObject:
   m_ObjectHideFlags: 0
@@ -15319,8 +15334,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -15766,7 +15781,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -16006,9 +16021,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
-        m_MethodName: btnClicked09
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
+        m_MethodName: btnClicked013
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16513,7 +16528,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: HintClicked02
         m_Mode: 1
         m_Arguments:
@@ -16784,8 +16799,20 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1820972338}
-          m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL71, Assembly-CSharp
           m_MethodName: ContinueAnim
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1820972339}
+          m_TargetAssemblyTypeName: SaveLoadManager, Assembly-CSharp
+          m_MethodName: SaveGameData
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16998,7 +17025,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked11
         m_Mode: 1
         m_Arguments:
@@ -17143,8 +17170,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked08
         m_Mode: 1
         m_Arguments:
@@ -18049,7 +18076,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -18110,157 +18137,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538145062}
   m_CullTransparentMesh: 0
---- !u!1 &1540651484
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1540651485}
-  - component: {fileID: 1540651488}
-  - component: {fileID: 1540651487}
-  - component: {fileID: 1540651486}
-  m_Layer: 0
-  m_Name: POINTS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1540651485
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540651484}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0534335, y: 1.0534335, z: 1.0534335}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 187497146}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -2.100586, y: -51.75885}
-  m_SizeDelta: {x: 307.2, y: 81.3}
-  m_Pivot: {x: 0.5, y: 0.49999964}
---- !u!114 &1540651486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540651484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationName: POINT
-  FallbackText: It is made from malunggay and squash. Kape Agape is your friendly
-    restaurant in Tarlac that supports mental health advocacy and the arts.
---- !u!114 &1540651487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540651484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '     PUNTOS:'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
-  m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 20.944366, y: 0, z: 14.6614685, w: 0.9869002}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1540651488
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540651484}
-  m_CullTransparentMesh: 1
 --- !u!1 &1545244763
 GameObject:
   m_ObjectHideFlags: 0
@@ -18673,7 +18549,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked10
         m_Mode: 1
         m_Arguments:
@@ -19102,7 +18978,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked09
         m_Mode: 1
         m_Arguments:
@@ -19312,7 +19188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Tagalog
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: English
   saveLoad: 1
@@ -19442,7 +19318,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked06
         m_Mode: 1
         m_Arguments:
@@ -19588,7 +19464,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked12
         m_Mode: 1
         m_Arguments:
@@ -20419,7 +20295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ALAM MO BA?
+  m_text: DID YOU KNOW?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -21120,7 +20996,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -21476,7 +21352,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL71, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -21662,7 +21538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: X
 --- !u!222 &1812512745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21783,6 +21659,7 @@ GameObject:
   - component: {fileID: 1820972336}
   - component: {fileID: 1820972335}
   - component: {fileID: 1820972338}
+  - component: {fileID: 1820972339}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -21802,7 +21679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063ef121e84a48a488cd72b287a3fccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hintPnts: {fileID: 187497147}
+  hintPnts: {fileID: 244371501}
 --- !u!95 &1820972336
 Animator:
   serializedVersion: 5
@@ -21849,11 +21726,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1820972333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc7763e4fa4fd0d4ead340f4e4b2940b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b8299b1d2715f54aacfd73c26350bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 1820972336}
   BackWarnBox: {fileID: 914252805}
+--- !u!114 &1820972339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820972333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fccb5e7a8486e9488a8aa2f800bba7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1821911669
 GameObject:
   m_ObjectHideFlags: 0
@@ -22172,7 +22061,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1826696474}
-        m_TargetAssemblyTypeName: ClearAndMoveText27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ClearAndMoveText71, Assembly-CSharp
         m_MethodName: ClearAndMoveTextToChoices
         m_Mode: 1
         m_Arguments:
@@ -22242,10 +22131,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1826696468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9212081b169d1c244971f1fe3868e3b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 36a7777d88a0f5c48b1b868136daa5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnConScript: {fileID: 0}
+  btnConScript: {fileID: 1141675330}
   btnChoiScript: {fileID: 495570302}
 --- !u!1 &1828748882
 GameObject:
@@ -22853,7 +22742,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked16
         m_Mode: 1
         m_Arguments:
@@ -22999,7 +22888,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked18
         m_Mode: 1
         m_Arguments:
@@ -23381,7 +23270,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked14
         m_Mode: 1
         m_Arguments:
@@ -23603,7 +23492,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked71, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -23748,8 +23637,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -24271,7 +24160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints71, Assembly-CSharp
         m_MethodName: ShowHint02Box
         m_Mode: 1
         m_Arguments:
@@ -24389,7 +24278,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1820972338}
-          m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL71, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -24911,9 +24800,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
-        m_MethodName: btnClicked09
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
+        m_MethodName: btnClicked14
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25179,8 +25068,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141675330}
-        m_TargetAssemblyTypeName: ContainerClicked29, Assembly-CSharp
+      - m_Target: {fileID: 1141675331}
+        m_TargetAssemblyTypeName: ContainerClicked71, Assembly-CSharp
         m_MethodName: btnClicked07
         m_Mode: 1
         m_Arguments:

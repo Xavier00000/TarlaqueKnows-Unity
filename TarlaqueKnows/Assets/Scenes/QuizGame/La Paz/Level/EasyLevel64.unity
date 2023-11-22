@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked28, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked64, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -670,8 +670,20 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL28, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL64, Assembly-CSharp
           m_MethodName: ContinueAnim
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 455762829}
+          m_TargetAssemblyTypeName: SaveLoadManager, Assembly-CSharp
+          m_MethodName: SaveGameData
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1037,7 +1049,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -1183,7 +1195,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -1329,7 +1341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -1810,7 +1822,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL28, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL64, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -3996,6 +4008,7 @@ GameObject:
   - component: {fileID: 455762825}
   - component: {fileID: 455762827}
   - component: {fileID: 455762828}
+  - component: {fileID: 455762829}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -4062,11 +4075,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 455762824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29e1441bdf6482545810eb684820320f, type: 3}
+  m_Script: {fileID: 11500000, guid: 550eb63e1c4aa2d45bad6d9fa3497c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 455762825}
   BackWarnBox: {fileID: 1686221997}
+--- !u!114 &455762829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455762824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fccb5e7a8486e9488a8aa2f800bba7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &456795217
 GameObject:
   m_ObjectHideFlags: 0
@@ -4310,8 +4335,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
-        m_MethodName: HintClicked01
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
+        m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4774,7 +4799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PINDUTION DITO PARA MAGPATULOY...
+  m_text: CLICK HERE TO CONTINUE...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -5626,7 +5651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL28, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL64, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -5852,7 +5877,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 755221816}
-        m_TargetAssemblyTypeName: ClearAndMoveText28, Assembly-CSharp
+        m_TargetAssemblyTypeName: ClearAndMoveText64, Assembly-CSharp
         m_MethodName: ClearAndMoveTextToChoices
         m_Mode: 1
         m_Arguments:
@@ -5922,7 +5947,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 755221810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ec7d0933e8dcdc409cb83c9bbf71770, type: 3}
+  m_Script: {fileID: 11500000, guid: 10229bf944211914bb944b619335b8a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnConScript: {fileID: 1799257645}
@@ -6081,8 +6106,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\rAng La Paz, Tarlac ay kilala rin sa kanyang parke na tinatawag na ______
-    na ipinangalan matapos ang unang gobernador ng lalawigan ng Tarlac?"
+  m_text: 'La Paz, Tarlac is also known for its park called as ______ named after
+    the first provincial governor of Tarlac?
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -6848,7 +6875,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 905907879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2592cb4a4325804684da92f8f158f87, type: 3}
+  m_Script: {fileID: 11500000, guid: 891ba42936fe6094fb86e53589f1c0f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -7628,7 +7655,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa6bd72facffbd4382f7eefab66a131, type: 3}
+  m_Script: {fileID: 11500000, guid: 24cfa32ed73527f47942265938b16bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -7643,7 +7670,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202247507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e89d0977afcbc64eb186bd1c652b571, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bf71cf1f3ab8804c9289657d08f3011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -7741,7 +7768,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -9317,7 +9344,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked28, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked64, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -9623,7 +9650,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -9738,15 +9765,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tAng Macabulos Park ay isang makabuluhang pampublikong lugar na itinatag
-    bilang parangal sa unang gobernador ng lalawigan ng Tarlac, si Francisco Macabulos.
-    Ang parke na ito ay isang patunay sa matibay na pamana at mga kontribusyon ni
-    Gobernador Macabulos sa lalawigan at sa kanyang mga kababayan.\r\n\r\n\tMalamang,
-    ang parke ay naglilingkod bilang isang lugar ng makasaysayang at kultural na
-    kahalagahan kung saan ipinagdiriwang ang alaala ni Gobernador Francisco Macabulos.
-    Ang paggunita na ito ay isang paraan upang parangalan ang kanyang liderato at
-    mahalagang papel sa maagang pamahalaan ng Tarlac, na kinikilala ang kanyang naging
-    epekto sa pagpapanday sa lalawigan."
+  m_text: "\tMacabulos Park is a significant public space created as a tribute to
+    the inaugural provincial Governor of Tarlac, Francisco Macabulos. This park stands
+    as a testament to the enduring legacy and contributions of Governor Macabulos
+    to the province and its people.\r\n\r\n\tThe park likely serves as a place of
+    historical and cultural significance where the memory of Governor Francisco Macabulos
+    is celebrated. This commemoration is a way to honor his leadership and his pivotal
+    role in the early governance of Tarlac, recognizing the impact he had on shaping
+    the province.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -11362,7 +11388,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked28, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked64, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -11508,7 +11534,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1799257644}
-        m_TargetAssemblyTypeName: ContainerClicked28, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked64, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -11704,7 +11730,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 455762828}
-          m_TargetAssemblyTypeName: SceneChangeEL28, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL64, Assembly-CSharp
           m_MethodName: FadeOut
           m_Mode: 1
           m_Arguments:
@@ -11844,7 +11870,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 932eca29fd4e5924a9b1650065597c1d, type: 3}
+  m_Script: {fileID: 11500000, guid: 70a9649c91d5de244a5b3d92d78e3fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 1202247507}
@@ -11858,7 +11884,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799257642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb2366447b1bcf449237e0c38c1a608, type: 3}
+  m_Script: {fileID: 11500000, guid: af6f44dee4345f6409048e6bb52954ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
@@ -11954,7 +11980,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202247509}
-        m_TargetAssemblyTypeName: ChoicesClicked28, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked64, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -12289,7 +12315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Tagalog
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: English
   saveLoad: 1
@@ -12404,7 +12430,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455762828}
-        m_TargetAssemblyTypeName: SceneChangeEL28, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL64, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -12833,7 +12859,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905907881}
-        m_TargetAssemblyTypeName: Hints28, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints64, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
