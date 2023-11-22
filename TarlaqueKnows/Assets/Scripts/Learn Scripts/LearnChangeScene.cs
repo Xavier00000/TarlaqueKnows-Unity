@@ -106,6 +106,10 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Tarlac Overview");
     }
+    public void Capitol()
+    {
+        SceneManager.LoadScene("Capitol");
+    }
 
     //ANAO
     public void AnaoTopic()
@@ -166,6 +170,19 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Bamban Recommendation");
     }
+    public void BVRgoshen()
+    {
+        SceneManager.LoadScene("VR Goshen");
+    }
+    public void BVRmuseum()
+    {
+        SceneManager.LoadScene("VR museum");
+    }
+    public void BVRnino()
+    {
+        SceneManager.LoadScene("VR Nino");
+    }
+
 
     //CAPAS
     public void CapasTopic()
@@ -192,32 +209,50 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Capas Recommendation");
     }
+    public void CAPVRshrine()
+    {
+        SceneManager.LoadScene("VR Shrine");
+    }
+    public void CAPVRmonu()
+    {
+        SceneManager.LoadScene("VR Monument");
+    }
 
     //Camilling
     public void CamillingTopic()
     {
-        SceneManager.LoadScene("Camilling Topic Selection");
+        SceneManager.LoadScene("Camiling Topic Selection");
     }
     public void CamillingHistory()
     {
-        SceneManager.LoadScene("Camilling History");
+        SceneManager.LoadScene("Camiling History");
     }
     public void CamillingTourist()
     {
-        SceneManager.LoadScene("Camilling Tourist Attraction");
+        SceneManager.LoadScene("Camiling Tourist Attraction");
     }
     public void CamillingCulture()
     {
-        SceneManager.LoadScene("Camilling Culture Tradition");
+        SceneManager.LoadScene("Camiling Culture Tradition");
     }
     public void CamillingDeli()
     {
-        SceneManager.LoadScene("Camilling Delicacies");
+        SceneManager.LoadScene("Camiling Delicacies");
     }
     public void CamillingReco()
     {
-        SceneManager.LoadScene("Camilling Recommendation");
+        SceneManager.LoadScene("Camiling Recommendation");
     }
+
+    public void CamVRPlaza()
+    {
+        SceneManager.LoadScene("VR Maria Plaza");
+    }
+    public void CamVRMic()
+    {
+        SceneManager.LoadScene("VR Mic");
+    }
+
 
     //Concepcion
     public void ConcepcionTopic()
@@ -244,7 +279,18 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Concepcion Recommendation");
     }
-
+    public void ConVR1()
+    {
+        SceneManager.LoadScene("CONCEVRPLAZA");
+    }
+    public void ConVR2()
+    {
+        SceneManager.LoadScene("CONCEVRIMMA 1");
+    }
+    public void ConVR3()
+    {
+        SceneManager.LoadScene("CONCEVRIMMA");
+    }
     //Gerona
     public void GeronaTopic()
     {
@@ -269,6 +315,22 @@ public class LearnChangeScene : MonoBehaviour
     public void GeronaReco()
     {
         SceneManager.LoadScene("Gerona Recommendation");
+    }
+    public void gerVRgoat()
+    {
+        SceneManager.LoadScene("VR saint");
+    }
+    public void gerVRsaint()
+    {
+        SceneManager.LoadScene("VR shrine");
+    }
+    public void gerVRshrine()
+    {
+        SceneManager.LoadScene("VR goat");
+    }
+    public void gerVRsagra()
+    {
+        SceneManager.LoadScene("VRsagra");
     }
 
     //La Paz
@@ -296,6 +358,14 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("LaPaz Recommendation");
     }
+    public void LaVRNue()
+    {
+        SceneManager.LoadScene("VR nuestra");
+    }
+    public void LaVRMaca()
+    {
+        SceneManager.LoadScene("VR maca");
+    }
 
     //Mayantoc
     public void MayantocTopic()
@@ -321,6 +391,14 @@ public class LearnChangeScene : MonoBehaviour
     public void MayantocReco()
     {
         SceneManager.LoadScene("Mayantoc Recommendation");
+    }
+    public void MayaVRCala()
+    {
+        SceneManager.LoadScene("VR calao");
+    }
+    public void MayaVRnamba()
+    {
+        SceneManager.LoadScene("VR namba");
     }
 
     //Moncada
@@ -348,7 +426,14 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Moncada Recommendation");
     }
-
+    public void MONVR1()
+    {
+        SceneManager.LoadScene("VR SAINTRAY");
+    }
+    public void MONVR2()
+    {
+        SceneManager.LoadScene("VR MORALESPARK");
+    }
     //Paniqui
     public void PaniquiTopic()
     {
@@ -373,6 +458,18 @@ public class LearnChangeScene : MonoBehaviour
     public void PaniquiReco()
     {
         SceneManager.LoadScene("Paniqui Recommendation");
+    }
+    public void panVR1()
+    {
+        SceneManager.LoadScene("VRfaus");
+    }
+    public void panVR2()
+    {
+        SceneManager.LoadScene("VRrose");
+    }
+    public void panVR3()
+    {
+        SceneManager.LoadScene("VRpanpla");
     }
 
     //Pura
@@ -400,9 +497,12 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Pura Recommendation");
     }
-
-    //Ramos
-    public void RamosTopic()
+    public void purVR1()
+    {
+        SceneManager.LoadScene("VRaton");
+    }
+        //Ramos
+        public void RamosTopic()
     {
         SceneManager.LoadScene("Ramos Topic Selection");
     }
@@ -425,6 +525,14 @@ public class LearnChangeScene : MonoBehaviour
     public void RamosReco()
     {
         SceneManager.LoadScene("Ramos Recommendation");
+    }
+    public void ramVR2()
+    {
+        SceneManager.LoadScene("VRramplaz");
+    }
+    public void ramVR1()
+    {
+        SceneManager.LoadScene("VRtere");
     }
 
     //San Clemente
@@ -452,7 +560,22 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("SanClemente Recommendation");
     }
-
+    public void CLEVR1()
+    {
+        SceneManager.LoadScene("VRDUEG");
+    }
+    public void CLEVR2()
+    {
+        SceneManager.LoadScene("VRCANDING");
+    }
+    public void CLEVR3()
+    {
+        SceneManager.LoadScene("VRDAMAS");
+    }
+    public void CLEVR4()
+    {
+        SceneManager.LoadScene("VRTIMA");
+    }
     //San Jose
     public void SanJoseTopic()
     {
@@ -477,6 +600,22 @@ public class LearnChangeScene : MonoBehaviour
     public void SanJoseReco()
     {
         SceneManager.LoadScene("SanJose Recommendation");
+    }
+    public void JOSEVR1()
+    {
+        SceneManager.LoadScene("VRMONAS");
+    }
+    public void JOSEVR2()
+    {
+        SceneManager.LoadScene("VRSAI");
+    }
+    public void JOSEVR3()
+    {
+        SceneManager.LoadScene("VRECO");
+    }
+    public void JOSEVR4()
+    {
+        SceneManager.LoadScene("VRTRP");
     }
 
     //San Manuel
@@ -504,6 +643,10 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("SanManuel Recommendation");
     }
+    public void ManVR1()
+    {
+        SceneManager.LoadScene("VRrem");
+    }
 
     //Santa Ignacia
     public void SantaIgnaciaTopic()
@@ -530,7 +673,19 @@ public class LearnChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("SantaIgnacia Recommendation");
     }
-
+    
+    public void STAvr1()
+    {
+        SceneManager.LoadScene("VRFAT");
+    }
+    public void STAvr2()
+    {
+        SceneManager.LoadScene("VRPLAZ");
+    }
+    public void STAvr3()
+    {
+        SceneManager.LoadScene("VRYUN");
+    }
     //Victoria
     public void VictoriaTopic()
     {
@@ -555,6 +710,10 @@ public class LearnChangeScene : MonoBehaviour
     public void VictoriaReco()
     {
         SceneManager.LoadScene("Victoria Recommendation");
+    }
+    public void VicVR1()
+    {
+        SceneManager.LoadScene("VRDRAG");
     }
 
 

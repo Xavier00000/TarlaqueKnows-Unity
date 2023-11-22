@@ -520,7 +520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked13
         m_Mode: 1
         m_Arguments:
@@ -1640,7 +1640,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked07
         m_Mode: 1
         m_Arguments:
@@ -1786,7 +1786,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: HintClicked01
         m_Mode: 1
         m_Arguments:
@@ -2236,7 +2236,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked05
         m_Mode: 1
         m_Arguments:
@@ -2382,7 +2382,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked55, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -2485,7 +2485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '     PUNTOS:'
+  m_text: HINT POINTS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -2667,7 +2667,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: CloseHint02Box
         m_Mode: 1
         m_Arguments:
@@ -2848,7 +2848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "NARATING NA ANG M\xC1KSIYUM NA PUNTO NG PISTA!"
+  m_text: REACHED MAXIMUM HINT!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -3029,7 +3029,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL55, Assembly-CSharp
         m_MethodName: ShowBackWarnBox
         m_Mode: 1
         m_Arguments:
@@ -3827,7 +3827,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
@@ -5531,7 +5531,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked08
         m_Mode: 1
         m_Arguments:
@@ -5646,7 +5646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PINDUTION DITO PARA MAGPATULOY...
+  m_text: CLICK HERE TO CONTINUE...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -5993,7 +5993,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: HintClicked03
         m_Mode: 1
         m_Arguments:
@@ -6107,7 +6107,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 495570297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 456d6eb1abe5ce24b987877fdfbc5210, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b155763a44cf1449830d18bea2be707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoices:
@@ -6157,7 +6157,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 495570297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bcc383fd5dff04438aeabf20362705c, type: 3}
+  m_Script: {fileID: 11500000, guid: 394deb072a2775b4097158b7783ae48a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
@@ -6217,7 +6217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NATAPUS ANG ANTAS
+  m_text: LEVEL COMPLETE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -6399,7 +6399,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL55, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -6587,7 +6587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: CloseHint01Box
         m_Mode: 1
         m_Arguments:
@@ -6766,7 +6766,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OO
+  m_text: YES
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -7064,41 +7064,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 600248154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba5d8f3fbb2a844989fe5d111c45888, type: 3}
+  m_Script: {fileID: 11500000, guid: f5a0fbbf8de84d040b3f294093ea007c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnContainer:
   - {fileID: 216467051}
   - {fileID: 1940251688}
   - {fileID: 1146212964}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 923976926}
   btnConText:
   - {fileID: 1114547644}
   - {fileID: 1653903912}
   - {fileID: 2041773973}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 89278979}
   - {fileID: 1114547644}
   - {fileID: 1653903912}
   - {fileID: 2041773973}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 89278979}
+  - {fileID: 1114547644}
+  - {fileID: 1653903912}
+  - {fileID: 2041773973}
+  - {fileID: 89278979}
+  - {fileID: 1114547644}
+  - {fileID: 1653903912}
+  - {fileID: 2041773973}
+  - {fileID: 89278979}
+  - {fileID: 1114547644}
+  - {fileID: 1653903912}
+  - {fileID: 2041773973}
+  - {fileID: 89278979}
   AllParent: {fileID: 1820972333}
 --- !u!114 &600248160
 MonoBehaviour:
@@ -7109,7 +7103,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 600248154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a484e8d5ec0d5f646aa1b9b2869fef89, type: 3}
+  m_Script: {fileID: 11500000, guid: e70462942bc3fab4eaf61a09681440e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
@@ -7199,7 +7193,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked17
         m_Mode: 1
         m_Arguments:
@@ -7410,7 +7404,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: ShowHint01Box
         m_Mode: 1
         m_Arguments:
@@ -8630,7 +8624,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 813268896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82b9814444e16c549895c6a7cd3ebedd, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d120d45996ec6e4aaef6d28b3779acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnChoiParent: {fileID: 495570297}
@@ -9050,7 +9044,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked15
         m_Mode: 1
         m_Arguments:
@@ -9435,8 +9429,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked27, Assembly-CSharp
-        m_MethodName: btnClicked03
+        m_TargetAssemblyTypeName: ContainerClicked55, Assembly-CSharp
+        m_MethodName: btnClicked04
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9568,7 +9562,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: ShowHint03Box
         m_Mode: 1
         m_Arguments:
@@ -9683,15 +9677,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tKilala bilang \"Tag-init na Pambansang Kabisera ng Tarlac,\" ang pook
-    na ito ay nag-aalok ng kakaibang uri ng pagsilay. Bagaman hindi nito maibibigay
-    ang malamig na klima ng Baguio, ito ay isang paraiso para sa mga mahilig sa kalikasan
-    at naglalakbay ng pakikipagsapalaran. Matatagpuan sa kanlurang mga kabundukan,
-    ito ay may mga hiking trail, zip-lining adventures, off-road excursions, at payak
-    na mga lawa. Maari kang maglaan ng oras sa kalikasan at subukan ang lokal na
-    lutuin, ginagawang perpekto ang pook para sa mga mahilig sa outdoor. Isang lugar
-    kung saan ang kalikasan ang nangunguna, nagbibigay ng kakaibang at nakakapag-angat
-    na karanasan."
+  m_text: "\tKnown as the \"Summer Capital of Tarlac,\" this village offers a different
+    kind of escape. While it may not provide the cool climate of Baguio, it's a haven
+    for nature lovers and adventure seekers. Set in the western mountain ranges,
+    it boasts hiking trails, zip-lining adventures, off-road excursions, and serene
+    lakes. You can immerse yourself in nature and savor local cuisine, making it
+    an ideal destination for outdoor enthusiasts. It's a place where nature takes
+    center stage, providing a unique and invigorating experience."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -10291,7 +10283,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: CloseHint03Box
         m_Mode: 1
         m_Arguments:
@@ -10609,7 +10601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1386, y: 49}
+  m_AnchoredPosition: {x: 1386, y: 24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1056640403
@@ -10867,8 +10859,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 7.9000244}
-  m_SizeDelta: {x: -564.2, y: -1035.2}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086986288
 MonoBehaviour:
@@ -11462,7 +11454,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -11660,7 +11652,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked55, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -12158,7 +12150,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: CloseNEHPBox
         m_Mode: 1
         m_Arguments:
@@ -12348,11 +12340,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'NA-UNLOCK, ANTAS 36!
+  m_text: 'LEVEL 36 UNLOCKED!
 
 
 
-    PUNTOS NG PAHIWATIG +50'
+    HINT POINTS +50'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -12854,7 +12846,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: HintClicked02
         m_Mode: 1
         m_Arguments:
@@ -12932,7 +12924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Tagalog
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: English
   saveLoad: 1
@@ -13034,7 +13026,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1820972338}
-          m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL55, Assembly-CSharp
           m_MethodName: ContinueAnim
           m_Mode: 1
           m_Arguments:
@@ -13248,7 +13240,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked11
         m_Mode: 1
         m_Arguments:
@@ -15153,7 +15145,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: CloseRMHPBox
         m_Mode: 1
         m_Arguments:
@@ -15393,7 +15385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HINDI SAPAT ANG MGA PUNTO NG PAHIWATIG!
+  m_text: NOT ENOUGH HINT POINTS!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -15794,7 +15786,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked10
         m_Mode: 1
         m_Arguments:
@@ -15940,7 +15932,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked09
         m_Mode: 1
         m_Arguments:
@@ -16175,9 +16167,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'MAGLALAGAY NG ISANG TAMANG LETRA!
+  m_text: 'THIS WILL PUT ONE CORRECT LETTER!
 
-    HALAGA: 50 PUNTO NG PAHIWATIG'
+    COST: 50 HINT POINTS'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -16359,7 +16351,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked06
         m_Mode: 1
         m_Arguments:
@@ -16557,7 +16549,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked12
         m_Mode: 1
         m_Arguments:
@@ -16752,7 +16744,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PINDUTION DITO PARA MAGPATULOY...
+  m_text: CLICK HERE TO CONTINUE...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -17406,7 +17398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ALAM MO BA?
+  m_text: DID YOU KNOW?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -17803,7 +17795,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked01
         m_Mode: 1
         m_Arguments:
@@ -18215,7 +18207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820972338}
-        m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangeEL55, Assembly-CSharp
         m_MethodName: CancelBack
         m_Mode: 1
         m_Arguments:
@@ -18432,6 +18424,7 @@ GameObject:
   - component: {fileID: 1820972336}
   - component: {fileID: 1820972335}
   - component: {fileID: 1820972338}
+  - component: {fileID: 1820972339}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -18498,11 +18491,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1820972333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc7763e4fa4fd0d4ead340f4e4b2940b, type: 3}
+  m_Script: {fileID: 11500000, guid: 00627e899b507d24fb7f0fc4fb49cd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 1820972336}
   BackWarnBox: {fileID: 914252805}
+--- !u!114 &1820972339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820972333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fccb5e7a8486e9488a8aa2f800bba7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1824844401
 GameObject:
   m_ObjectHideFlags: 0
@@ -18668,7 +18673,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1826696474}
-        m_TargetAssemblyTypeName: ClearAndMoveText27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ClearAndMoveText55, Assembly-CSharp
         m_MethodName: ClearAndMoveTextToChoices
         m_Mode: 1
         m_Arguments:
@@ -18738,7 +18743,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1826696468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9212081b169d1c244971f1fe3868e3b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 848c6f9b961994b4bb5325cfb1b82037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnConScript: {fileID: 600248159}
@@ -18873,7 +18878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ano ang tag-init na Pambansang Kabisera ng Tarlac?
+  m_text: What is the summer Capital of Tarlac?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -19211,7 +19216,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked16
         m_Mode: 1
         m_Arguments:
@@ -19357,7 +19362,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked18
         m_Mode: 1
         m_Arguments:
@@ -19472,10 +19477,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sigurado ka bang nais mong bumalik?
+  m_text: 'ARE YOU SURE YOU WANT TO GO BACK?
 
-    PAUNAWA: ANG LAHAT NG PISTA NA
-    GINAMIT MO AY MABUBURA!'
+    NOTE: ALL HINT YOU USED WILL BE
+    GONE!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -19737,7 +19742,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked14
         m_Mode: 1
         m_Arguments:
@@ -19935,7 +19940,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 600248160}
-        m_TargetAssemblyTypeName: ContainerClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ContainerClicked55, Assembly-CSharp
         m_MethodName: btnClicked02
         m_Mode: 1
         m_Arguments:
@@ -20038,7 +20043,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tumpak
+  m_text: 'Correct!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -20189,7 +20196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HINDI
+  m_text: NO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -20423,7 +20430,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 495570303}
-        m_TargetAssemblyTypeName: ChoicesClicked27, Assembly-CSharp
+        m_TargetAssemblyTypeName: ChoicesClicked55, Assembly-CSharp
         m_MethodName: btnClicked03
         m_Mode: 1
         m_Arguments:
@@ -20648,7 +20655,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 813268898}
-        m_TargetAssemblyTypeName: Hints27, Assembly-CSharp
+        m_TargetAssemblyTypeName: Hints55, Assembly-CSharp
         m_MethodName: ShowHint02Box
         m_Mode: 1
         m_Arguments:
@@ -20766,8 +20773,20 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1820972338}
-          m_TargetAssemblyTypeName: SceneChangeEL27, Assembly-CSharp
+          m_TargetAssemblyTypeName: SceneChangeEL55, Assembly-CSharp
           m_MethodName: FadeOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1820972339}
+          m_TargetAssemblyTypeName: SaveLoadManager, Assembly-CSharp
+          m_MethodName: SaveGameData
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -21331,9 +21350,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ito ay magkokompleto ng antas!
+  m_text: 'THIS WILL COMPLETE THE LEVEL!
 
-    HALAGA: 150 PUNTO NG PISTA'
+    COST: 150 HINT POINTS'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
@@ -21640,10 +21659,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ITO AY ALISIN ANG RANDOM NA DI-KAILANGANG SAGOT
+  m_text: 'THIS WILL REMOVE RANDOM UNNECESSARY ANSWER
 
-    HALAGA: 80 PUNTOS
-    NG PAHIWATIG'
+    COST: 80 HINT POINTS'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}
   m_sharedMaterial: {fileID: -4410990248055951603, guid: 1d2f1763382a27049ba1c549557cbf90, type: 2}

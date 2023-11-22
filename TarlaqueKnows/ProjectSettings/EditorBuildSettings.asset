@@ -107,79 +107,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizGame/Anao/Level/EasyLevel26.unity
     guid: c129c0307c73baa4cb63f08aebed99e3
-  - enabled: 1
-    path: Assets/Scenes/PuzzleGame/TarlacCity/Puzzle/NormalLevel01.unity
+  - enabled: 0
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/TarlacCity/Puzzle/NormalLevel01.unity
     guid: dc273929c62b44f4ba351917bb8b72e7
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/TARLAC Culture and trad.unity
-    guid: 8bdd86326a2362c47bbc399731640fb1
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/TARLAC Culture Tradition.unity
-    guid: fa5ad00e6d372864c86955c62207eb7d
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/TARLAC Deli.unity
-    guid: 8429839491926134bab96ce011e6f940
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/TARLAC Delicacies.unity
-    guid: fffb719e68dc0b64cab2f3f21b3e5c43
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/TARLAC HISTORY.unity
-    guid: 893ccd850e1a3fd4fafacc16275bf975
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/Tarlac Topic Selection.unity
-    guid: b02f4b5ffd0b3de478d8eb5695aad0e2
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/Tarlac Tourist Attraction.unity
-    guid: b6d4baaba28fb6946aed3737b17e7654
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/VR Cathedral.unity
-    guid: eb06a4c67ea262841a4173e7ced1fc8f
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/VR Diwa.unity
-    guid: 6e1bab9a72f1198479496e0224b9efb7
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/VR KCT.unity
-    guid: a9da990bb58159144b03b4f8fdb9563b
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/VR MCPARK.unity
-    guid: d0a049ad955dd7e42a22ce772e9d831c
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/VR Ninoy Center.unity
-    guid: 722fa2b5dad301043b62491d52b6e00c
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC/VR Plaza.unity
-    guid: 023d39185284b724189ac1a31e14713c
-  - enabled: 1
-    path: Assets/Scenes/Learn/1st District.unity
-    guid: 5e184ff66d252f149b7b333386c1fd57
-  - enabled: 1
-    path: Assets/Scenes/Learn/2nd District.unity
-    guid: cccebab40ca8d454ebbb7681f3cac214
-  - enabled: 1
-    path: Assets/Scenes/Learn/3rd District.unity
-    guid: 5ef7067806a3a49408c3dff9273a8528
-  - enabled: 1
-    path: Assets/Scenes/Learn/District Selector.unity
-    guid: fb40fb8aa1fb6934383741d553599b45
-  - enabled: 1
-    path: Assets/Scenes/Learn/Municipality Selector 1.unity
-    guid: 217c02b804b11584d979e134ce3b0ba7
-  - enabled: 1
-    path: Assets/Scenes/Learn/TARLAC OVERVIEW.unity
-    guid: 6a8521069d1f11d4cbf6d504df002ff0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/Anao Culture Tradition.unity
     guid: aa07c43b00e2c0146bc48ff6a3e04fbc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/Anao Delicacies.unity
     guid: f1ad998b10e85a143ab2d580285aa3f7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/Anao History.unity
     guid: 7aa0c7dcd95e5e74a8323287b1f69732
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/Anao Topic Selection.unity
     guid: 837602e27f489b648928b126ba6cfebd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/Anao Tourist Attraction.unity
     guid: 4a8fce1e2090bcd40bf8df80955acd8b
   - enabled: 0
@@ -188,13 +131,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Learn/ANAO/TARLAC Delicacies.unity
     guid: 32db40544962352458850d5e55349a7f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/VR Agape.unity
     guid: 99eb2f5f15d2def49bbe8b0332998c69
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/VR Nepo.unity
     guid: 58af1622c847a1446a4c3b6ea7f178b6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Learn/ANAO/VR Ylang.unity
     guid: a2616ba05f1bc0944bbb79febb1522ab
   - enabled: 1
@@ -347,6 +290,513 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizGame/Pura/Level/EasyLevel70.unity
     guid: e11d690be406b3f4bb904159d58b29ea
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/Gerona Culture Tradition.unity
+    guid: 63b8c5f91773d0a4780cd093f270422d
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/Gerona Delicacies.unity
+    guid: 13f79ddd9d27fe0439690e041dd5966d
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/Gerona History.unity
+    guid: 3ae768875e0052540be3d3c6f98a003e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/Gerona Topic Selection.unity
+    guid: b6f63882f2c56ae45a43f3109b3d2bb8
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/Gerona Tourist Attraction.unity
+    guid: acb46edb9c895b5439bc1b79eccef542
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/VR goat.unity
+    guid: c27a58be0c01bc34e9a8ee396db23350
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/VR saint.unity
+    guid: 615b87e38b57f8547be35a89e0a3d788
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/VR shrine.unity
+    guid: 8c2870333b714d14f820df97e48cb177
+  - enabled: 1
+    path: Assets/Scenes/Learn2/GERONA/VRsagra.unity
+    guid: 69831188ea14ae14ab93311672b9cd8c
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/Concepcion Culture Tradition.unity
+    guid: d0f958b7fe7079c48ac41571ca888df4
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/Concepcion History.unity
+    guid: dfea8923e3fb56e4e9f48d57ff527aac
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/Concepcion Topic Selection.unity
+    guid: d44dd00c5c3ef72429903194016b287e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/Concepcion Tourist Attraction.unity
+    guid: cd934e1381a8bbc4da741048d3d0044f
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/CONCEVRIMMA 1.unity
+    guid: b108e648509741c4aa183df2c878a576
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/CONCEVRIMMA.unity
+    guid: b6bf236f96f47114c9e4a77a65f66304
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/CONCEVRPLAZA.unity
+    guid: b03d8b904ef446f4c8e51ca57e43f4ce
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CONCEPCION/VRPLAZA.unity
+    guid: 1e3a3b69292f10e478857b6c61fade71
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/Capas Culture Tradition.unity
+    guid: 6e6859365f400f44f98b7afb792a6ef7
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/Capas History.unity
+    guid: d619ac313f6780b49a0b3380f8156767
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/Capas Topic Selection.unity
+    guid: 0f9116b7fb529744f9638926a688ee62
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/Capas Tourist Attraction.unity
+    guid: dd6874e32e86f6d4aa8de85d7a6a4f64
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/VR.unity
+    guid: e39bb94e743877141aea801e5247e741
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/VR monument.unity
+    guid: 9af98865215e8504ab4d2f7b0245c8fc
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAPAS/VR shrine.unity
+    guid: 0f3191ca7bb1fd646ad0c49d2c08a2cd
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/Camiling Culture Tradition.unity
+    guid: 0c410e46bc841a24b8cf5fa7a69e134a
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/Camiling Delicacies.unity
+    guid: b8635fae120d161409b751206ea8315d
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/Camiling History.unity
+    guid: df0aa76640285e346bbafbc892a3855b
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/Camiling Topic Selection.unity
+    guid: 3ddd1e234ae86344e96913c0e9382d09
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/Camiling Tourist Attraction.unity
+    guid: 5fe9c429e12699f46936804f620109b1
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/VR Maria Plaza.unity
+    guid: 749ca7186a97bf8439751d06ed113113
+  - enabled: 1
+    path: Assets/Scenes/Learn2/CAMILING/VR Mic.unity
+    guid: 08cb5b22216b33c4fad6428baa2c3189
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/Bamban Culture Tradition.unity
+    guid: 7753f281ad00c3b4b9cbe89a84541f1c
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/Bamban Delicacies.unity
+    guid: 39ff42f0313d2f143b60dc023607fd32
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/Bamban History.unity
+    guid: 87a913c989c7c5b429b42bfa49141aab
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/Bamban Topic Selection.unity
+    guid: 9a55a80a7950a4f4db5200e58302a0a2
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/Bamban Tourist Attraction.unity
+    guid: abefd96a191aa434d93ace557cb573aa
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/VR Goshen.unity
+    guid: 2e64b9a18850db44aa4d220760596f9d
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/VR museum.unity
+    guid: d52551f7f44dabf4aa710076fd32dcd2
+  - enabled: 1
+    path: Assets/Scenes/Learn2/BAMBAN/VR Nino.unity
+    guid: 71a08fa196eb436438032ab60590f32e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/Anao Culture Tradition.unity
+    guid: 73748d6c79d2e0041a0641782aecd924
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/Anao Delicacies.unity
+    guid: 464e4534c38fa274488246dd1297e895
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/Anao History.unity
+    guid: a66a7af9f89ec57409dfbe0639831e20
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/Anao Topic Selection.unity
+    guid: 70474c552b58c6247b7a85ad56e7e950
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/Anao Tourist Attraction.unity
+    guid: c29352c8e9b35884f83a81228dd67f02
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/VR Agape.unity
+    guid: de8e97ded69a27a41a0aaa7d52cccaba
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/VR Nepo.unity
+    guid: e6442dde49df1a14192e42b7ace5e16f
+  - enabled: 1
+    path: Assets/Scenes/Learn2/ANAO/VR Ylang.unity
+    guid: 3e834c29a8ac8804eaa5150e98c63f66
+  - enabled: 1
+    path: Assets/Scenes/Learn2/LA PAZ/Lapaz Culture Tradition.unity
+    guid: a360f527d8b61004c9fbe4f990f1c5b5
+  - enabled: 1
+    path: Assets/Scenes/Learn2/LA PAZ/Lapaz History.unity
+    guid: dffefb4461bdf9c4587d6d425a0a26ea
+  - enabled: 1
+    path: Assets/Scenes/Learn2/LA PAZ/Lapaz Topic Selection.unity
+    guid: fdeea1bb332c11a4f877225c22bfef90
+  - enabled: 1
+    path: Assets/Scenes/Learn2/LA PAZ/Lapaz Tourist Attraction.unity
+    guid: b2308b9046ab1754b95c61f0a935b5c4
+  - enabled: 1
+    path: Assets/Scenes/Learn2/LA PAZ/VR maca.unity
+    guid: ee79308cac07781409eb135b06f52e97
+  - enabled: 1
+    path: Assets/Scenes/Learn2/LA PAZ/VR nuestra.unity
+    guid: 498307f154138464ea454c11b934416e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MAYANTOC/Mayantoc Culture Tradition.unity
+    guid: 0dc10eb30572ec945a2a22c19994ec7e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MAYANTOC/Mayantoc History.unity
+    guid: 0c36e0b151992924cbd350dd2e3bd6b6
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MAYANTOC/Mayantoc Topic Selection.unity
+    guid: a6aa98534003c3f4f9401314ad676efb
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MAYANTOC/Mayantoc Tourist Attraction.unity
+    guid: 94d484f87bde28f449712cafdef33ec4
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MAYANTOC/VR calao.unity
+    guid: 390415c730c46a245b8fb6f6a195dc6a
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MAYANTOC/VR namba.unity
+    guid: ed0b9c1d3b41fb946975b9824fe371df
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MONCADA/Moncada Culture Tradition.unity
+    guid: 11bc4b550719777489e323d8ecf60622
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MONCADA/Moncada History.unity
+    guid: 5178119c705b4374f8450f97cb9bcf48
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MONCADA/Moncada Topic Selection.unity
+    guid: 3f70d65c65b1c02409414159f74b5929
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MONCADA/Moncada Tourist Attraction.unity
+    guid: aaf51dfeeb3ca804ba87aebe8ba36c6b
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MONCADA/VR MORALESPARK.unity
+    guid: b669e90d30b5b124fa1d7e99e1dfbf2a
+  - enabled: 1
+    path: Assets/Scenes/Learn2/MONCADA/VR SAINTRAY.unity
+    guid: 3f317d875c75ea14d9e66ec54834b1f7
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/Paniqui Culture Tradition.unity
+    guid: cfe46dab12cb78645a3425eb164dbc8e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/Paniqui History.unity
+    guid: 39ad625a47441214d9e7b5a6bc8d4c4b
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/Paniqui Topic Selection.unity
+    guid: eeb6232af56fcc74da11d09750f7033e
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/Paniqui Tourist Attraction.unity
+    guid: 802cb09bcbe2e824c83ee652358b4ee1
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/VRfaus.unity
+    guid: 46889238c4c25754383990dc6d0305e1
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/VRpanpla.unity
+    guid: a57d11aa6d38ea44193592278c67a035
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PANIQUI/VRrose.unity
+    guid: ccaf936bea51fff45a15fe568bfdf059
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PUIRA/Pura Culture Tradition.unity
+    guid: 89dd51d9bded51f42950715f2406ed3b
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PUIRA/Pura History.unity
+    guid: 3fd0e7ba36cb6fd48a0c91927bb12291
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PUIRA/Pura Topic Selection.unity
+    guid: 8f8f08dcacc5d7340822e4f4910c4d1f
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PUIRA/Pura Tourist Attraction.unity
+    guid: 08200258234d4984ebba89cf108eef20
+  - enabled: 1
+    path: Assets/Scenes/Learn2/PUIRA/VRaton.unity
+    guid: 7ffcd90abe610f841b04b3d946095155
+  - enabled: 1
+    path: Assets/Scenes/Learn2/RAMOS/Ramos Culture Tradition.unity
+    guid: d407c0a9c03dc7845ace95fb52967d9d
+  - enabled: 1
+    path: Assets/Scenes/Learn2/RAMOS/Ramos History.unity
+    guid: 79d79aaa5535f244a90e652668d3d306
+  - enabled: 1
+    path: Assets/Scenes/Learn2/RAMOS/Ramos Topic Selection.unity
+    guid: d274d2c9c7e80284faf040bc3861f706
+  - enabled: 1
+    path: Assets/Scenes/Learn2/RAMOS/Ramos Tourist Attraction.unity
+    guid: 0facaed1b42600c42a14e518d1747671
+  - enabled: 1
+    path: Assets/Scenes/Learn2/RAMOS/VRramplaz.unity
+    guid: 017f188f9145a324bb6d2452ddcc22cd
+  - enabled: 1
+    path: Assets/Scenes/Learn2/RAMOS/VRtere.unity
+    guid: 7d93c04ba027afd4e8a91b85a0bbea61
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/SanClemente Culture Tradition.unity
+    guid: 716cfbe19fbab2947a89983d3a7a216f
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/SanClemente History.unity
+    guid: 89fa778351830c94c810c0205872f81a
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/SanClemente Topic Selection.unity
+    guid: 614516fda6be4b0458ab08ee18a5b3b9
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/SanClemente Tourist Attraction.unity
+    guid: 7e1fb586621b69c4f8e0a9466edff979
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/VRCAND.unity
+    guid: ddb9cbfae47924145a18e00f2f3164b0
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/VRDAMAS.unity
+    guid: ff9232527cce2224bb383dc0f2b148f1
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/VRDUEG.unity
+    guid: 815b2f83d661ea9459bb6984154765a1
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN CLEMENTE/VRTIMA.unity
+    guid: 20ef02fe6388d5e4bb7fee5cc196562c
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/SanJose Culture Tradition.unity
+    guid: 9d6dd7ea00a4bcb4184f5d458022cfff
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/SanJose Topic Selection.unity
+    guid: 65c4fd469f7cd9f458d8a1e107f56576
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/SanJose Tourist Attraction.unity
+    guid: 6bc037f29e550b8448ce147cc1af8180
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/SanJoseHistory.unity
+    guid: 58a9723ba0f014840b7d512ac7ac21d7
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/VRECO.unity
+    guid: 1cc715906005d14499513030019c7659
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/VRMONAS.unity
+    guid: 8b74d531fb8436c47afef8b7af942746
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/VRSAI.unity
+    guid: f3044b713cfe8e34a95c1a03205987fc
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN JOSE/VRTRP.unity
+    guid: a84cb59492bfe6f4aae3bcaea7218295
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN MANUEL/SanManuel Culture Tradition.unity
+    guid: 591fa5aed5257e345a0b80c1100d1384
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN MANUEL/SanManuel History.unity
+    guid: 45f9cfcf80f5e4349b388dca38a6e3e6
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN MANUEL/SanManuel Topic Selection.unity
+    guid: c013a8d16019a7448bb3ff1526b29fc9
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN MANUEL/SanManuel Tourist Attraction.unity
+    guid: 96f56312b92c30448a35349c555799d8
+  - enabled: 1
+    path: Assets/Scenes/Learn2/1st District.unity
+    guid: 29c4b62842819384488a86767d8d7f03
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SAN MANUEL/VRrem.unity
+    guid: 5cc3ffb8cb9fe894f8c6cc99be869213
+  - enabled: 1
+    path: Assets/Scenes/Learn2/2nd District.unity
+    guid: d99e9f4a751ac504b861352fe1bdcd6f
+  - enabled: 1
+    path: Assets/Scenes/Learn2/3rd District.unity
+    guid: 71a6a1b27fe85e34a8e1c09f73bb678c
+  - enabled: 1
+    path: Assets/Scenes/Learn2/District Selector.unity
+    guid: bb6886f1cd4255c4c9ff523b27d780c0
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC OVERVIEW.unity
+    guid: 54f5e4c4cfd29ab47abfdfb6bc0c7f86
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/TARLAC Culture Tradition.unity
+    guid: d7da9d1b5ab1b8f4996b954f54cb7073
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/TARLAC Delicacies.unity
+    guid: 55e5546ef7dd5864aa592c5b1178c353
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/TARLAC HISTORY.unity
+    guid: 2ba2cabc137492d4682564b79d8a2944
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/Tarlac Topic Selection.unity
+    guid: 96a07205029cdc544a6221b26f848821
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/Tarlac Tourist Attraction.unity
+    guid: 2563bfed4d939c742b20ab4b1d0b4fd8
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/SANTAIGNACIA Culture Tradition.unity
+    guid: b94d28c73cd4a3c42b66fdd20f05bad7
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/SANTAIGNACIA Delicacies.unity
+    guid: ec9accfd5267a2246933ef7214099417
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/SantaIgnacia History.unity
+    guid: ab3137d2a1b9f6c4d9a22059789f43f9
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/SantaIgnacia Topic Selection.unity
+    guid: aafa498c330bf10418be15e3c98b7c0a
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/SANTAIGNACIA Tourist Attraction.unity
+    guid: a77c4e780238ece45b14511d0eb81e43
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/VRFAT.unity
+    guid: 98c5bf60649b77e4cba81887bedd2a18
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/VRPLAZ.unity
+    guid: c58a150e7e73ce543a0a86149d95f9d2
+  - enabled: 1
+    path: Assets/Scenes/Learn2/SANTA IGNACIA/VRYUN.unity
+    guid: 33e2d517f52d23a499600c86489cad7a
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VIRTUAL TOUR.unity
+    guid: 9d6627f5c2ce4a34090eedaca66f78fa
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VR Cathedral.unity
+    guid: 63760a89734d22240a197d7b36eddb69
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VR Diwa.unity
+    guid: d0bc00ee589bc8c4abd2e2432311d65b
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VR KCT.unity
+    guid: 2db6bafbc916e5944a1d4721ed21dc58
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VR MCPARK.unity
+    guid: b9af03a949f99d14d98b4a270d353c53
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VR Ninoy Center.unity
+    guid: 1a977d195fd5cec46a398b7b67172a5c
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/VR Plaza.unity
+    guid: afbbee7c68d534c4db934e07a24147f2
+  - enabled: 1
+    path: Assets/Scenes/Learn2/VICTORIA/VICTORIA Culture Tradition.unity
+    guid: 7da7ed3ae2ea1a243871b08777173e41
+  - enabled: 1
+    path: Assets/Scenes/Learn2/VICTORIA/VICTORIA Delicacies.unity
+    guid: fab146b596335ba4c9be3f31055a6967
+  - enabled: 1
+    path: Assets/Scenes/Learn2/VICTORIA/VICTORIA History.unity
+    guid: 8872eaffc6cec034186b95f8dc512e5b
+  - enabled: 1
+    path: Assets/Scenes/Learn2/VICTORIA/Victoria Topic Selection.unity
+    guid: 5afcfe4b1b137f148932458b8065bbe0
+  - enabled: 1
+    path: Assets/Scenes/Learn2/VICTORIA/VICTORIA Tourist Attraction.unity
+    guid: fdf9a730e5af0a744b143c247760ede6
+  - enabled: 1
+    path: Assets/Scenes/Learn2/VICTORIA/VRDRAG.unity
+    guid: d8b508e3c48735e40b0d99fe96acc573
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/TarlacCity/Puzzle/NormalLevel01 1.unity
+    guid: e0721eca661536e4aac397e4931850ca
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/TarlacCity/Puzzle/NormalLevel01 2.unity
+    guid: 113f13c89525ceb47a1458b452077594
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/TarlacCity/Puzzle/NormalLevel01 3.unity
+    guid: 18b9d019ce58cae4cac854a136868279
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/TarlacCity/Puzzle/NormalLevel01 4.unity
+    guid: 3c321f815efc12e4c93379fa9e5cf323
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/TarlacCity/Puzzle/NormalLevel01 5.unity
+    guid: 63f725f33ca61ed4a8e150ab7fb1b892
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/Bamban/Puzzle/NormalLevel6.unity
+    guid: defca7bcf260a144084fba6d37f6a46c
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/Bamban/Puzzle/NormalLevel6 1.unity
+    guid: adbc3bbe7342a6e47ad2a666acfd690c
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/Bamban/Puzzle/NormalLevel6 2.unity
+    guid: e7138342b543be64fa1bc96ebb8b0399
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/Bamban/Puzzle/NormalLevel6 3.unity
+    guid: bda81495a8f1da94a901f14c86b1653a
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAMILING/Puzzle/NormalLevel26.unity
+    guid: dfcacb68e74592f42a7df95eb44f1b9e
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAMILING/Puzzle/NormalLevel27.unity
+    guid: fa47282b33f7868438928505ab715f16
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAMILING/Puzzle/NormalLevel28.unity
+    guid: 9433bed3b2908c24d955f29cc633958e
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAMILING/Puzzle/NormalLevel29.unity
+    guid: c7e64a1db2abcaa40b44e49d8dcbf77e
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAPAS/Puzzle/NormalLevel10.unity
+    guid: 6824650de7e5563438db3fb54b27a7c8
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAPAS/Puzzle/NormalLevel11.unity
+    guid: 50f56e1ab8779164fbae3ea225b0f9fa
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAPAS/Puzzle/NormalLevel12.unity
+    guid: 1b60792afa2d89a40b72dd1ec0e3993b
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CAPAS/Puzzle/NormalLevel13.unity
+    guid: b732c80c3d9e1f647a43bff98a9fa229
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CONCEPCION/Puzzle/NormalLevel18.unity
+    guid: 1a1fdd79750fa6b48b4a7f304e63846d
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CONCEPCION/Puzzle/NormalLevel19.unity
+    guid: a93ff112f4ec4f144aedc7279d3935d3
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CONCEPCION/Puzzle/NormalLevel20.unity
+    guid: 1fad5ccc76853364bb32d91d5eef4b46
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/CONCEPCION/Puzzle/NormalLevel21.unity
+    guid: aaa4a95bbd7928c43badd026f3f92e1c
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/MAYANTOC/Puzzle/NormalLevel14.unity
+    guid: d802b1e6a467f00438cb75e26c486c6b
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/MAYANTOC/Puzzle/NormalLevel15.unity
+    guid: 6db3811d378150b47a4dc83c1ed20150
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/MAYANTOC/Puzzle/NormalLevel16.unity
+    guid: ae95285d96cf9cb4a971b3d313ab1d20
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/MAYANTOC/Puzzle/NormalLevel17.unity
+    guid: ca08e4f59652eaa458b14eb5b19285b6
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/PANIQUI/Puzzle/NormalLevel30.unity
+    guid: 89b3d5333b2407b45be7555876d9d601
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/PANIQUI/Puzzle/NormalLevel31.unity
+    guid: 12bf577e5cc7c564d985cd9fbd686dd6
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/PANIQUI/Puzzle/NormalLevel32.unity
+    guid: 172cb95c40afa8e4d9bc4f5ba9c9f6e9
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/PANIQUI/Puzzle/NormalLevel33.unity
+    guid: e8c94969290980a4faf530905e817e1e
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/SAN CLEMENTE/Puzzle/NormalLevel22.unity
+    guid: 7e2c1009fbaad3c47b030e4291d5e10b
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/SAN CLEMENTE/Puzzle/NormalLevel23.unity
+    guid: 67c31479c47608f429a925c9921626d7
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/SAN CLEMENTE/Puzzle/NormalLevel24.unity
+    guid: 87b30255ba054cd48a5d33a45e330987
+  - enabled: 1
+    path: Assets/Scenes/Puzzle_Game/PuzzleGame/SAN CLEMENTE/Puzzle/NormalLevel25.unity
+    guid: 3511e2ac8e239264ab951f7878d9afb7
+  - enabled: 1
+    path: Assets/Scenes/Learn2/TARLAC/Capitol.unity
+    guid: 6203566c5f9ec364a914ce2d7602f28c
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 535bf552510c93d4488a8905a4940b27, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5dd79a5ce9302be4e809c0839ff17e85, type: 2}
